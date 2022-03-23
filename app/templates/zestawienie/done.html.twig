@@ -1,0 +1,63 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h5 style="color: #172b4d"><b>Zestawienia zakończone</b></h5>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                    <li class="breadcrumb-item active">Zestawienia</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="color: #172b4d;">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-olive">
+                <div class="card-header">
+                    <h3 class="card-title">Lista zestawień</h3>
+                </div>
+                <div class="row">
+                    {% if formularze %}
+                        {% for formularz in formularze %}
+                            <div class="col-md-6">
+                                <div class="card-body" style="display: block;">
+                                    <div class="card card-primary card-outline">
+                                        <div class="card-header">
+                                            <h6 class="m-0"><b>{{ formularz.jednostka.nazwa }}</b></h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-title">Podstawowe informacje:</h6>
+                                            <p class="card-text">
+                                                <span>Data utworzenia: <b>{{ formularz.dataUtworzenia|date('d/m/Y') }}</b></span><br>
+                                                <span>Utworzył: <b>{{ formularz.worker.imie }} {{ formularz.worker.nazwisko }}</b></span><br><br>
+                                                <span>Status: <i class="fas fa-check-circle" style="color: #006700"></i> <b>Zakończono</b></span><br>
+                                            </p>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <a href="{{ path('zestawienie_dashboard', { 'id': formularz.id }) }}" class="btn btn-sm btn-primary"><span class="fas fa-edit"></span> Zestawienie</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <div class="col-md-12 text-center mt-3 mb-3">Brak zestawień.</div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

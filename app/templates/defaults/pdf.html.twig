@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+
+        {# @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: normal;
+            src: url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+        } #}
+        *{
+            font-family:"DeJaVu Sans";
+        }
+
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+<h1 style="text-align:center;">Stan Mienia</h1>
+<h2 style="text-align:center;">{{ formularz.jednostka.nazwa }}</h2><br>
+<p>Zestawienie za rok: <b>{{ formularz.rokZestawieniowy.rok }}</b></p>
+<p>Wartość łączna jednostki: <b>{{ formularz.podsumowania[0].sumaRokBiezacy|number_format(2, ',', ' ') }}zł</b></p>
+
+<br><br>
+
+<p style="text-align: center; ">Dane zostały wyszczególnione w poniższej tabeli: </p>
+
+<table>
+    <tr>
+        <th style="text-align:center">Podgrupa</th>
+        <th style="text-align:center">Rok poprzedni</th>
+        <th style="text-align:center">Rok aktualny</th>
+        <th style="text-align:center">Różnica wartości</th>
+        <th style="text-align:center">Wartość %</th>
+    </tr>
+    {% for zestawienie in formularz.zestawienia %}
+        <tr>
+            <td style="text-align: left">{{ zestawienie.podgrupa.nazwa }}</td>
+            <td style="text-align:center">{{ zestawienie.wartoscRokPoprzedni|number_format(2, ',', ' ') }}</td>
+            <td style="text-align:center">{{ zestawienie.wartoscRokZestawieniowy|number_format(2, ',', ' ') }}</td>
+            <td style="text-align:center">{{ zestawienie.wartoscRoznicaKwot|number_format(2, ',', ' ') }}</td>
+            <td style="text-align:center">{{ zestawienie.wartoscProcentowa|number_format(2, ',', ' ') }}</td>
+        </tr>
+    {% endfor %}
+    <tr style="font-weight: bold;">
+        <td style="text-align:center">Podsumowanie</td>
+        <td style="text-align:center">{{ formularz.podsumowania[0].sumaRokPoprzedni|number_format(2, ',', ' ') }}</td>
+        <td style="text-align:center">{{ formularz.podsumowania[0].sumaRokBiezacy|number_format(2, ',', ' ') }}</td>
+        <td colspan="2"></td>
+    </tr>
+</table>
+</body>
+</html>

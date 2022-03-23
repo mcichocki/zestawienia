@@ -1,0 +1,18 @@
+<div class="tab-pane fade" id="custom-content-above-settings" role="tabpanel" aria-labelledby="custom-content-above-settings-tab">
+    <div class="timeline mt-3">
+{#        {% for przeplyw in przeplywy %}#}
+{#            {% if loop.index0 == 0 %}#}
+{#            <div class="time-label">#}
+{#                <span class="bg-olive">{{ przeplyw.data|date('d F Y')|format_datetime('full', 'none', locale='pl') }}</span>#}
+{#            </div>#}
+{#            {% endif %}#}
+{#            <div>#}
+{#                <i class="{{ przeplyw.status.icon }} {{ przeplyw.status.klasa }}"></i>#}
+{#                <div class="timeline-item">#}
+{#                    <span class="time"><i class="fas fa-clock"></i>{{ przeplyw.data|date('H:i') }}</span>#}
+{#                    <h3 class="timeline-header"> {{ przeplyw.status.tresc|raw }}</h3>#}
+{#                </div>#}
+{#            </div>#}
+{#        {% endfor %}#}
+    </div>
+</div>

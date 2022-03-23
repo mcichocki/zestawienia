@@ -1,0 +1,92 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="loader" style="display:none;"><span>Trwa wysyłanie zestawienia</span></div>
+<div class="content-header">
+    <div class="container-fluid">
+        {% include 'website/flash_messages.html.twig' %}
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h5 style="color:#172b6d; font-weight:bold;">Zestawienia do realizacji</h5>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                  <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                  <li class="breadcrumb-item active">Zestawienia</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="color: #172b4d;">
+    <div class="row">
+      <div class="col-md-12">    
+        <div class="card card-olive">
+            <div class="card-header">
+                <h3 class="card-title">Lista zestawień</h3>
+            </div>
+            <div class="row">
+              {% if formularze %}
+                  {% for formularz in formularze %}
+                    <div class="col-md-6">
+                      <div class="card-body" style="display: block;">
+                        <div class="card card-primary card-outline">
+                          <div class="card-header">
+                            <h6 class="m-0"><b>{{ formularz.jednostka.nazwa }}</b></h6>
+                          </div>
+                          <div class="card-body">
+                            <h6 class="card-title">Podstawowe informacje:</h6>
+                            <p class="card-text">
+                            <span>Data utworzenia: <b>{{ formularz.dataUtworzenia|date('d/m/Y') }}</b></span><br>
+                            <span>Utworzył: <b>{{ formularz.worker.imie }} {{ formularz.worker.nazwisko }}</b></span><br><br>
+                            <span>Status:
+                                {% if formularz.state == null %}
+                                    <i class="fas fa-arrow-circle-right" style="color: #957a52"></i> <b>Do akceptacji dyrektora</b>
+                                {% elseif formularz.state == "worker" %}
+                                    <i class="fas fa-arrow-circle-right" style="color: #5715a2"></i> <b>Cofnięte do poprawy</b>
+                                     {% elseif formularz.state == "supervisor" %}
+                                    <i class="fas fa-arrow-circle-right" style="color: #957a52"></i> <b>W akceptacji dyrektora</b>
+                                     {% elseif formularz.state == "manager" %}
+                                    <i class="fas fa-arrow-circle-right" style="color: #957a52"></i> <b>W akceptacji dyrektora BPB</b>
+                                {% endif %}
+                            </span>
+                            <br>
+                            </p>
+                              <hr>
+                              <div class="row">
+                                  <div class="col-md-4">
+                                      <a href="{{ path('zestawienie_dashboard', { 'id': formularz.id }) }}" class="btn btn-sm btn-primary"><span class="fas fa-edit"></span> Zestawienie</a>
+                                  </div>
+                                  <div class="col-md-8 text-right">
+                                      {% if workflow_can(formularz, 'worker_to_supervisor_to_verify') %}
+                                          <button class="btn btn-sm btn-warning send-to-accept" value="worker_to_supervisor_to_verify" id="{{ formularz.id }}"><span><i class="fas fa-user"></i> Do akceptacji dyrektora</span></button>
+                                      {% endif %}
+                                      {% if workflow_can(formularz, 'supervisor_to_worker_to_correct') %}
+                                          <button class="btn btn-sm btn-warning send-to-accept" value="supervisor_to_worker_to_correct" id="{{ formularz.id }}"><span><i class="fas fa-reply"></i> Do poprawy</span></button>
+                                      {% endif %}
+                                      {% if workflow_can(formularz, 'supervisor_to_manager_to_accept') %}
+                                          <button class="btn btn-sm btn-success send-to-accept" value="supervisor_to_manager_to_accept" id="{{ formularz.id }}"><span><i class="fas fa-check"></i> Zaakceptuj</span></button>
+                                      {% endif %}
+                                      {% if workflow_can(formularz, 'manager_to_worker_to_correct') %}
+                                          <button class="btn btn-sm btn-warning send-to-accept" value="manager_to_worker_to_correct" id="{{ formularz.id }}"><span><i class="fas fa-reply"></i> Do poprawy</span></button>
+                                      {% endif %}
+                                      {% if workflow_can(formularz, 'manager_done') %}
+                                          <button class="btn btn-sm btn-success send-to-accept" value="manager_done" id="{{ formularz.id }}"><span><i class="fas fa-check"></i> Zaakceptuj</span></button>
+                                      {% endif %}
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {% endfor %}
+                {% else %}
+                    <div class="col-md-12 text-center mt-3 mb-3">Brak zestawień.</div>
+                {% endif %}
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Dodawanie korekty do zestawienia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span style="font-weight:bold;">Wybierz podgrupę:</span><br>
+                <select class="form-control" id="podgrupa-selected">
+                    <option selected="selected" value="0" disabled>Wybierz podgrupę</option>
+                    {% for podgrupa in podgrupy %}
+                        <option value="{{ podgrupa.id }}">{{ podgrupa.nazwa }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+                <span style="font-weight:bold;">Wartość podgrupy:</span><br>
+                <input type="text" id="wartosc_podgrupy" class="form-control valuemask text-left" value="0.00" readonly>
+                <br>
+                <span style="font-weight:bold;">Wartość zestawienia:</span><br>
+                <input type="text" id="wartosc_zestawienia" class="form-control valuemask text-left" value="0.00" readonly>
+                <br>
+                <span style="font-weight:bold;">Nowa wartość:</span><br>
+                <input type="text" id="nowa_wartosc" class="form-control valuemask text-left" value="0.00">
+                <br>
+                <span style="font-weight:bold;">Komentarz:</span><br>
+                <textarea class="form-control" rows="5" placeholder="Wprowadź treść komentarza..." id="komentarz"></textarea>
+                <br>
+                <span style="font-weight:bold;">Nowa suma zestawienia:</span><br>
+                <input type="text" class="form-control valuemask text-left" id="nowa_suma" value="0.00" readonly>
+            </div>
+            <br>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary mr-auto clean-fields">Wyczyść pola</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                <button type="button" class="btn btn-primary zapisz-korekte">Zapisz</button>
+            </div>
+        </div>
+    </div>
+</div>

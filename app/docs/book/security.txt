@@ -1,0 +1,5 @@
+bin/console make:user
+bin/console make:auth
+
+
+

@@ -1,0 +1,149 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="loader" style="display:none;"><span>Trwa zapisywanie zestawienia</span></div>
+<div class="content-header">
+    <div class="container-fluid">
+      {% include 'website/flash_messages.html.twig' %}
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h5 style="color:#172b6d; font-weight:bold;">Zestawienie - wypełnianie danych</h5>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                <li class="breadcrumb-item"><a href="{{ path('zestawienia_todo') }}">Zestawienia</a></li>
+                <li class="breadcrumb-item active">Estimate</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="zestawienie_edit"></div>
+<div class="container-fluid mb-3">
+{{ form_start(form) }}
+    <div class="row">
+    <div class="col-md-12">    
+        <div class="card card-outline card-primary">
+          <div class="card-header">
+              <div class="row">
+                  <div class="col-md-6">
+                      <h3 class="card-title">Podstawowe dane</h3>
+                  </div>
+                  <div class="col-md-6">
+                      <a href="{{ path('zestawienie_dashboard', {id: formularz.id}) }}" class="btn btn-sm float-right btn-primary"><span class="fas fa-th-large"></span> Dashboard</a>
+                      <a href="{{ path('docs_v1e_excel', {id: formularz.id}) }}" class="btn btn-sm float-right btn-info mr-1"><span class="fas fa-file-excel"></span> Pobierz Excel</a>
+                      <a href="{{ path('docs_v1p_pdf', {id: formularz.id}) }}" class="btn btn-sm float-right btn-info mr-1"><span class="fas fa-file-pdf"></span> Pobierz PDF</a>
+                  </div>
+              </div>
+          </div>
+          <div class="card-body" style="display: block;">
+          <table class="table table-bordered text-center">
+            <thead>
+              <tr>
+                <th scope="col" style="color: #172b4d">Nazwa</th>
+                <th scope="col" style="color: #172b4d">Rok poprzedni</th>
+                <th scope="col" style="color: #172b4d">Rok bieżący</th>
+                <th scope="col" style="color: #172b4d">Różnica</th>
+                <th scope="col" style="color: #172b4d">Wartość %</th>
+                <th scope="col" style="color: #172b4d">Akcje</th>
+              </tr>
+            </thead>
+            <tbody>
+            {% for zestawienie in form.zestawienia %}
+                {% if (podgrupa[loop.index0].robocza == 'grunty_przekazane_w_uzytkowanie_wieczyste') or
+                   (podgrupa[loop.index0].robocza == 'grunty_inne_niz_przekazane_w_uzytkowanie_wieczyste')
+                %}
+                    <tr style="background-color: #f1f1f1">
+                {% else %}
+                    <tr>
+                {% endif %}
+                <td class="align-middle" style="color:#172b4d !important;">{{ podgrupa[loop.index0].nazwa|brkLine|raw }}</td>
+                <td class="align-middle rok_poprzedni_{{loop.index0}}">{{ form_row(zestawienie.wartoscRokPoprzedni) }}</td>
+                <td class="align-middle">{{ form_row(zestawienie.wartoscRokZestawieniowy) }}</td>
+                <td class="align-middle">{{ form_row(zestawienie.wartoscRoznicaKwot) }}</td>
+                <td class="align-middle">{{ form_row(zestawienie.wartoscProcentowa) }}</td>
+                <td class="align-middle">
+                  <div class="dropdown dropleft">
+                    <button class="btn btn-info btn-sm" style="padding: 5px 10px;" id="dropdownMenuLink{{loop.index0}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink{{loop.index0}}">
+{#                            <a class="dropdown-item getItemFromKikum" id="{{ podgrupa[loop.index0].id }}" value="{{ formularz.id }}" data-id="{{ formularz.jednostka.id }}"><i class="fas fa-cloud-download-alt"></i> Pobierz z Kikum</a>#}
+{#                            <div class="dropdown-divider"></div>#}
+{#                            <a class="dropdown-item przelicz_dane" value="{{ loop.index0 }}"><i class="fas fa-hdd"></i> Pobierz z systemu</a>#}
+{#                            <div class="dropdown-divider"></div>#}
+                            <a class="dropdown-item przelicz_dane" value="{{ loop.index0 }}"><i class="fas fa-calculator"></i> Przelicz dane</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item wyczysc_dane" value="{{ loop.index0 }}"><i class="fas fa-eraser"></i> Wyczyść dane</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item modal-window" id="{{ podgrupa[loop.index0].id }}" value="{{ formularz.id }}" data-value="dodatni" data-id="{{ formularz.jednostka.nazwa }}"><i class="fas fa-plus"></i> Czynnik dodatni <span data-id="{{ podgrupa[loop.index0].robocza }}" data-value="dodatni">({{ zliczanieCzynnikow(formularz.id, podgrupa[loop.index0], "dodatni") }})</span></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item modal-window" id="{{ podgrupa[loop.index0].id }}" value="{{ formularz.id }}" data-value="ujemny" data-id="{{ formularz.jednostka.nazwa }}"><i class="fas fa-minus"></i> Czynnik ujemny <span data-id="{{ podgrupa[loop.index0].robocza }}" data-value="ujemny">({{ zliczanieCzynnikow(formularz.id, podgrupa[loop.index0], "ujemny") }})</span></a>
+                        </div>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+            {% endfor %}
+            <tr style="background-color: #f1f1f1">
+                <td class="align-middle" style="color: #172b4d"><b>Podsumowanie</b></td>
+                <td class="align-middle">{{ form_row(form.podsumowanie[0].sumaRokPoprzedni) }}</td>
+                <td class="align-middle">{{ form_row(form.podsumowanie[0].sumaRokBiezacy) }}</td>
+                <td colspan="3"></td>
+            </tr>
+            </tbody>
+          </table>
+          {{ form_row(form.podsumowanie[0].sumaBudynki) }}
+          {{ form_row(form.podsumowanie[0].sumaNieruchomosciInwestycyjne) }}
+          {{ form_row(form.podsumowanie[0].sumaNaleznosciDlugoterminowe) }}
+          {{ form_row(form.podsumowanie[0].sumaDlugoterminoweAktywaFinansowe) }}
+          {{ form_row(form.podsumowanie[0].sumaPozostaleSrodkiTrwale) }}
+          {{ form_row(form.podsumowanie[0].sumaSrodkiTrwale) }}
+          {{ form_row(form.podsumowanie[0].sumaWartosciNiematerialne) }}
+          {{ form_row(form.podsumowanie[0].sumaGrunty) }}
+          {{ form_row(form.podsumowanie[0].sumaGruntyRokPoprzedni) }}
+          {{ form_row(form.podsumowanie[0].sumaGruntyPrzekazaneUzytkowanieWieczyste) }}
+          {{ form_row(form.podsumowanie[0].sumaGruntyInneNizPrzekazaneUzytkowanieWieczyste) }}
+          </div> 
+        </div>
+    </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col-9">
+        <button type="button" class="btn btn-sm btn-info dane-z-kikum"><span class="fas fa-cloud-download-alt"></span> Dane z Kikum</button>
+        <button type="button" class="btn btn-sm btn-info dane-z-systemu"><span class="fas fa-hdd"></span> Dane z systemu (r-1)</button>
+        <button type="button" class="btn btn-sm btn-info przelicz-wszystko"><span class="fas fa-calculator"></span> Przelicz wszystko</button><br>
+        <span style="font-size: 12px; font-weight: bold;" class="align-middle">* Pamiętaj, aby móc zapisać zestawienie należy najpierw przeliczyć całość. <i class="fas fa-arrow-up"></i></span>
+    </div>
+    <div class="col-3">
+        {{ form_row(form.save) }}
+    </div>
+    </div>
+    <input type="hidden" value="{{ podgrupy }}" id="podgrupy">
+    <input type="hidden" value="{{ app.user.id }}" id="uzytkownik">
+    {{ form_end(form) }}
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Budynki, lokale i obiekty inżynierii lądowej i wodnej</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <span style="font-weight:bold;">Lista czynników: </span>
+                    <div class="content mt-2" style="overflow:auto; max-height: 300px;"></div>
+                    <hr>
+                    <textarea class="form-control" rows="5" id="tresc" placeholder="Dodaj kolejny czynnik..."></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                    <button type="button" class="btn btn-primary save-btn">Zapisz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

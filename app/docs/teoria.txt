@@ -1,0 +1,6 @@
+Tworzenie bazy danych dla środowiska "test"
+php bin/console doctrine:database:create --env=test
+
+Generowanie struktur tabel do bazy testowej
+1) bin/console doctrine:schema:create --env=test
+2) bin/console d:m:m --env=test

@@ -1,0 +1,97 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="loader" style="display:none;"></div>
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0"><b>Utwórz jednostkę</b></h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                <li class="breadcrumb-item"><a href="{{ path('jednostki_index') }}">Jednostki</a></li>
+                <li class="breadcrumb-item active">Create</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Main content -->
+<div class="container-fluid">
+    {{ form_start(form) }}
+    <div class="row">
+    <div class="col-md-6">    
+        <div class="card card-olive">
+            <div class="card-header">
+                <h3 class="card-title">Podstawowe dane</h3>
+
+                <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                    <i class="fas fa-minus"></i>
+                </button>
+                </div>
+            </div>
+            <div class="card-body" style="display: block;">
+                <div class="form-group">
+                {{ form_row(form.nazwa) }}
+                </div>
+                <div class="form-group">
+                {{ form_row(form.nazwaPelna) }}
+                </div>
+                <div class="form-group">
+                {{ form_row(form.ulica) }}
+                </div>
+                <div class="form-group">
+                {{ form_row(form.numer) }}
+                </div>
+                <div class="form-group">
+                {{ form_row(form.kodPocztowy) }}
+                </div>
+                <div class="form-group">
+                {{ form_row(form.miasto) }}
+                </div>
+            </div>
+        </div>
+        <!-- /.card -->
+    </div>
+    <div class="col-md-6">
+        <div class="card card-olive">
+        <div class="card-header">
+            <h3 class="card-title">Dodatkowe informacje</h3>
+
+            <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+            </button>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+            {{ form_row(form.dzielnica) }}
+            </div>
+            <div class="form-group">
+            {{ form_row(form.symbol) }}
+            </div>
+            <div class="form-group">
+            {{ form_row(form.formaOrganizacyjna) }}
+            </div>
+        </div>
+        <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col-12">
+        <a href="{{ path('jednostki_index') }}" class="btn btn-sm btn-secondary"><span class="fas fa-reply"></span> Powrót</a>
+        <input type="submit" value="Utwórz nową jednostkę" class="btn btn-success float-right">
+    </div>
+    </div>
+    {{ form_end(form) }}
+</div>
+{% endblock %}

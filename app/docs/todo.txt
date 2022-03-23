@@ -1,0 +1,43 @@
+05.11.2021
+---------------
+
+1. Przygotowanie PDF'a do exportu
+2. Przygotowanie Excela do generowania na widokach (estimates, read)
+3. Możliwość podglądu czynników w tabeli
+4. Przygotowanie workflow pomiędzy poszczególnymi rolami
+5. Przygotowanie listy korekt po akceptacji BPB
+6. Przygotowanie historii przepływów danego zestawienia
+7. Możliwość usunięcia danego czynnika z listy
+
+----- ROLA ADMINISTATOR -----
+1. Możliwość ustawienia roku zestawieniowego
+2.
+
+----- ZAPYTANIA SQL -----
+
+SELECT formularz.id, nazwa, rok_poprzedni, suma, data_utworzenia, korekta, rok, identyfikator,
+suma_grunty_rok_poprzedni,
+suma_nieruchomosci_rok_poprzedni,
+suma_budynki_rok_poprzedni,
+suma_pozostale_srodki_rok_poprzedni,
+suma_srodki_trwale_rok_poprzedni,
+suma_naleznosci_dlugoterminowe_rok_poprzedni,
+suma_wartosci_niematerialne_rok_poprzedni,
+suma_dlugoterminowe_aktywa_rok_poprzedni,
+suma_grunty,
+suma_nieruchomosci,
+suma_budynki,
+suma_pozostale_srodki,
+suma_srodki_trwale,
+suma_naleznosci_dlugoterminowe,
+suma_wartosci_niematerialne,
+suma_dlugoterminowe_aktywa
+FROM
+db_stanmienia.formularz,
+db_stanmienia.jednostki,
+db_stanmienia.rok_zestawieniowy
+WHERE
+db_stanmienia.formularz.jednostka_id = db_stanmienia.jednostki.id
+AND
+db_stanmienia.formularz.rok_id = db_stanmienia.rok_zestawieniowy.id
+ORDER BY rok DESC;

@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+    <div id="react_app"></div>
+{% endblock %}
+
+{% block react %}
+    {{ encore_entry_script_tags('react_app') }}
+{% endblock %}

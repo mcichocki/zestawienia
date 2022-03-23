@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+        <meta name="description" content="Stan Mienia">
+        <meta name="keywords" content="Stan, Mienia, BCM">
+        <meta name="author" content="Mateusz Cichocki (BCM)">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="{{ asset('build/favicon.ico') }}" />
+        <title>{% block title %}Stan Mienia v2.0{% endblock %}</title>
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+    </head>
+    <body class="{% block bodyClass %}{% endblock %}"> {# sidebar-collapse #}
+        {% block website %}
+            {% block navbar %}{% endblock %}
+            {% block sidebar %}{% endblock %}
+            {% block body %}{% endblock %}
+            {% block footer %}{% endblock %}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+        {% block react %}{% endblock %}
+    </body>
+</html>

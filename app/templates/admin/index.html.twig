@@ -1,0 +1,113 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h5 style="color: #172b4d"><i class="fas fa-chart-line"></i> <b>Biura i Dzielnice</b></h5>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex float-right">
+                    <div class="form-group pr-1">
+                        <select class="form-control" id="dzielnica">
+                            <option selected="selected" value="0">Wybierz dzielnicę</option>
+                            {% for dzielnica in dzielnice %}
+                                <option value="{{ dzielnica.id }}">{{ dzielnica.nazwa }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-primary" id="search"><span class="fas fa-search"></span> Filtruj</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include 'website/flash_messages.html.twig' %}
+    </div>
+</div>
+
+<div class="content">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-lg-12 mb-2">
+                <div class="card card-outline">
+                    <div class="card-header">
+                        <h5 class="m-0" style="color:#172b4d">Rok zestawieniowy: {% if rokZestawieniowy %}{{ rokZestawieniowy.rok }}{% else %}b.d.{% endif %}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="info-box">
+                    <span class="info-box-icon bg-info elevation-1"><i class="fas fa-pen"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text" style="color: #172f4d;">Utworzone</span>
+                        <span class="info-box-number">b.d.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix hidden-md-up"></div>
+            <div class="col-12 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-tasks"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text" style="color: #172f4d;">W trakcie realizacji</span>
+                        <span class="info-box-number">20</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="info-box mb-3">
+                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-check"></i></span>
+                    <div class="info-box-content">
+                        <span class="info-box-text" style="color: #172f4d;">Zakończone</span>
+                        <span class="info-box-number"><a href="">76</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dzielnice">
+            <div class="row">
+                    {% for dzielnica in dzielnice %}
+                    <div class="col-md-4 mb-2" >
+                        <div class="card card-outline">
+                            <div class="card-header">
+                                <h5 class="m-0"><b>{{ dzielnica.nazwa }}</b></h5>
+                            </div>
+                            <div class="card-body card-width">
+                                <h6 class="card-title">Lista jednostek:</h6>
+                                <ul class="card-text" >
+                                    {% for jednostka in dzielnica.jednostki %}
+                                        <li class="card-style"><a href="{{ path('zestawienia_dashboards', {form: 0, id: jednostka.id}) }}">{{ jednostka.nazwa }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <a href="" class="btn btn-sm btn-primary">Lista zestawień</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+  {{ encore_entry_script_tags('admin_search') }}
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="content-header">
+    <div class="container-fluid">
+        {% include 'website/flash_messages.html.twig' %}
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h5 style="color:#172b6d; font-weight:bold;">Użytkownik - podgląd danych</h5>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                    <li class="breadcrumb-item"><a href="{{ path('uzytkownicy_index') }}">Użytkownicy</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-olive">
+                <div class="card-header">
+                    <h3 class="card-title">Podstawowe dane</h3>
+                </div>
+                <div class="card-body" style="display: block;">
+                    <div class="form-group">
+                        <label>Imię</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.imie }}</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Nazwisko</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.nazwisko }}</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Adres e-mail</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.email }}</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Login</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.login }}</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Rola</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.roles[0]|decRole }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card card-olive">
+                <div class="card-header">
+                    <h3 class="card-title">Dodatkowe informacje</h3>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Dzielnica</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.dzielnica.nazwa }}</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Czy aktywny?</label>
+                        <span class="form-control" readonly="readonly">
+                            {% if uzytkownik.status == 1 %}
+                                Aktywny
+                            {% else %}
+                                Nieaktywny
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label>Czy domenowy?</label>
+                        <span class="form-control" readonly="readonly">
+                            {% if uzytkownik.czyDomenowy == 1 %}
+                                Tak
+                            {% else %}
+                                Nie
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <label>Założone od</label>
+                        <span class="form-control" readonly="readonly">{{ uzytkownik.kiedyUtworzony|date('d-m-Y H:i') }}</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Aktywne do</label>
+                        <span class="form-control" readonly="readonly">Bezterminowo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-6">
+            <a href="{{ path('uzytkownicy_index') }}" class="btn btn-sm btn-secondary"><span class="fas fa-reply"></span> Powrót</a>
+        </div>
+        <div class="col-6">
+        </div>
+    </div>
+</div>
+{% endblock %}

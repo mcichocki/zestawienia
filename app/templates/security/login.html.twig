@@ -1,0 +1,102 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Logowanie{% endblock %}
+
+{% block bodyClass %}{{ parent() }} hold-transition login-page{% endblock %}
+
+{% block body %}
+<div class="login-box">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-9 text-center">
+                    <h3><span style="color: #172b4d;"><b>Stan Mienia v{{ga_tracking}}</b></span></h3>
+                </div>
+
+                <div class="col-sm-3 text-right">
+                    <img src="{{ asset('build/logo.jpg')}}" width="100%" style="border: 2px solid #e9ecef;" class="rounded-circle">
+                </div>
+            </div>
+        </div>
+        <div class="card-body login-card-body" style="padding-top: 0px;">
+        {% if error %}
+            <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+        {% endif %}</p>
+        <p class="login-box-msg">
+        <form method="post">
+            <div class="input-group mb-3">
+            <input type="text" value="{{ last_username }}" name="login" id="inputLogin" class="form-control" autocomplete="username" placeholder="Login" required autofocus>
+            <div class="input-group-append">
+                <div class="input-group-text">
+                <span class="fas fa-user"></span>
+                </div>
+            </div>
+            </div>
+            <div class="input-group mb-3">
+            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Hasło" autocomplete="current-password" required>
+            <div class="input-group-append">
+                <div class="input-group-text">
+                <span class="fas fa-lock"></span>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-8">
+                <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#exampleModal">Konta testowe</button>
+{#                <div class="icheck-primary">#}
+{#                <input type="checkbox" id="remember">#}
+{#                <label for="remember">#}
+{#                    Zapamiętaj mnie#}
+{#                </label>#}
+{#                </div>#}
+            </div>
+
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary btn-block">Zaloguj</button>
+            </div>
+            </div>
+        </form>
+
+        {# <div class="social-auth-links text-center mb-3">
+            <p>- LUB -</p>
+            <a href="#" class="btn btn-block btn-primary">
+            <i class="fab fa-facebook mr-2"></i> Zaloguj używając Facebooka
+            </a>
+            <a href="#" class="btn btn-block btn-danger">
+            <i class="fab fa-google-plus mr-2"></i> Zaloguj używając Google+
+            </a>
+        </div> #}
+        <!-- /.social-auth-links -->
+
+        {# <p class="mb-1">
+            <a href="forgot-password.html">Zapomniałem hasła</a>
+        </p>
+        <p class="mb-0">
+            <a href="register.html" class="text-center">Utwórz nowe konto</a>
+        </p> #}
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lista kont testowych</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {% for user in uuid.getListOfUsers %}
+            <p>{{ user.login }}, {{ user.roles[0]|decRole  }}, 1234</p>
+        {% endfor %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

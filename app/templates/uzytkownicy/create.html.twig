@@ -1,0 +1,85 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="loader" style="display:none;"></div>
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h5 style="color: #172b4d"><b>Dodaj użytkownika</b></h5>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                    <li class="breadcrumb-item"><a href="{{ path('uzytkownicy_index') }}">Użytkownicy</a></li>
+                    <li class="breadcrumb-item active">Create</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    {{ form_start(form) }}
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-olive">
+                <div class="card-header">
+                    <h3 class="card-title">Podstawowe dane</h3>
+                </div>
+                <div class="card-body" style="display: block;">
+                    <div class="form-group">
+                    {{ form_row(form.imie) }}
+                    </div>
+                    <div class="form-group">
+                    {{ form_row(form.nazwisko) }}
+                    </div>
+                    <div class="form-group">
+                    {{ form_row(form.email) }}
+                    </div>
+                    <div class="form-group">
+                    {{ form_row(form.login) }}
+                    </div>
+                    <div class="form-group">
+                    {{ form_row(form.roles) }}
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card card-olive">
+            <div class="card-header">
+                <h3 class="card-title">Dodatkowe informacje</h3>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                {{ form_row(form.dzielnica) }}
+                </div>
+                <div class="form-group">
+                    {{ form_row(form.status) }}
+                </div>
+                <div class="form-group">
+                  {{ form_row(form.czyDomenowy) }}
+                </div>
+                <div class="form-group" id="password_question">
+                    <hr>
+                    * Jeżeli <b>"Nie"</b>, hasło dla konta testowego jest ustawione na: <b>"1234"</b>.
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col-6">
+        <a href="{{ path('uzytkownicy_index') }}" class="btn btn-sm btn-secondary"><span class="fas fa-reply"></span> Powrót</a>
+    </div>
+    <div class="col-6">
+    {{ form_row(form.save) }}
+    </div>
+    </div>
+    {{ form_end(form) }}
+</div>
+{% endblock %}

@@ -1,0 +1,78 @@
+1. Podstawy OOP
+- Klasa, obiekt,
+- modyfikatory dostępu,
+- konstruktor
+
+-------------------------------------------------------------------------------------------------------------------
+
+2. Dziedziczenie (słowo kluczone extends)
+Rozszerza klasę bazową:
+
+class Product extends Category
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+3. Klasa abstrakcyjna - to klasa której obiekty nie mogą być tworzone za pomocą operatora "new"
+Klasa (nadrzędna) stanowi pewnego rodzaju wzorzec dla klas potomnych, które dziedziczą jej mechanizmy
+tworząc elastyczniejsze podejście do pisania programów.
+
+Klasę abstrakcyjną deklarujemy modyfikatorem abstract:
+abstract class NazwaKlasyAbstrakcyjnej {
+}
+
+Implementacja klasy abstrakcyjnej w klasie potomnej:
+class ClassName extends NazwaKlasyAbstrakcyjnej {
+}
+
+Klasa abstrakcyjna posiada w swoim organiźmie puste deklaracje metod abstrakcyjnych,
+ale może mieć również zwykłe funkcje oraz właściwości: zmienne i stałe.
+Jeśli co najmniej jedna metoda w klasie zostanie zadeklarowana jako abstrakcyjna,
+to ta klasa musi zostać zadeklarowana jako abstrakcyjna.
+
+abstract class Vehicle {                   // pojazd
+    public $engine; // zwykła zmienna
+
+    // deklaracje metod abstrakcyjnych
+    abstract public function brand($name); // marka
+    abstract public function model($name); // model
+}
+
+Klasa Vehicle stanowi pewną abstrakcję. Pojazd to pojęcie ogólne; nie możemy wyobrazić go sobie jednoznacznie.
+Może to być samochód, motocykl, autobus itd. Aczkolwiek każdy z tych obiektów może posiadać pewne cechy wspólne
+np: marka, model, kolor, moc silnika, które mogą być implementowane przez klasy potomne np: Truck (samochód ciężarowy).
+
+class Truck extends Vehicle {
+    public function brand($name) {
+        return strtoupper($name);
+    }
+    public function model($name) {
+        return $name;
+    }
+}
+
+Podsumowanie:
+klasa abstrakcyjna to klasa, której obiekty nie mogą być tworzone,
+klasę abstrakcyjną deklarujemy za pomocą modyfikatora abstract,
+klasa abstrakcyjna może posiadać puste metody abstrakcyjne (bez zawartości), zwykłe funkcje oraz zmienne i stałe,
+wszystkie metody abstrakcyjne z klasy abstrakcyjnej muszą być zaimplementowane w klasach, które po niej dziedziczą.
+
+-------------------------------------------------------------------------------------------------------------------
+
+4. Interfejsy - to szablon składający się ze stałych i deklaracji metod, które muszą być użyte w klasach,
+które go implementują.
+
+4.1. Interface deklarujemy modyfikatorem interface
+interface InterfaceName {
+// deklaracja stałych i/lub metod
+}
+
+4.2. Dana klasa może implementować wiele interfejsów:
+class ClassName implements Interface1, Interface2, Interface3... {
+// ...
+}
+
+4.3. Interfejsy mogą dziedziczyć inne interfejsy:
+interface InterfaceName extends Interface1, Interface2, Interface3... {
+// ...
+}

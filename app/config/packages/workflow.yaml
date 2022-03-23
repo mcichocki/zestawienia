@@ -1,0 +1,38 @@
+framework:
+    workflows:
+        formularz:
+            type: 'state_machine'
+            audit_trail:
+                enabled: true
+            supports:
+                - App\Entity\Formularz
+            marking_store:
+                type: method
+                property: 'state'
+            initial_marking: worker    
+            places:
+                - worker
+                - supervisor
+                - manager
+                - done
+            transitions:
+                worker_to_supervisor_to_verify:
+                    guard: "is_granted('ROLE_WORKER')"
+                    from: worker
+                    to: supervisor
+                supervisor_to_manager_to_accept:
+                    guard: "is_granted('ROLE_SUPERVISOR')"
+                    from: supervisor
+                    to: manager
+                manager_done:
+                    guard: "is_granted('ROLE_MANAGER')"
+                    from: manager
+                    to: done
+                manager_to_worker_to_correct:
+                    guard: "is_granted('ROLE_MANAGER')"
+                    from: manager
+                    to: worker
+                supervisor_to_worker_to_correct:
+                    guard: "is_granted('ROLE_SUPERVISOR')"
+                    from: supervisor
+                    to: worker

@@ -1,0 +1,26 @@
+<div class="tab-pane fade {% if zakladka == "settings" %}show active{% endif %}" id="custom-content-above-settings" role="tabpanel" aria-labelledby="custom-content-above-settings-tab">
+    <div class="timeline mt-3">
+        {% for przeplyw in formularz.przeplywy %}
+            {% if loop.index0 == 0 %}
+            <div class="time-label">
+                <span class="bg-olive">{{ przeplyw.data|date('d F Y')|format_datetime('full', 'none', locale='pl') }}</span>
+            </div>
+            {% endif %}
+            <div>
+                <i class="{{ przeplyw.status.icon }} {{ przeplyw.status.klasa }}"></i>
+                <div class="timeline-item">
+                    <span class="time"><i class="fas fa-clock"></i>{{ przeplyw.data|date('H:i') }}</span>
+                    <h3 class="timeline-header"> {{ przeplyw.status.tresc|raw }}</h3>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            {% if is_granted("ROLE_WORKER") or is_granted("ROLE_ADMIN") %}
+                <button role="button" class="btn btn-sm btn-danger float-right form-delete" value="{{ formularz.id }}"><i class="fas fa-trash-alt"></i> Usuń zestawienie</button>
+            {% endif %}
+        </div>
+    </div>
+</div>

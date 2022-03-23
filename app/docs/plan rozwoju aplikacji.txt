@@ -1,0 +1,7 @@
+1. Frontend całkowicie przenieść na Reacta
+2. Poznać OOP, SOLID, CQRS, Design patterns (wzorce projektowe)
+3. API Platform (przerobić trzeci kurs)
+4. Wykorzystać Messengera (przerobić kurs)
+5. Zacząć używać Listenera + Subscribera
+6. Znaleźć zastosowanie dla relacji ManyToMany
+7. Używać service'ów

@@ -1,0 +1,27 @@
+{% extends 'layout.html.twig' %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('chart') }}
+{% endblock %}
+
+{% block body %}
+<div class="content-header">
+    <div class="container-fluid">
+        {% include 'website/flash_messages.html.twig' %}
+        <div class="row mb-2"></div>
+    </div>
+</div>
+
+<div class="content">
+    <div id="supervisor_index"></div>
+    <input type="hidden" id="identyfikator" value="{{ identyfikator }}">
+</div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('chart') }}
+{% endblock %}
+
+{% block react %}
+    {{ encore_entry_script_tags('supervisor_index') }}
+{% endblock %}

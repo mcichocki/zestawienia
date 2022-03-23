@@ -1,0 +1,1214 @@
+jdn_id,jdn_jtp_id,jdn_symbol,jdn_nazwa,jdn_aktywny,jdn_urz_id_wpro,jdn_data_wpro,jdn_urz_id_mod,jdn_data_mod,jdn_jdn_id,jdn_ulica,jdn_nr_bud,jdn_kod_pocztowy,jdn_regon,jdn_nazwa_pelna,jdn_jro_id,jdn_nip,jdn_nip_vat,jdn_nr_sap,jdn_nr_jpk
+-99,0,,Miasto st. Warszawa,1,1,2014-03-03 14:35,285,2014-10-03 10:32,NULL,,,,,Miasto st. Warszawa,NULL,525-224-84-81,525-224-84-81,NULL,0
+0,0,NULL,Urząd Miasta,1,1,NULL,NULL,NULL,-99,ul.Kredytowa,3,00-056,15259640,Urząd Miasta Stołecznego Warszawy,1,525-224-84-81,525-224-84-81,NULL,1960;
+1,1,BEM,BEMOWO,1,1,NULL,209,2013-03-15 13:49,NULL,ul.Powstańców Śląskich,70,01-381,15259663,BEMOWO,1,525-224-84-81,525-224-84-81,3900000001,NULL;
+2,1,BIA,BIAŁOŁĘKA,1,1,NULL,209,2013-03-15 13:49,NULL,ul.Modlińska,197,03-122,15259663,BIAŁOŁĘKA,1,525-224-84-81,525-224-84-81,3900000002,NULL
+3,1,BIE,BIELANY,1,1,NULL,209,2013-03-12 14:30,NULL,ul.Żeromskiego,29,01-882,15259640,BIELANY,1,525-224-84-81,525-224-84-81,3900000003,NULL
+4,1,MOK,MOKOTÓW,1,1,NULL,209,2013-03-12 14:31,NULL,ul.Rakowiecka,25/27,02-517,15259640,MOKOTÓW,1,525-224-84-81,525-224-84-81,3900000004,NULL
+5,1,OCH,OCHOTA,1,1,NULL,209,2013-03-15 13:51,NULL,ul.Grójecka,17a,02-021,15259663,OCHOTA,1,525-224-84-81,525-224-84-81,3900000005,NULL
+6,1,PRD,PRAGA POŁUDNIE,1,1,NULL,209,2013-03-12 14:32,NULL,ul.Grochowska,274,03-841,15259640,PRAGA POŁUDNIE,1,525-224-84-81,525-224-84-81,3900000006,NULL
+7,1,PRN,PRAGA PÓŁNOC,1,1,NULL,209,2013-03-15 13:52,NULL,ul.Ks. Ignacego Kłopotowskiego,15,03-708,15259663,PRAGA PÓŁNOC,1,525-224-84-81,525-224-84-81,3900000007,NULL
+8,1,REM,REMBERTÓW,1,1,NULL,209,2013-03-15 13:53,NULL,"Al.Gen. A.Chruściela ""Montera""",28,04-401,15259663,REMBERTÓW,1,525-224-84-81,525-224-84-81,3900000008,NULL
+9,1,ŚRÓ,ŚRÓDMIEŚCIE,1,1,NULL,209,2013-03-15 13:53,NULL,ul.Nowogrodzka,43,00-691,15259663,ŚRÓDMIEŚCIE,1,525-224-84-81,525-224-84-81,3900000009,NULL
+10,1,TAR,TARGÓWEK,1,1,NULL,209,2013-03-12 14:33,NULL,ul.Kondratowicza,20,00-983,15259640,TARGÓWEK,1,525-224-84-81,525-224-84-81,3900000010,NULL
+11,1,URS,URSUS,1,1,NULL,209,2013-03-15 13:54,NULL,Pl.Czerwca 1976,1,02-495,15259663,URSUS,1,525-224-84-81,525-224-84-81,3900000011,NULL
+12,1,URN,URSYNÓW,1,1,NULL,209,2013-03-15 13:54,NULL,Al.Komisji Edukacji Narodowej,61,02-777,15259663,URSYNÓW,1,525-224-84-81,525-224-84-81,3900000012,NULL
+13,1,WAW,WAWER,1,1,NULL,209,2013-03-15 13:55,NULL,ul.Żegańska,1,04-713,15259663,WAWER,1,525-224-84-81,525-224-84-81,3900000013,NULL
+14,1,WES,WESOŁA,1,1,NULL,209,2013-03-15 13:55,NULL,ul.1 Praskiego Pułku,33,05-075,15259663,WESOŁA,1,525-224-84-81,525-224-84-81,3900000014,NULL
+15,1,WIL,WILANÓW,1,1,NULL,209,2013-03-15 13:56,NULL,ul.Franciszka Klimczaka,2,02-797,15259663,WILANÓW,1,525-224-84-81,525-224-84-81,3900000015,NULL
+16,1,WŁO,WŁOCHY,1,1,NULL,209,2013-03-15 13:56,NULL,Al.Krakowska,257,02-133,15259663,WŁOCHY,1,525-224-84-81,525-224-84-81,3900000016,NULL
+17,1,WOL,WOLA,1,1,NULL,209,2013-03-15 13:57,NULL,Al.Solidarności,90,01-003,15259663,WOLA,1,525-224-84-81,525-224-84-81,3900000017,NULL
+18,1,ŻOL,ŻOLIBORZ,1,1,NULL,209,2013-03-15 13:57,NULL,ul.Słowackiego,06-VIII,01-627,15259663,ŻOLIBORZ,1,525-224-84-81,525-224-84-81,3900000018,NULL
+19,2,UP/UM,URZĄD PRACY M.ST. WARSZAWY,1,1,NULL,209,2013-03-08 13:04,-99,ul.Grochowska,171 B,04-111,16210417,Urząd Pracy m.st. Warszawy,1,NULL,NULL,,1875
+20,2,NULL,NULL,0,1,2011-01-25 09:03,209,2013-03-08 12:47,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL
+21,2,KMPSP/UM,Komenda Miejska Państwowej Straży Pożarnej m.st. Warszawy,1,1,2011-01-25 09:04,209,2013-03-08 12:53,-99,ul.Polna,1,00-622,13292107,Komenda Miejska Państwowej Straży Pożarnej m.st. Warszawy,1,NULL,NULL,,1850
+22,2,PINB/UM,Powiatowy Inspektorat Nadzoru Budowlanego dla m.st. Warszawy,1,1,2011-01-25 09:05,209,2014-02-25 15:34,-99,ul.Bitwy Warszawskiej 1920r.,11,02-366,14974814,Powiatowy Inspektorat Nadzoru Budowlanego dla m.st. Warszawy,1,NULL,NULL,,1867
+23,2,MB/UM,Miejskie Biuro Finansów Oświaty m.st. Warszawy,1,1,2011-01-25 09:05,209,2013-03-08 12:55,-99,ul.Mokotowska,55,00-542,15752866,Miejskie Biuro Finansów Oświaty m.st. Warszawy,1,NULL,525-224-84-81,3300000063,1891
+24,2,WCP/UM,Warszawskie Centrum Pomocy Rodzinie,1,1,2011-01-25 09:06,188,2017-04-28 09:12,-99,ul.Lipińska,2,01-833,14931762,Warszawskie Centrum Pomocy Rodzinie,1,,,3300000107,1876
+25,2,SPRdPP/UM,Specjalistyczna Poradnia Rodzinna d/s Przeciwdziałania Przemocy,1,1,2011-01-25 09:06,209,2013-03-08 12:58,-99,ul.Belgijska,4,02-511,141682214,Specjalistyczna Poradnia Rodzinna d/s Przeciwdziałania Przemocy,1,NULL,NULL,,1869
+26,3,NULL,BIURO POLITYKI SPOŁECZNEJ,1,1,2011-01-25 09:07,NULL,2011-01-25 09:07,0,NULL,NULL,NULL,NULL,BIURO POLITYKI SPOŁECZNEJ,NULL,NULL,NULL,NULL,NULL
+27,3,NULL,BIURO EDUKACJI,1,1,2011-01-25 09:08,NULL,NULL,0,NULL,NULL,NULL,NULL,BIURO EDUKACJI,NULL,NULL,NULL,NULL,NULL
+28,3,NULL,BIURO KSIĘGOWOŚCI I KONTRASYGNATY,1,1,2011-01-25 09:08,NULL,NULL,0,NULL,NULL,NULL,NULL,BIURO KSIĘGOWOŚCI I KONTRASYGNATY,NULL,NULL,NULL,NULL,NULL
+29,2,OPS/BEM,Ośrodek Pomocy Społecznej Dzielnicy Bemowo m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:26,1,ul.Rozłogi,10,01-310,10773800,Ośrodek Pomocy Społecznej Dzielnicy Bemowo m.st. Warszawy,1,NULL,NULL,NULL,1002
+30,2,DBFO/BEM,Dzielnicowe Biuro Finansów Oświaty - Bemowo m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:56,1,ul.Rzędzińska,3,01-368,15740538,Dzielnicowe Biuro Finansów Oświaty - Bemowo m.st. Warszawy,1,NULL,525-224-84-81,NULL,1005
+31,2,SPR/BEM,Specjalistyczna Poradnia Rodzinna Dzielnicy Bemowo ,1,NULL,NULL,209,2013-03-27 09:52,1,ul.Pełczyńskiego,28e,01-471,12922753,Specjalistyczna Poradnia Rodzinna Dzielnicy Bemowo ,1,NULL,NULL,NULL,1004
+32,2,CPZiEE/BEM,Centrum Promocji Zdrowia i Edukacji Ekologicznej Dzielnicy Bemowo m.st. Warszawy,1,NULL,NULL,1,2016-02-19 12:25,1,ul.Powstańców Śląskich,70,01-381,16050729,Centrum Promocji Zdrowia i Edukacji Ekologicznej Dzielnicy Bemowo m.st. Warszawy,1,,,NULL,NULL
+33,2,,Ośrodek Sportu i Rekreacji m.st. Warszawy Dzielnicy Bemowo,1,1,2013-03-27 08:00,209,2013-03-27 09:26,1,ul.Oławska,3a,01-494,17359400,Ośrodek Sportu i Rekreacji m.st. Warszawy Dzielnicy Bemowo,2,NULL,NULL,NULL,1003
+34,2,OPS/BIA,Ośrodek Pomocy Społecznej Dzielnicy Białołęka m.st. Warszawy,1,NULL,NULL,209,2014-02-25 15:30,2,ul.Marywilska,44c,03-042,10751916,Ośrodek Pomocy Społecznej Dzielnicy Białołęka m.st. Warszawy,1,NULL,NULL,NULL,1040
+35,2,DBFO/BIA,Dzielnicowe Biuro Finansów Oświaty - Białołęka m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:57,2,ul.Modlińska,190,03-119,15740188,Dzielnicowe Biuro Finansów Oświaty - Białołęka m.st. Warszawy,1,NULL,525-224-84-81,NULL,1043
+36,2,ZGN/BIA,Zakład Gospodarowania Nieruchomościami w Dzielnicy Białołęka m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:34,2,ul.Marywilska,44,03-042,10842257,Zakład Gospodarowania Nieruchomościami w Dzielnicy Białołęka m.st. Warszawy,1,NULL,NULL,NULL,1041
+37,2,BOS/BIA,Białołęcki Ośrodek Sportu,1,NULL,NULL,209,2014-02-26 09:12,2,ul.Światowida,56,03-144,13160067,Białołęcki Ośrodek Sportu,1,NULL,NULL,NULL,1042
+38,2,OPS/BIE,Ośrodek Pomocy Społecznej Dzielnicy Bielany m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:40,3,ul.Przybyszewskiego,80/82,01-824,10843854,Ośrodek Pomocy Społecznej Dzielnicy Bielany m.st. Warszawy,1,NULL,NULL,NULL,1070
+39,2,DBFO/BIE,Dzielnicowe Biuro Finansów Oświaty - Bielany m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:57,3,ul.Żeromskiego,29,01-882,15740544,Dzielnicowe Biuro Finansów Oświaty - Bielany m.st. Warszawy,1,NULL,525-224-84-81,NULL,1073
+40,2,ZGN/BIE,Zakład Gospodarowania Nieruchomościami w Dzielnicy Bielany m.st. W-wy,1,NULL,NULL,209,2013-03-20 15:32,3,ul.Grębałowska,23/25,01-808,10858838,Zakład Gospodarowania Nieruchomościami w Dzielnicy Bielany m.st. W-wy,1,NULL,NULL,NULL,1072
+41,2,SPR/BIE,Specjalistyczna Poradnia Rodzinna Dzielnicy Bielany m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:41,3,Al.Zjednoczenia,11,01-829,16054986,Specjalistyczna Poradnia Rodzinna Dzielnicy Bielany m.st. Warszawy,1,NULL,NULL,NULL,1071
+42,2,CRS/BIE,Centrum Rekreacyjno-Sportowe m.st. Warszawy w  Dzielnicy Bielany,1,NULL,NULL,209,2013-03-27 09:39,3,ul.Conrada,6,01-922,141165683,Centrum Rekreacyjno-Sportowe m.st. Warszawy w  Dzielnicy Bielany,1,NULL,NULL,NULL,1069
+43,2,OPS/MOK,Ośrodek Pomocy Społecznej Dzielnicy Mokotów m. st. Warszawy,1,NULL,NULL,209,2013-03-27 10:04,4,ul.Falęcka,10,02-545,2185328,Ośrodek Pomocy Społecznej Dzielnicy Mokotów m. st. Warszawy,1,NULL,NULL,NULL,1138
+44,2,DBFO/MOK,Dzielnicowe Biuro Finansów Oświaty - Mokotów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:58,4,ul.Postępu,13,02-676,253238,Dzielnicowe Biuro Finansów Oświaty - Mokotów m.st. Warszawy,1,NULL,525-224-84-81,NULL,1139
+45,2,ZGN/MOK,Zakład Gospodarowania Nieruchomościami w Dzielnicy Mokotów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:02,4,ul.Irysowa,19,02-660,10858407,Zakład Gospodarowania Nieruchomościami w Dzielnicy Mokotów m.st. Warszawy,1,NULL,NULL,NULL,1137
+46,2,DBFO/OCH,Dzielnicowe Biuro Finansów Oświaty - Ochota m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:59,5,ul.Radomska,13/21,02-323,228074,Dzielnicowe Biuro Finansów Oświaty - Ochota m.st. Warszawy,1,NULL,525-224-84-81,NULL,1252
+47,2,OSIR/OCH,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Ochota,1,NULL,NULL,209,2013-03-08 11:26,5,ul.Nowowiejska,37B,02-010,16191016,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Ochota,1,NULL,NULL,NULL,1250
+48,2,ZGN/OCH,Zakład Gospodarowania Nieruchomościami w Dzielnicy Ochota m.st. Warszawy,1,NULL,NULL,209,2014-02-25 15:37,5,ul.Białobrzeska,11,02-379,140700163,Zakład Gospodarowania Nieruchomościami w Dzielnicy Ochota m.st. Warszawy,1,NULL,NULL,NULL,1251
+49,2,OPS/OCH,Ośrodek Pomocy Społecznej Dzielnicy Ochota m.st. Warszawy ,1,NULL,NULL,209,2013-03-27 09:13,5,ul.Przemyska,11,02-361,2004893,Ośrodek Pomocy Społecznej Dzielnicy Ochota m.st. Warszawy ,1,NULL,NULL,NULL,1249
+50,2,OPS/PRD,Ośrodek Pomocy Społecznej Dzielnicy Praga Południe m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:14,6,ul.Wiatraczna,11,04-366,2155793,Ośrodek Pomocy Społecznej Dzielnicy Praga Południe m.st. Warszawy,1,NULL,NULL,NULL,1298
+51,2,DBFO/PRD,Dzielnicowe Biuro Finansów Oświaty - Praga Południe m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:59,6,ul.Grochowska,262,04-398,232584,Dzielnicowe Biuro Finansów Oświaty - Praga Południe m.st. Warszawy,1,NULL,525-224-84-81,NULL,1301
+52,2,ZGN/PRD,Zakład Gospodarowania Nieruchomościami w Dzielnicy Pr. Południe m. st. Warszawy,1,NULL,NULL,209,2013-03-27 09:48,6,ul.Walewska,4,04-022,10445119,Zakład Gospodarowania Nieruchomościami w Dzielnicy Pr. Południe m. st. Warszawy,1,NULL,NULL,NULL,1300
+53,2,NULL,Ośrodek Sportu i Rekreacji Dzielnicy Praga Południe m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:05,6,ul.Siennicka,40,04-393,16096499,Ośrodek Sportu i Rekreacji Dzielnicy Praga Południe m.st. Warszawy,1,NULL,NULL,NULL,1299
+54,2,OPS/PRN,Ośrodek Pomocy Społecznej Dzielnicy Praga Północ m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:15,7,ul.Szymanowskiego,VI-61,03-477,2164473,Ośrodek Pomocy Społecznej Dzielnicy Praga Północ m.st. Warszawy,1,NULL,NULL,NULL,1382
+55,2,DBFO/PRN,Dzielnicowe Biuro Finansów Oświaty - Praga Północ m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:00,7,ul.Targowa,42 lok. 2a,03-733,6745994,Dzielnicowe Biuro Finansów Oświaty - Praga Północ m.st. Warszawy,1,NULL,525-224-84-81,NULL,1386
+56,2,ZGN/PRN,Zakład Gospodarowania Nieruchomościami w Dzielnicy Pr. Północ m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:06,7,ul.Jagiellońska,23,03-719,11513343,Zakład Gospodarowania Nieruchomościami w Dzielnicy Pr. Północ m.st. Warszawy,1,NULL,NULL,NULL,1383
+57,2,DOSR/PRN,Dzielnicowy Ośrodek Sportu i Rekreacji Dzielnicy Praga Północ m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:07,7,ul.Kawęczyńska,44,03-770,12663694,Dzielnicowy Ośrodek Sportu i Rekreacji Dzielnicy Praga Północ m.st. Warszawy,1,NULL,NULL,NULL,1385
+58,2,ZPTP/PRN,Zarząd Praskich Terenów Publicznych w Dz. Praga Północ m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:54,7,ul.Burdzińskiego,7,03-480,11312165,Zarząd Praskich Terenów Publicznych w Dz. Praga Północ m.st. Warszawy,1,NULL,NULL,NULL,1384
+59,2,OPS/REM,Ośrodek Pomocy Społecznej Dzielnicy Rembertów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:15,8,ul.Plutonowych,10,04-404,10819420,Ośrodek Pomocy Społecznej Dzielnicy Rembertów m.st. Warszawy,1,NULL,NULL,NULL,1418
+60,2,DBFO/REM,Dzielnicowe Biuro Finansów Oświaty - Rembertów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:00,8,"Al.Gen. A. Chruściela ""Montera""",28,04-401,11335226,Dzielnicowe Biuro Finansów Oświaty - Rembertów m.st. Warszawy,1,NULL,525-224-84-81,NULL,1420
+61,2,ZGN/REM,Zakład Gospodarowania Nieruchomościami w Dzielnicy Rembertów m.st. Warszawy,0,NULL,NULL,209,2013-03-27 10:07,8,ul.Strażacka,96,04-455,11843224,Zakład Gospodarowania Nieruchomościami w Dzielnicy Rembertów m.st. Warszawy,1,NULL,NULL,NULL,1419
+62,2,CPS/ŚRO,Centrum Pomocy Społecznej Dzielnicy Śródmieście m.st. Warszawy,1,NULL,NULL,1,2015-03-18 13:24,9,ul.Konwiktorska,03-V,00-217,146349028,Centrum Pomocy Społecznej Dzielnicy Śródmieście m.st. Warszawy,1,,,NULL,1432
+63,2,DBFO/ŚRO,Dzielnicowe Biuro Finansów Oświaty - Śródmieście m.st. Warszawy,1,NULL,NULL,209,2014-02-25 15:28,9,ul.Smolna,10a,00-375,13004433,Dzielnicowe Biuro Finansów Oświaty - Śródmieście m.st. Warszawy,1,NULL,525-224-84-81,NULL,1436
+64,2,ZGN/ŚRÓ,Zakład Gospodarowania Nieruchomościami w Dzielnicy Śródmieście m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:08,9,ul.Szwoleżerów,5,00-464,12547634,Zakład Gospodarowania Nieruchomościami w Dzielnicy Śródmieście m.st. Warszawy,1,NULL,NULL,NULL,1435
+65,2,ZTP/ŚRÓ,Zarząd Terenów Publicznych,1,NULL,NULL,1,2015-03-06 10:18,9,ul. Podwale,23,00-261,10496921,Zarząd Terenów Publicznych,1,,,,1434
+66,2,NULL,Śródmiejski Ośrodek Opiekuńczy w Dzielnicy Śródmieście,1,NULL,NULL,209,2013-03-27 10:03,9,ul.Świętojerska,12a,00-236,10622870,Śródmiejski Ośrodek Opiekuńczy w Dzielnicy Śródmieście,1,NULL,NULL,NULL,NULL
+67,2,NULL,Ośrodek Sportu i Rekreacji m.st. Warszawy Dzielnicy Śródmieście,1,NULL,NULL,209,2013-03-08 11:47,9,ul.Polna,7a,00-625,15206773,Ośrodek Sportu i Rekreacji m.st. Warszawy Dzielnicy Śródmieście,2,NULL,NULL,NULL,1433
+68,2,OPS/TAR,Ośrodek Pomocy Społecznej Dzielnicy Targówek m.st. Warszawy,1,NULL,NULL,209,2014-02-25 15:32,10,ul.Św. Wincentego,87,03-291,10908915,Ośrodek Pomocy Społecznej Dzielnicy Targówek m.st. Warszawy,1,NULL,NULL,NULL,1523
+69,2,DBFO/TAR,Dzielnicowe Biuro Finansów Oświaty -Targówek m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:50,10,ul.Stojanowska,XII-14,03-558,10812960,Dzielnicowe Biuro Finansów Oświaty -Targówek m.st. Warszawy,1,NULL,525-224-84-81,NULL,1526
+70,2,ZGN/TAR,Zakład Gospodarowania Nieruchomościami w Dzielnicy Targówek m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:51,10,ul.Gościeradowska,5,03-535,16451807,Zakład Gospodarowania Nieruchomościami w Dzielnicy Targówek m.st. Warszawy,1,NULL,NULL,NULL,1525
+71,2,NULL,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Targówek,1,NULL,NULL,209,2013-03-27 10:09,10,ul.Łabiszyńska,20,03-397,145972096,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Targówek,2,NULL,NULL,NULL,1524
+72,2,OPS/URS,Ośrodek Pomocy Społecznej Dzielnicy Ursus m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:17,11,Pl.Czerwca 1976,1,02-495,10227032,Ośrodek Pomocy Społecznej Dzielnicy Ursus m.st. Warszawy,1,NULL,NULL,NULL,1571
+73,2,DBFO/URS,Dzielnicowe Biuro Finansów Oświaty- Ursus m.st. Warszawy,1,NULL,NULL,209,2013-03-27 08:55,11,Pl.Czerwca 1976,1,02-495,10160606,Dzielnicowe Biuro Finansów Oświaty- Ursus m.st. Warszawy,1,NULL,525-224-84-81,NULL,1574
+74,2,ZGN/URS,Zakład Gospodarowania Nieruchomościami w Dzielnicy Ursus m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:10,11,ul.Szancera,5,02-495,10409218,Zakład Gospodarowania Nieruchomościami w Dzielnicy Ursus m.st. Warszawy,1,NULL,NULL,NULL,1573
+75,2,NULL,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Ursus,1,NULL,NULL,209,2013-03-08 11:53,11,ul.Sosnkowskiego,3,02-495,15720381,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Ursus,2,NULL,NULL,NULL,1572
+76,2,OPS/URN,Ośrodek Pomocy Społecznej Dzielnicy Ursynów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:21,12,ul.Cybisa,7,02-784,10847964,Ośrodek Pomocy Społecznej Dzielnicy Ursynów m.st. Warszawy,1,NULL,NULL,NULL,1595
+77,2,DBFO/URN,Dzielnicowe Biuro Finansów Oświaty - Ursynów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:02,12,ul.KEN,61,02-777,11136395,Dzielnicowe Biuro Finansów Oświaty - Ursynów m.st. Warszawy,1,NULL,525-224-84-81,NULL,1596
+78,2,NULL,Ursynowskie Centrum Sportu i Rekreacji,1,NULL,NULL,209,2013-03-08 10:49,12,ul.Pileckiego,122,02-781,13053785,Ursynowskie Centrum Sportu i Rekreacji,2,NULL,NULL,NULL,1644
+79,2,OPS/WAW,Ośrodek Pomocy Społecznej Dzielnicy Wawer m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:22,13,ul.Włókiennicza,54,04-974,10822042,Ośrodek Pomocy Społecznej Dzielnicy Wawer m.st. Warszawy,1,NULL,NULL,NULL,1646
+80,2,DBFO/WAW,Dzielnicowe Biuro Finansów Oświaty - Wawer m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:03,13,ul.Włókiennicza,54,04-974,15742514,Dzielnicowe Biuro Finansów Oświaty - Wawer m.st. Warszawy,1,NULL,525-224-84-81,NULL,1650
+81,2,ZGN/WAW,Zakład Gospodarowania Nieruchomościami w Dzielnicy Wawer m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:10,13,ul.Trakt Lubelski,353,04-667,10836340,Zakład Gospodarowania Nieruchomościami w Dzielnicy Wawer m.st. Warszawy,1,NULL,NULL,NULL,1649
+82,2,OSIR/WAW,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Wawer,1,NULL,NULL,209,2013-03-27 10:11,13,ul.V Poprzeczna,22,04-611,142461001,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Wawer,1,NULL,NULL,NULL,1647
+83,2,SPR/WAW,Specjalistyczna Poradnia Rodzinna Dzielnicy Wawer m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:12,13,ul.Włókiennicza,54,04-974,15212325,Specjalistyczna Poradnia Rodzinna Dzielnicy Wawer m.st. Warszawy,1,NULL,NULL,NULL,1648
+85,2,OPS/WES,Ośrodek Pomocy Społecznej Dzielnicy Wesoła m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:23,14,ul. 1 Praskiego Pułku,21a,05-075,6711848,Ośrodek Pomocy Społecznej Dzielnicy Wesoła m.st. Warszawy,1,NULL,NULL,NULL,1674
+86,2,DBFO/WES,Dzielnicowe Biuro Finansów Oświaty - Wesoła m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:03,14,Pl.Wojska Polskiego,28,05-075,671237,Dzielnicowe Biuro Finansów Oświaty - Wesoła m.st. Warszawy,1,NULL,525-224-84-81,NULL,1675
+87,2,OPS/WIL,Ośrodek Pomocy Społecznej Dzielnicy Wilanów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:24,15,ul.Przyczółkowa,27A,02-968,10857520,Ośrodek Pomocy Społecznej Dzielnicy Wilanów m.st. Warszawy,1,NULL,NULL,NULL,1690
+88,2,DBFO/WIL,Dzielnicowe Biuro Finansów Oświaty - Wilanów m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:04,15,ul.Franciszka Klimczaka,4,02-797,15771007,Dzielnicowe Biuro Finansów Oświaty - Wilanów m.st. Warszawy,1,NULL,525-224-84-81,NULL,1691
+89,2,OPS/WŁO,Ośrodek Pomocy Społecznej Dzielnicy Włochy m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:24,16,ul.Czereśniowa,35,02-457,10827246,Ośrodek Pomocy Społecznej Dzielnicy Włochy m.st. Warszawy,1,NULL,NULL,NULL,1700
+90,2,DBFO/WŁO,Dzielnicowe Biuro Finansów Oświaty - Włochy m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:05,16,ul. Malownicza,31a,02-272,15759970,Dzielnicowe Biuro Finansów Oświaty - Włochy m.st. Warszawy,1,NULL,525-224-84-81,NULL,1703
+91,2,ZGN/WŁO,Zakład Gospodarowania Nieruchomościami w Dzielnicy Włochy m.st. Warszawy,1,NULL,NULL,209,2013-03-27 10:13,16,ul.Bolesława Chrobrego,7,02-479,10817934,Zakład Gospodarowania Nieruchomościami w Dzielnicy Włochy m.st. Warszawy,1,NULL,NULL,NULL,1702
+92,2,OSIR/WŁO,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Włochy,1,NULL,NULL,209,2013-03-08 12:02,16,ul.Gładka,18,02-172,142553826,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Włochy,1,NULL,NULL,NULL,1701
+93,2,OPS/WOL,Ośrodek Pomocy Społecznej Dzielnicy Wola m.st. Warszawy,1,NULL,NULL,209,2013-03-08 12:07,17,ul.Bema,91,01-233,2010882,Ośrodek Pomocy Społecznej Dzielnicy Wola m.st. Warszawy,1,NULL,NULL,NULL,1724
+94,2,ZGN/WOL,Zakład Gospodarowania Nieruchomościami w Dzielnicy Wola m.st. Warszawy,1,NULL,NULL,209,2013-03-26 13:20,17,ul.Bema,70,01-225,OOO665840,Zakład Gospodarowania Nieruchomościami w Dzielnicy Wola m.st. Warszawy,1,NULL,NULL,NULL,1725
+95,2,DBFO/WOL,Dzielnicowe Biuro Finansów Oświaty - Wola m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:05,17,ul.Rogalińska,2,01-206,10436362,Dzielnicowe Biuro Finansów Oświaty - Wola m.st. Warszawy,1,NULL,525-224-84-81,NULL,1726
+96,2,NULL,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Wola,1,NULL,NULL,209,2013-03-27 09:25,17,ul.Esperanto,5,01-049,13083214,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Wola,2,NULL,NULL,NULL,1737
+97,2,OPS/,Ośrodek Pomocy Społecznej Dzielnicy Żoliborz m.st. Warszawy,1,NULL,NULL,209,2016-03-03 12:32,18,ul.Dembińskiego,3,01-644,2004203,Ośrodek Pomocy Społecznej Dzielnicy Żoliborz m.st. Warszawy,1,,,NULL,1797
+98,2,ZGN/ŻOL,Zakład Gospodarowania Nieruchomościami w Dzielnicy Żoliborz m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:59,18,ul.Marii Kazimiery,1,01-641,11104337,Zakład Gospodarowania Nieruchomościami w Dzielnicy Żoliborz m.st. Warszawy,1,NULL,NULL,NULL,1799
+99,2,DBFO/ŻOL,Dzielnicowe Biuro Finansów Oświaty - Żoliborz m.st. Warszawy,1,NULL,NULL,209,2013-03-27 09:06,18,ul.Felińskiego,15,01-513,16339915,Dzielnicowe Biuro Finansów Oświaty - Żoliborz m.st. Warszawy,1,NULL,525-224-84-81,NULL,1801
+100,2,NULL,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Żoliborz,1,NULL,NULL,209,2013-03-28 08:38,18,ul.Potocka,1,01-652,16077929,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Żoliborz,2,NULL,NULL,NULL,1798
+102,2,CA/UM,Centrum Alzheimera,1,NULL,NULL,209,2013-03-07 12:51,-99,Al.Wilanowska,257,02-730,142945331,Centrum Alzheimera,1,NULL,NULL,3400000610,1845
+103,2,CU/UM,Centrum Usług Socjalnych i Szkolenia Kadr Pomocy Społecznej ''Ośrodek Nowolipie'' ,1,NULL,NULL,209,2013-03-07 12:52,-99,ul.Nowolipie,25B,01-011,12837208,Centrum Usług Socjalnych i Szkolenia Kadr Pomocy Społecznej ''Ośrodek Nowolipie'' ,1,NULL,NULL,3300000045,1828
+104,2,D1/UM,"Dom Dziecka Nr 1 ""Nasz Dom"" im. Maryny Falskiej",1,NULL,NULL,209,2013-03-07 12:52,-99,Al.Zjednoczenia,34,01-830,232590,"Dom Dziecka Nr 1 ""Nasz Dom"" im. Maryny Falskiej",1,NULL,NULL,3300000097,1829
+105,2,D2/UM,Dom Dziecka Nr 2 im. dr J.Korczaka,1,NULL,NULL,209,2013-03-07 12:53,-99,ul. Jaktorowska,6,01-202,240827,Dom Dziecka Nr 2 im. dr J.Korczaka,1,NULL,NULL,3300000019,1833
+106,2,D4/UM,Dom Dziecka Nr 4,1,NULL,NULL,209,2013-03-07 12:53,-99,ul. Łukowska,25,04-133,253698,Dom Dziecka Nr 4,1,NULL,NULL,3300000098,1834
+107,2,DD5/UM,Dom Dziecka Nr 5,0,NULL,NULL,1,2014-04-03 10:25,NULL,ul. Podmokła,4,04-819,16432201,Dom Dziecka Nr 5,1,NULL,NULL,NULL,NULL
+108,2,D9/UM,Dom Dziecka Nr 9 im. Lidii i Adama Ciołkoszów,1,NULL,NULL,209,2013-03-07 12:55,-99,ul. Korotyńskiego,13,02-121,946970,Dom Dziecka Nr 9 im. Lidii i Adama Ciołkoszów,1,NULL,NULL,3300000022,1836
+109,2,DD12/UM,Placówka Opiekuńczo-Wychowawcza „Dom u Brzechwy”,1,NULL,NULL,209,2013-03-07 12:56,-99,ul. Tarczyńska,27,02-023,16448975,Placówka Opiekuńczo-Wychowawcza „Dom u Brzechwy”,1,NULL,NULL,NULL,1830
+110,2,D15/UM,Dom Dziecka Nr 15 im. Ks.G.P.Baudouina,1,NULL,NULL,209,2013-03-07 12:57,-99,ul. Nowogrodzka,75,02-018,10092508,Dom Dziecka Nr 15 im. Ks.G.P.Baudouina,1,NULL,NULL,3300000026,1831
+111,2,D16/UM,Dom Dziecka Nr 16,1,NULL,NULL,209,2013-03-07 12:57,-99,ul. Międzyparkowa,5,00-208,10069283,Dom Dziecka Nr 16,1,NULL,NULL,3300000027,1832
+112,2,12DP/UM,Dom Pomocy Społecznej Wójtowska,1,NULL,NULL,209,2013-03-08 12:40,-99,ul. Wójtowska,13,00-224,295596,Dom Pomocy Społecznej Wójtowska,1,NULL,NULL,3300000041,1849
+113,2,1DP/UM,"Dom Pomocy Społecznej ""Budowlani""",1,NULL,NULL,209,2013-03-07 13:04,-99,ul. Elekcyjna,6,01-128,10060939,"Dom Pomocy Społecznej ""Budowlani""",1,NULL,NULL,3300000037,1837
+114,2,2DP/UM,"Dom Pomocy Społecznej ""Chemik""",1,NULL,NULL,209,2013-03-07 13:04,-99,ul. Korotyńskiego,10,02-121,297000,"Dom Pomocy Społecznej ""Chemik""",1,NULL,NULL,3300000040,1838
+115,2,3DP/UM,Dom Pomocy Społecznej dla Kombatantów,1,NULL,NULL,209,2013-03-07 13:05,-99,ul. Dickensa,25,02-382,12646997,Dom Pomocy Społecznej dla Kombatantów,1,NULL,NULL,3300000039,1839
+116,2,9DP/UM,"Dom Pomocy Społecznej im. ""Matysiaków""",1,NULL,NULL,209,2013-03-07 13:05,-99,ul. Arabska,3,03-977,6377154,"Dom Pomocy Społecznej im. ""Matysiaków""",1,NULL,NULL,3300000100,1846
+117,2,10DP/UM,Dom Pomocy Społecznej im. Św. Brata Alberta,1,NULL,NULL,209,2013-03-07 13:06,-99,ul. Kawęczyńska,4B,03-772,10043645,Dom Pomocy Społecznej im. Św. Brata Alberta,1,NULL,NULL,3300000042,1847
+118,2,4DP/UM,"Dom Pomocy Społecznej ""Kombatant""",1,NULL,NULL,209,2013-03-07 13:07,-99,ul. Sternicza,125,01-350,1038909,"Dom Pomocy Społecznej ""Kombatant""",1,NULL,NULL,3300000034,1840
+119,2,5DP/UM,"Dom Pomocy Społecznej ""Leśny""",1,NULL,NULL,209,2013-03-07 13:07,-99,ul. Tułowicka,3,01-974,296644,"Dom Pomocy Społecznej ""Leśny""",1,NULL,NULL,3300000043,1841
+120,2,6DP/UM,"Dom Pomocy Społecznej ""Na Przedwiośniu""",1,NULL,NULL,209,2013-03-07 13:08,-99,ul. Przedwiośnie,1,04-748,293315,"Dom Pomocy Społecznej ""Na Przedwiośniu""",1,NULL,NULL,3300000099,1842
+121,2,7DP/UM,"Dom Pomocy Społecznej ""Pod Brzozami""",1,NULL,NULL,209,2013-03-07 13:08,-99,ul. Bohaterów,46/48,03-007,6377131,"Dom Pomocy Społecznej ""Pod Brzozami""",1,NULL,NULL,3300000036,1843
+122,2,11DP/UM,Dom Pomocy Społecznej Pracownika Oświaty,1,NULL,NULL,209,2013-03-07 13:09,-99,ul. Parkowa,7A,00-759,17237826,Dom Pomocy Społecznej Pracownika Oświaty,1,NULL,NULL,3300000035,1848
+123,2,8DP/UM,"Dom Pomocy Społecznej ""Syrena""",1,NULL,NULL,209,2013-03-07 13:10,-99,ul. Syreny,26,01-150,6377177,"Dom Pomocy Społecznej ""Syrena""",1,NULL,NULL,3300000032,1844
+124,2,LM/UM,Lasy Miejskie – Warszawa,1,NULL,NULL,209,2013-03-07 14:53,-99,ul. Korkowa,170A,04-549,140910251,Lasy Miejskie – Warszawa,1,NULL,NULL,3300000048,1851
+125,2,MP/UM,Miejska Pracownia Planowania Przestrzennego i Strategii Rozwoju,1,NULL,NULL,209,2013-03-07 14:54,-99,Pl. Defilad,1,00-901,11878978,Miejska Pracownia Planowania Przestrzennego i Strategii Rozwoju,1,NULL,NULL,3300000009,1852
+126,2,ZOO/UM,Miejski Ogród Zoologiczny,1,NULL,NULL,209,2013-03-07 14:55,-99,ul. Ratuszowa,01-III,03-461,12878673,Miejski Ogród Zoologiczny,1,NULL,NULL,3300000016,1853
+127,2,OIKDAL/UM,Ośrodek Interwencji Kryzysowej DALIBORA,1,NULL,NULL,209,2013-03-08 12:41,-99,ul. Dalibora,1,01-435,142124025,Ośrodek Interwencji Kryzysowej Dalibora,1,NULL,NULL,,1855
+128,2,OIKSIE/UM,Ośrodek Interwencji Kryzysowej 6-Sierpnia,1,NULL,NULL,209,2013-03-08 12:42,-99,ul. 6-Sierpnia,01-V,02-843,142123505,Ośrodek Interwencji Kryzysowej 6-Sierpnia,1,NULL,NULL,,1854
+129,2,OW/UM,"Ośrodek Wsparcia Dziecka i Rodziny ""Koło""",1,NULL,NULL,288,2013-03-25 12:33,-99,ul. Barcicka,2,01-807,241778,"Ośrodek Wsparcia Dziecka i Rodziny ""Koło""",1,NULL,NULL,3300000020,1856
+130,2,OWR/UM,Placówka Opiekuńczo-Wychowawcza „Wspólny Dom”,1,NULL,NULL,209,2013-03-19 11:16,-99,ul. 6-go Sierpnia,01-V,02-843,15223292,Placówka Opiekuńczo-Wychowawcza „Wspólny Dom”,1,NULL,NULL,NULL,1857
+131,2,PK/UM,Park Kultury w Powsinie,1,NULL,NULL,209,2013-03-07 14:55,-99,ul. Maślaków,1,02-973,276251,Park Kultury w Powsinie,1,NULL,NULL,3300000015,1858
+132,2,PO1/UM,Pogotowie Opiekuńcze Nr 1,1,NULL,NULL,209,2013-03-07 13:12,-99,ul. Dembińskiego,1,01-644,189641,Pogotowie Opiekuńcze Nr 1,1,NULL,NULL,NULL,1865
+133,2,PO2/UM,Pogotowie Opiekuńcze Nr 2 im. Józefa Czesława Babickiego,1,NULL,NULL,209,2013-03-07 13:13,-99,ul. Bonifacego,81,02-945,178809,Pogotowie Opiekuńcze Nr 2 im. Józefa Czesława Babickiego,1,NULL,NULL,NULL,1866
+134,2,SB/UM,Schronisko dla Bezdomnych Zwierząt w Warszawie,1,NULL,NULL,209,2013-03-07 14:56,-99,ul. Paluch,2,02-147,17189145,Schronisko dla Bezdomnych Zwierząt w Warszawie,1,NULL,NULL,3300000010,1868
+135,2,BT/UM,Stołeczne Biuro Turystyki,1,NULL,NULL,209,2013-03-07 14:57,-99,Pl. Defilad 1,10,00-901,12216512,Stołeczne Biuro Turystyki,1,NULL,NULL,3300000075,1870
+136,2,OON/UM,Stołeczny Ośrodek dla Osób Nietrzeźwych,1,NULL,NULL,209,2013-03-07 14:57,-99,ul. Kolska,02-IV,01-045,17319085,Stołeczny Ośrodek dla Osób Nietrzeźwych,1,NULL,NULL,3300000008,1872
+137,2,ZRM/UM,Stołeczny Zarząd Rozbudowy Miasta,1,NULL,NULL,209,2013-03-07 15:13,-99,ul. Senatorska,29/31,00-099,162665,Stołeczny Zarząd Rozbudowy Miasta,1,NULL,NULL,3300000012,1873
+138,2,SM/UM,Straż Miejska m.st. Warszawy,1,NULL,NULL,209,2013-03-07 14:59,-99,ul. Młynarska,43/45,01-170,15271428,Straż Miejska m.st. Warszawy,1,NULL,NULL,3300000076,1874
+139,2,ZDM/UM,Zarząd Dróg Miejskich,1,NULL,NULL,209,2013-03-07 14:59,-99,ul. Chmielna,120,00-801,10270068,Zarząd Dróg Miejskich,1,NULL,NULL,3300000017,1880
+140,2,ZMI/UM,Zarząd Miejskich Inwestycji Drogowych,1,NULL,NULL,209,2013-03-07 13:27,-99,ul. Sokratesa ,15,01-909,141467266,Zarząd Miejskich Inwestycji Drogowych,1,NULL,NULL,3300000059,1881
+141,2,ZMW/UM,Zarząd Mienia m.st. Warszawy,1,NULL,NULL,209,2013-03-07 13:28,-99,ul. Jana Kazimierza,62,01-248,10956073,Zarząd Mienia m.st. Warszawy,1,NULL,NULL,3300000003,1882
+142,2,ZMS/UM,Zarząd Mienia Skarbu Państwa,1,NULL,NULL,209,2013-03-07 13:29,-99,ul. Prosta,69,00-838,140001459,Zarząd Mienia Skarbu Państwa,1,NULL,NULL,3300000004,1883
+143,2,ZOM/UM,Zarząd Oczyszczania Miasta,1,NULL,NULL,209,2013-03-07 15:00,-99,Al. Jerozolimskie,XI-19,00-508,10352346,Zarząd Oczyszczania Miasta,1,NULL,NULL,3300000052,1884
+144,2,ZTM/UM,Zarząd Transportu Miejskiego,1,NULL,NULL,209,2013-03-07 15:01,-99,ul. Żelazna,61,00-848,12605780,Zarząd Transportu Miejskiego,1,NULL,NULL,3300000050,1885
+145,2,ZMF/UM,"Zespół Małych Form Opieki i Wychowania ""Chata""",1,NULL,NULL,209,2013-03-07 13:13,-99,ul. Bohaterów,50,03-007,946987,Zespół Małych Form Opieki i Wychowania ''Chata',1,NULL,NULL,3300000024,1886
+146,2,ZOWDZIADKA,"Zespół Ognisk Wychowawczych im.K.Lisickiego ""Dziadka""",1,NULL,NULL,209,2013-03-07 13:14,NULL,ul. Stara,4,00-231,178442,"Zespół Ognisk Wychowawczych im.K.Lisickiego ""Dziadka"" w Warszawie",1,NULL,NULL,,NULL
+147,2,ZO/UM,Zakład Obsługi Systemu Monitoringu,1,NULL,NULL,209,2013-03-07 13:30,-99,ul. Młynarska,43/45,01-170,15464950,Zakład Obsługi Systemu Monitoringu,1,NULL,NULL,3300000002,1877
+148,2,ZZ/UM,Zespół Żłobków m.st. Warszawy,1,NULL,NULL,209,2013-03-07 15:01,-99,ul. Belgijska,4,02-511,142864986,Zespół Żłobków m.st. Warszawy,1,NULL,NULL,3300000077,1888
+149,2,,Warszawski Ośrodek Sportu i Rekreacji,0,NULL,NULL,1,2016-02-19 12:23,NULL,ul. Rozbrat,26,00-429,17189671,Warszawski Ośrodek Sportu i Rekreacji ,2,,,NULL,NULL
+150,2,,"Warszawski Ośrodek Wypoczynku ""Wisła""",1,NULL,NULL,1,2016-02-19 12:23,NULL,ul. Szpitalna,5,00-031,328670,"Warszawski Ośrodek Wypoczynku ""Wisła""",2,,,NULL,NULL
+151,2,ZC/UM,Zarząd Cmentarzy Komunalnych,1,NULL,NULL,209,2013-03-07 13:18,-99,ul. Powązkowska,43/45,01-797,11957726,Zarząd Cmentarzy Komunalnych ,2,NULL,NULL,4000000002,1879
+152,2,ZR/UM,Zakład Remontów i Konserwacji Dróg,1,NULL,NULL,209,2013-03-07 13:19,-99,ul. Pl. Czerwca 1976,1,02-495,15895956,Zakład Remontów i Konserwacji Dróg,2,NULL,NULL,3300000078,1878
+160,2,3PR/UM,Placówka Rodzinna przy ul. Warzelniczej 23b w Warszawie,1,209,2013-01-30 12:29,209,2013-05-08 10:02,-99,ul.Warzelnicza,23 B,03-255,141676700,Placówka Rodzinna przy ul. Warzelniczej 23b w Warszawie,1,NULL,NULL,3300000104,1861
+161,2,4PR/UM,Placówka Rodzinna przy ul. Juliusza Słowackiego 75 w Warszawie,1,209,2013-01-30 12:32,209,2013-05-08 10:03,-99,ul.Słowackiego ,75,05-075,141236489,Placówka Rodzinna przy ul. Juliusza Słowackiego 75 w Warszawie,1,NULL,NULL,3300000103,1862
+162,2,PRSIER/UM,Rodzinny Dom Dziecka 15 Sierpnia,1,209,2013-01-30 12:33,209,2013-05-08 10:03,-99,ul. 15-go Sierpnia ,15,03-173,141192800,Placówka Rodzinna przy ul. 15 Sierpnia 15 w Warszawie,1,NULL,NULL,NULL,1860
+163,2,1PR/UM,Placówka Rodzinna przy ul. Wilczej 23 m.27 w Warszawie,1,209,2013-01-30 12:36,209,2013-05-08 10:04,-99,ul.Wilcza,23 m 27,00-544,142717529,Placówka Rodzinna przy ul. Wilczej 23 m.27 w Warszawie,1,NULL,NULL,3300000105,1859
+164,2,5PR/UM,Placówka Rodzinna przy Al. Jerozolimskich 99m. 15 w Warszawie,1,209,2013-01-30 12:59,209,2013-05-08 10:05,-99,AL. Jerozolimskie ,99/15,02-001,141001734,Placówka Rodzinna przy Al. Jerozolimskich 99 m 15 w Warszawie,1,NULL,NULL,3300000102,1863
+165,2,6PR/UM,Placówka Rodzinna przy ul. Ząbkowskiej 23/25 m.53 w Warszawie,1,209,2013-01-30 13:00,209,2013-05-08 10:05,-99,ul. Ząbkowska,23/25 m 53,03-736,140751663,Placówka Rodzinna przy ul. Ząbkowskiej 23/25 m.53 w Warszawie,1,NULL,NULL,3300000106,1864
+166,2,13DP/UM,"Dom Pomocy Społecznej ""Na Bachusa""",1,209,2013-01-30 13:00,209,2013-03-07 13:19,-99,ul. Bachusa,7,04-814,146288798,"Dom Pomocy Społecznej ""Na Bachusa""",1,NULL,NULL,3300000074,1889
+167,3,NULL,BIURO POLITYKI LOKALOWEJ,1,1,2014-02-05 09:19,NULL,NULL,0,NULL,NULL,NULL,NULL,BIURO POLITYKI LOKALOWEJ,NULL,NULL,NULL,NULL,NULL
+168,2,CPS/ŚRO,Centrum Pomocy Społecznej Dzielnicy Śródmieście im. prof. Andrzeja Tymowskiego,1,1,2014-02-19 11:09,209,2014-03-17 14:58,9,ul.Konwiktorska,03-V,00-217,146349028,Centrum Pomocy Społecznej Dzielnicy Śródmieście im. prof. Andrzeja Tymowskiego,1,NULL,NULL,NULL,1432
+169,2,ŚDS/ŻOL,Środowiskowy Dom Samopomocy w Warszawie przy ul. Rydygiera 3,1,1,2014-02-19 11:20,209,2014-03-17 14:57,18,ul.Rydygiera,3,01-793,146412755,Środowiskowy Dom Samopomocy w Warszawie przy ul. Rydygiera 3,1,NULL,NULL,NULL,1800
+170,2,ŚDS/TAR,Środowiskowy Dom Samopomocy ''Na Targówku'',1,1,2014-02-19 11:24,209,2014-03-03 09:48,10,ul.Św. Wincentego,85,03-291,146412985,Środowiskowy Dom Samopomocy ''Na Targówku'',1,NULL,NULL,NULL,1522
+171,2,ŚDS/OCH,Środowiskowy Dom Samopomocy ''POD SKRZYDŁAMI'',1,1,2014-02-19 11:25,209,2014-03-28 13:53,5,ul.Grójecka,109,02-120,146413022,Środowiskowy Dom Samopomocy ''POD SKRZYDŁAMI'',1,NULL,NULL,NULL,1248
+172,2,,Bielański Środowiskowy Dom Samopomocy,1,1,2014-02-25 12:38,209,2014-03-17 14:55,3,ul. Grębałowska,14,01-808,146415452,Bielański Środowiskowy Dom Samopomocy,1,NULL,NULL,NULL,1075
+173,2,PPP/BEM,Poradnia Psychologiczno - Pedagogiczna Nr 20,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Poradnia Psychologiczno - Pedagogiczna,NULL,NULL,NULL,NULL,1007
+174,2,GI81/BEM,Gimnazjum Nr 81,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Gimnazjum Nr 81,NULL,NULL,NULL,NULL,1008
+175,2,GI82/BEM,Gimnazjum Nr 82,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Gimnazjum Nr 82,NULL,NULL,NULL,NULL,1009
+176,2,GI83/BEM,Gimnazjum Nr 83,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Gimnazjum Nr 83,NULL,NULL,NULL,NULL,1010
+177,2,PS205/BEM,Przedszkole Nr 205,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 205,NULL,NULL,NULL,NULL,1012
+178,2,PS214/BEM,Przedszkole Nr 214,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 214,NULL,NULL,NULL,NULL,1013
+179,2,PS216/BEM,Przedszkole Nr 216,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 216,NULL,NULL,NULL,NULL,1014
+180,2,PS215/BEM,Przedszkole Nr 215,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 215,NULL,NULL,NULL,NULL,1015
+181,2,PS222/BEM,Przedszkole Nr 222,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 222,NULL,NULL,NULL,NULL,1016
+182,2,PS319/BEM,Przedszkole Nr 319,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 319,NULL,NULL,NULL,NULL,1017
+183,2,PS320/BEM,Przedszkole Nr 320,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 320,NULL,NULL,NULL,NULL,1018
+184,2,PS336/BEM,Przedszkole Nr 336,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 336,NULL,NULL,NULL,NULL,1019
+185,2,PS337/BEM,Przedszkole Nr 337,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 337,NULL,NULL,NULL,NULL,1020
+186,2,PS371/BEM,Przedszkole Nr 371,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 371,NULL,NULL,NULL,NULL,1021
+187,2,PS381/BEM,Przedszkole Nr 381,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 381,NULL,NULL,NULL,NULL,NULL
+188,2,PS389/BEM,Przedszkole Nr 389,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 389,NULL,NULL,NULL,NULL,NULL
+189,2,PS390/BEM,Przedszkole Nr 390,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 390,NULL,NULL,NULL,NULL,1022
+190,2,PS402/BEM,Przedszkole Nr 402,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 402,NULL,NULL,NULL,NULL,1023
+191,2,PS406/BEM,Przedszkole Nr 406,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 406,NULL,NULL,NULL,NULL,1024
+192,2,PS415/BEM,Przedszkole Nr 415,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 415,NULL,NULL,NULL,NULL,1025
+193,2,PS417/BEM,Przedszkole Nr 417,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 417,NULL,NULL,NULL,NULL,1026
+194,2,PS63/BEM,Przedszkole Nr 63,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 63,NULL,NULL,NULL,NULL,1027
+195,2,PS98/BEM,Przedszkole Nr 98,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr 98,NULL,NULL,NULL,NULL,1028
+196,2,PS75/BEM,Przedszkole Nr75,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Przedszkole Nr75,NULL,NULL,NULL,NULL,1029
+197,2,SP306/BEM,Szkoła Podstawowa Nr 306,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Szkoła Podstawowa Nr 306,NULL,NULL,NULL,NULL,1030
+198,2,SP316/BEM,Szkoła Podstawowa Nr 316,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Szkoła Podstawowa Nr 316,NULL,NULL,NULL,NULL,NULL
+199,2,SP/321/BEM,Zespół Szkolno-Przedszkolny Nr 7,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Zespół Szkolno-Przedszkolny Nr 7,NULL,NULL,NULL,NULL,1036
+200,2,SP341/BEM,Szkoła Podstawowa Nr 341,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Szkoła Podstawowa Nr 341,NULL,NULL,NULL,NULL,1031
+201,2,SP82/BEM,Szkoła Podstawowa Nr 82,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Szkoła Podstawowa Nr 82,NULL,NULL,NULL,NULL,1033
+202,2,ZSP2/BEM,Zespół Szkolno - Przedszkolny Nr 2,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Zespół Szkolno - Przedszkolny Nr 2,NULL,NULL,NULL,NULL,1034
+203,2,ZS46/BEM,Zespół Szkół Nr 46,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Zespół Szkół Nr 46,NULL,NULL,NULL,NULL,1037
+204,2,ZS47/BEM,Zespół Szkół Nr 47,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Zespół Szkół Nr 47,NULL,NULL,NULL,NULL,NULL
+205,2,ZS48/BEM,Zespół Szkół Nr 48,1,1,2014-03-27 12:00,NULL,NULL,30,,,,,Zespół Szkół Nr 48,NULL,NULL,NULL,NULL,1038
+206,2,GI121/BIA,Gimnazjum nr 121 im. Wojciecha Zawadzkiego,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Gimnazjum nr 121 im. Wojciecha Zawadzkiego,NULL,NULL,NULL,NULL,1044
+207,2,GI123/BIA,Gimnazjum nr 123 z Oddziałami Dwujęzycznymi i Oddziałami Integracyjnymi im. Jana Pawła II,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Gimnazjum nr 123 z Oddziałami Dwujęzycznymi i Oddziałami Integracyjnymi im. Jana Pawła II,NULL,NULL,NULL,NULL,1045
+208,2,GI124/BIA,Gimnazjum nr 124 im. Polskich Noblistów,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Gimnazjum nr 124 im. Polskich Noblistów,NULL,NULL,NULL,NULL,1046
+209,2,GI164/BIA,Gimnazjum nr 164 z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Gimnazjum nr 164 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1047
+210,2,PPP21/BIA,Poradnia Psychologiczno-Pedagogiczna nr 21,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Poradnia Psychologiczno-Pedagogiczna nr 21,NULL,NULL,NULL,NULL,1048
+211,2,PS192/BIA,"Przedszkole nr 192 ""Wesoły Pędzelek""",1,1,2014-03-27 12:00,NULL,NULL,35,,,,,"Przedszkole nr 192 ""Wesoły Pędzelek""",NULL,NULL,NULL,NULL,1049
+212,2,PS414/BIA,Przedszkole nr 414,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Przedszkole nr 414,NULL,NULL,NULL,NULL,1050
+213,2,PS64/BIA,Przedszkole nr 64 im. Przyjaciół Kubusia Puchatka,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Przedszkole nr 64 im. Przyjaciół Kubusia Puchatka,NULL,NULL,NULL,NULL,1051
+214,2,PS76/BIA,Przedszkole nr 76 im. Warsa i Sawy,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Przedszkole nr 76 im. Warsa i Sawy,NULL,NULL,NULL,NULL,1052
+215,2,PS226/BIA,"Przedszkole z Oddziałami Integracyjnymi nr 226 ""Małego Europejczyka""",1,1,2014-03-27 12:00,NULL,NULL,35,,,,,"Przedszkole z Oddziałami Integracyjnymi nr 226 ""Małego Europejczyka""",NULL,NULL,NULL,NULL,1053
+216,2,PS65/BIA,"Przedszkole z Oddziałami Integracyjnymi nr 65 ""Tarchominek""",1,1,2014-03-27 12:00,NULL,NULL,35,,,,,"Przedszkole z Oddziałami Integracyjnymi nr 65 ""Tarchominek""",NULL,NULL,NULL,NULL,1054
+217,2,SP110/BIA,Szkoła Podstawowa nr 110 im. K. Jeżewskiego,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 110 im. K. Jeżewskiego,NULL,NULL,NULL,NULL,1055
+218,2,SP112/BIA,Szkoła Podstawowa nr 112 z Oddziałami Integracyjnymi im. Marii Kownackiej,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 112 z Oddziałami Integracyjnymi im. Marii Kownackiej,NULL,NULL,NULL,NULL,1056
+219,2,SP118/BIA,Szkoła Podstawowa nr 118 im. Przyjaciół Mazowsza,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 118 im. Przyjaciół Mazowsza,NULL,NULL,NULL,NULL,1057
+220,2,SP154/BIA,Szkoła Podstawowa nr 154 z Oddziałami Integracyjnymi im. Pawła Edmunda Strzeleckiego,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 154 z Oddziałami Integracyjnymi im. Pawła Edmunda Strzeleckiego,NULL,NULL,NULL,NULL,1058
+221,2,SP231/BIA,Szkoła Podstawowa nr 231 im. gen. Mariusza Zaruskiego,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 231 im. gen. Mariusza Zaruskiego,NULL,NULL,NULL,NULL,1059
+222,2,SP257/BIA,Szkoła Podstawowa nr 257 im. prof. M. Falskiego,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 257 im. prof. M. Falskiego,NULL,NULL,NULL,NULL,1060
+223,2,SP314/BIA,Szkoła Podstawowa nr 314 im. Przyjaciół Ziemi,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa nr 314 im. Przyjaciół Ziemi,NULL,NULL,NULL,NULL,1061
+224,2,SP342/BIA,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 342 im. Jana Marcina Szancera,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 342 im. Jana Marcina Szancera,NULL,NULL,NULL,NULL,1062
+225,2,SP344/BIA,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 344 im. Powstania Warszawskiego,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 344 im. Powstania Warszawskiego,NULL,NULL,NULL,NULL,1063
+226,2,ZS106/BIA,Zespół Szkół nr 106,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Zespół Szkół nr 106,NULL,NULL,NULL,NULL,1066
+227,2,ZS43/BIA,Zespół Szkół nr 43,1,1,2014-03-27 12:00,NULL,NULL,35,,,,,Zespół Szkół nr 43,NULL,NULL,NULL,NULL,1067
+228,2,BCEK/BIE,Bielańskie Centrum Edukacji Kulturalnej ,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Bielańskie Centrum Edukacji Kulturalnej ,NULL,NULL,NULL,NULL,1074
+229,2,GI72/BIE,Gimnazjum Nr 72 im. A.B. Dobrowolskiego,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Gimnazjum Nr 72 im. A.B. Dobrowolskiego,NULL,NULL,NULL,NULL,1076
+230,2,GI73/BIE,Gimnazjum Nr 73 im. J.H. Wagnera,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Gimnazjum Nr 73 im. J.H. Wagnera,NULL,NULL,NULL,NULL,1077
+231,2,MDK/BIE,Młodzieżowy Dom Kultury,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Młodzieżowy Dom Kultury,NULL,NULL,NULL,NULL,1079
+232,2,MDKMG/BIE,Młodzieżowy Dom kultury im. Marii Gwizdak,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Młodzieżowy Dom kultury im. Marii Gwizdak,NULL,NULL,NULL,NULL,1080
+233,2,PPP10/BIE,Poradnia Psychologiczno Pedagogiczna Nr 10,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Poradnia Psychologiczno Pedagogiczna Nr 10,NULL,NULL,NULL,NULL,1081
+234,2,PS105/BIE,Przedszkole Nr 105 „Wesoła Stopiątka”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 105 „Wesoła Stopiątka”,NULL,NULL,NULL,NULL,1082
+235,2,PS181/BIE,Przedszkole Nr 181 „Wesołe Nutki”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 181 „Wesołe Nutki”,NULL,NULL,NULL,NULL,1083
+236,2,PS182/BIE,Przedszkole Nr 182 „ Tajemniczy Ogród”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 182 „ Tajemniczy Ogród”,NULL,NULL,NULL,NULL,1084
+237,2,PS236/BIE,Przedszkole Nr 236 „Mali Odkrywcy”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 236 „Mali Odkrywcy”,NULL,NULL,NULL,NULL,1085
+238,2,PS240/BIE,Przedszkole Nr 240 im. Polskich Olimpijczyków,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 240 im. Polskich Olimpijczyków,NULL,NULL,NULL,NULL,1086
+239,2,PS268/BIE,Przedszkole Nr 268 „Słoneczny Promyk”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 268 „Słoneczny Promyk”,NULL,NULL,NULL,NULL,1087
+240,2,PS271/BIE,Przedszkole Nr 271 „Wróbelka Elemelka”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 271 „Wróbelka Elemelka”,NULL,NULL,NULL,NULL,1088
+241,2,PS272/BIE,Przedszkole Nr 272 „ Misia Uszatka”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 272 „ Misia Uszatka”,NULL,NULL,NULL,NULL,1089
+242,2,PS287/BIE,Przedszkole Nr 287 „Piotrusia Pana”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 287 „Piotrusia Pana”,NULL,NULL,NULL,NULL,1090
+243,2,PS301/BIE,Przedszkole Nr 301 „Zaczarowany Świat”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 301 „Zaczarowany Świat”,NULL,NULL,NULL,NULL,1091
+244,2,PS306/BIE,Przedszkole Nr 306,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 306,NULL,NULL,NULL,NULL,1092
+245,2,PS307/BIE,Przedszkole Nr 307 „Wesołe Ekoludki”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 307 „Wesołe Ekoludki”,NULL,NULL,NULL,NULL,1093
+246,2,PS308/BIE,Przedszkole Nr 308 „Krasnala Hałabały”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 308 „Krasnala Hałabały”,NULL,NULL,NULL,NULL,1094
+247,2,PS309/BIE,Przedszkole Nr 309 z Oddziałami Integracyjnymi „Baśniowa Kraina”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 309 z Oddziałami Integracyjnymi „Baśniowa Kraina”,NULL,NULL,NULL,NULL,1095
+248,2,PS318/BIE,Przedszkole Nr 318 „Zielony Zakątek”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 318 „Zielony Zakątek”,NULL,NULL,NULL,NULL,1096
+249,2,PS327/BIE,Przedszkole Nr 327 „Kolorowa Kraina”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 327 „Kolorowa Kraina”,NULL,NULL,NULL,NULL,1097
+250,2,PS328/BIE,Przedszkole Nr 328 „Akademia pod Czereśnią”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 328 „Akademia pod Czereśnią”,NULL,NULL,NULL,NULL,1098
+251,2,PS334/BIE,Przedszkole Nr 334 „Jasia i Małgosi”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 334 „Jasia i Małgosi”,NULL,NULL,NULL,NULL,1099
+252,2,PS340/BIE,Przedszkole Nr 340 „Kasztanowego Ludka”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 340 „Kasztanowego Ludka”,NULL,NULL,NULL,NULL,1100
+253,2,PS346/BIE,Przedszkole Nr 346 „Pod Kasztanem”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 346 „Pod Kasztanem”,NULL,NULL,NULL,NULL,1101
+254,2,PS364/BIE,Przedszkole Nr 364 „Pod Tęczą”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 364 „Pod Tęczą”,NULL,NULL,NULL,NULL,1102
+255,2,PS39/BIE,Przedszkole Nr 39 „Pod Topolami”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 39 „Pod Topolami”,NULL,NULL,NULL,NULL,1103
+256,2,PS409/BIE,Przedszkole Nr 409 „Królestwo Maciusia I”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 409 „Królestwo Maciusia I”,NULL,NULL,NULL,NULL,1104
+257,2,PS49/BIE,Przedszkole Nr 49 „Pluszowy Miś”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 49 „Pluszowy Miś”,NULL,NULL,NULL,NULL,1105
+258,2,PS97/BIE,Przedszkole Nr 97 „Leśna Polanka”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Nr 97 „Leśna Polanka”,NULL,NULL,NULL,NULL,1106
+259,2,PS245/BIE,Przedszkole Specjalne Nr 245 „Sowy Mądrej Głowy”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole Specjalne Nr 245 „Sowy Mądrej Głowy”,NULL,NULL,NULL,NULL,1107
+260,2,PS341/BIE,Przedszkole z Oddziałami Integracyjnymi Nr  341 „Kota Filemona”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Przedszkole z Oddziałami Integracyjnymi Nr  341 „Kota Filemona”,NULL,NULL,NULL,NULL,1108
+261,2,SP133/BIE,Szkoła Podstawowa Nr 133 im. S. Czarneckiego,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 133 im. S. Czarneckiego,NULL,NULL,NULL,NULL,1111
+262,2,SP187/BIE,Szkoła Podstawowa Nr 187 im. A. Mickiewicza,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 187 im. A. Mickiewicza,NULL,NULL,NULL,NULL,1112
+263,2,SP209/BIE,Szkoła Podstawowa Nr 209 im. H. Ordonówny,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 209 im. H. Ordonówny,NULL,NULL,NULL,NULL,1113
+264,2,SP273/BIE,Szkoła Podstawowa Nr 273 im. dr A. Landy,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 273 im. dr A. Landy,NULL,NULL,NULL,NULL,1114
+265,2,SP289/BIE,Szkoła Podstawowa Nr 289 im. H. Sienkiewicza,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 289 im. H. Sienkiewicza,NULL,NULL,NULL,NULL,1115
+266,2,SP293/BIE,Szkoła Podstawowa Nr 293 im. J. Kochanowskiego,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 293 im. J. Kochanowskiego,NULL,NULL,NULL,NULL,1116
+267,2,SP53/BIE,Szkoła Podstawowa Nr 53 im. M. Zarsukiego,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 53 im. M. Zarsukiego,NULL,NULL,NULL,NULL,1117
+268,2,SP77/BIE,Szkoła Podstawowa Nr 77 im. W. Zieleńczyk,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 77 im. W. Zieleńczyk,NULL,NULL,NULL,NULL,1118
+269,2,SP80/BIE,Szkoła Podstawowa Nr 80 im. M. Kownackiej,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 80 im. M. Kownackiej,NULL,NULL,NULL,NULL,1119
+270,2,SP223/BIE,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 223 im. Partyzantów Ziemi Kieleckie,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 223 im. Partyzantów Ziemi Kieleckie,NULL,NULL,NULL,NULL,1120
+271,2,SP247/BIE,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 247 im. K. Lisieckiego „Dziadka”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 247 im. K. Lisieckiego „Dziadka”,NULL,NULL,NULL,NULL,1121
+272,2,SP352/BIE,Szkoła Podstawowa Nr 352,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Szkoła Podstawowa Nr 352,NULL,NULL,NULL,NULL,NULL
+273,2,LOXXII/BIE,XXII LO z Oddziałami Dwujęzycznymi im. Jose Marii,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,XXII LO z Oddziałami Dwujęzycznymi im. Jose Marii,NULL,NULL,NULL,NULL,1122
+274,2,ZS10/BIE,Zespół Szkół Nr 10 im. Stanisława Staszica,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 10 im. Stanisława Staszica,NULL,NULL,NULL,NULL,1123
+275,2,ZS110/BIE,Zespół Szkół Nr 110,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 110,NULL,NULL,NULL,NULL,1124
+276,2,ZS18/BIE,Zespół Szkół Nr 18,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 18,NULL,NULL,NULL,NULL,1125
+277,2,ZS35/BIE,Zespół Szkół Nr 35 im. Zofii Jaroszewicz „Kasi”,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 35 im. Zofii Jaroszewicz „Kasi”,NULL,NULL,NULL,NULL,1126
+278,2,ZS49/BIE,Zespół Szkół Nr 49,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 49,NULL,NULL,NULL,NULL,1127
+279,2,ZS51/BIE,Zespół Szkół Nr 51 im. I. Domeyki,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 51 im. I. Domeyki,NULL,NULL,NULL,NULL,1128
+280,2,ZS52/BIE,Zespół Szkół Nr 52,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 52,NULL,NULL,NULL,NULL,1129
+281,2,ZS55/BIE,Zespół Szkół Nr 55 im. Gen. S. Maczka,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 55 im. Gen. S. Maczka,NULL,NULL,NULL,NULL,1130
+282,2,ZSS50/BIE,Zespół Szkół Sportowych Nr 50 im. J. Kusocińskiego,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Sportowych Nr 50 im. J. Kusocińskiego,NULL,NULL,NULL,NULL,1131
+283,2,ZS56/BIE,Zespół Szkół z Oddziałami Integracyjnymi Nr 56 ,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół z Oddziałami Integracyjnymi Nr 56 ,NULL,NULL,NULL,NULL,1132
+284,2,ZS118/BIE,Zespół Szkół Nr 118,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 118,NULL,NULL,NULL,NULL,1133
+285,2,ZS119/BIE,Zespół Szkół Nr 119,1,1,2014-03-27 12:00,NULL,NULL,39,,,,,Zespół Szkół Nr 119,NULL,NULL,NULL,NULL,1134
+286,2,GI1/MOK,Gimnazjum nr 1 z Oddziałami Dwujęzycznymi im. Roberta Schumana,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 1 z Oddziałami Dwujęzycznymi im. Roberta Schumana,NULL,NULL,NULL,NULL,1140
+287,2,GI10/MOK,Gimnazjum nr 10 im. gen. Władysława Sikorskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 10 im. gen. Władysława Sikorskiego,NULL,NULL,NULL,NULL,1141
+288,2,GI11/MOK,Gimnazjum nr 11 im. Ignacego Jana Paderewskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 11 im. Ignacego Jana Paderewskiego,NULL,NULL,NULL,NULL,1142
+289,2,GI2/MOK,Gimnazjum nr 2 im. Kawalerów Orderu Wojennego Virtuti Militari,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 2 im. Kawalerów Orderu Wojennego Virtuti Militari,NULL,NULL,NULL,NULL,1143
+290,2,GI3/MOK,Gimnazjum nr 3 im. Marszałka Józefa Piłsudskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 3 im. Marszałka Józefa Piłsudskiego,NULL,NULL,NULL,NULL,1144
+291,2,GI4/MOK,Gimnazjum nr 4 im. Władysława Broniewskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 4 im. Władysława Broniewskiego,NULL,NULL,NULL,NULL,1145
+292,2,GI5/MOK,Gimnazjum nr 5 im. Tadeusza Kościuszki,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 5 im. Tadeusza Kościuszki,NULL,NULL,NULL,NULL,1146
+293,2,GI6/MOK,Gimnazjum nr 6 im. Pułku Armii Krajowej „Baszta”,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 6 im. Pułku Armii Krajowej „Baszta”,NULL,NULL,NULL,NULL,1147
+294,2,GI7/MOK,Gimnazjum nr 7 z Oddziałami Integracyjnymi przy Łazienkach Królewskich,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum nr 7 z Oddziałami Integracyjnymi przy Łazienkach Królewskich,NULL,NULL,NULL,NULL,1148
+295,2,LOLXVII/MOK,LXVIII LO im. Tytusa Chałubińskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,LXVIII LO im. Tytusa Chałubińskiego,NULL,NULL,NULL,NULL,1149
+296,2,MDK/MOK,Młodzieżowy Dom Kultury,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Młodzieżowy Dom Kultury,NULL,NULL,NULL,NULL,1150
+297,2,OPP/MOK,Ognisko Pracy Pozaszkolnej,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Ognisko Pracy Pozaszkolnej,NULL,NULL,NULL,NULL,1151
+298,2,OPP175/MOK,Ognisko Pracy Pozaszkolnej 175,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Ognisko Pracy Pozaszkolnej 175,NULL,NULL,NULL,NULL,1152
+299,2,OPPSP212/MOK,Ognisko Pracy Pozaszkolnej przy Szkole Podstawowej nr 212,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Ognisko Pracy Pozaszkolnej przy Szkole Podstawowej nr 212,NULL,NULL,NULL,NULL,1153
+300,2,OPPSP70/MOK,"Ognisko Pracy Pozaszkolnej ""70""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Ognisko Pracy Pozaszkolnej ""70""",NULL,NULL,NULL,NULL,1154
+301,2,OJII/MOK,Ogród Jordanowski nr II,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Ogród Jordanowski nr II,NULL,NULL,NULL,NULL,1155
+302,2,OJXIII/MOK,Ogród Jordanowski nr XIII,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Ogród Jordanowski nr XIII,NULL,NULL,NULL,NULL,1156
+303,2,PPP7/MOK,Poradnia Psychologiczno - Pedagogiczna Nr 7,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Poradnia Psychologiczno - Pedagogiczna Nr 7,NULL,NULL,NULL,NULL,1157
+304,2,PPP8/MOK,Poradnia Psychologiczno - Pedagogiczna Nr 8,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Poradnia Psychologiczno - Pedagogiczna Nr 8,NULL,NULL,NULL,NULL,1158
+305,2,PS117/MOK,Przedszkole Integracyjne nr 117 „Przyjazna Kraina”,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole Integracyjne nr 117 „Przyjazna Kraina”,NULL,NULL,NULL,NULL,1159
+306,2,PS45/MOK,Przedszkole Integracyjne nr 45,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole Integracyjne nr 45,NULL,NULL,NULL,NULL,1160
+307,2,PS108/MOK,"Przedszkole nr 108 ""Tęczowy Promyk""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 108 ""Tęczowy Promyk""",NULL,NULL,NULL,NULL,1161
+308,2,PS138/MOK,Przedszkole nr 138,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 138,NULL,NULL,NULL,NULL,1162
+309,2,PS139/MOK,Przedszkole nr 139,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 139,NULL,NULL,NULL,NULL,1163
+310,2,PS140/MOK,Przedszkole nr 140,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 140,NULL,NULL,NULL,NULL,1164
+311,2,PS142/MOK,Przedszkole nr 142,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 142,NULL,NULL,NULL,NULL,1165
+312,2,PS144/MOK,"Przedszkole nr 144 ""Zaczarowany Ołówek""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 144 ""Zaczarowany Ołówek""",NULL,NULL,NULL,NULL,1166
+313,2,PS145/MOK,"Przedszkole nr 145 ""Czterolistna Koniczynka""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 145 ""Czterolistna Koniczynka""",NULL,NULL,NULL,NULL,1167
+314,2,PS146/MOK,Przedszkole nr 146,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 146,NULL,NULL,NULL,NULL,1168
+315,2,PS147/MOK,Przedszkole nr 147,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 147,NULL,NULL,NULL,NULL,1169
+316,2,PS148/MOK,Przedszkole nr 148,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 148,NULL,NULL,NULL,NULL,1170
+317,2,PS149/MOK,Przedszkole nr 149,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 149,NULL,NULL,NULL,NULL,1171
+318,2,PS151/MOK,Przedszkole nr 151,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 151,NULL,NULL,NULL,NULL,1172
+319,2,PS170/MOK,Przedszkole nr 170,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 170,NULL,NULL,NULL,NULL,1173
+320,2,PS189/MOK,Przedszkole nr 189,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 189,NULL,NULL,NULL,NULL,1174
+321,2,PS190/MOK,Przedszkole nr 190,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 190,NULL,NULL,NULL,NULL,1175
+322,2,PS191/MOK,Przedszkole nr 191 im. Marii Kownackiej,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 191 im. Marii Kownackiej,NULL,NULL,NULL,NULL,1176
+323,2,PS193/MOK,Przedszkole nr 193,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 193,NULL,NULL,NULL,NULL,1177
+324,2,PS196/MOK,"Przedszkole nr 196 ""Kraina Misiów""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 196 ""Kraina Misiów""",NULL,NULL,NULL,NULL,1178
+325,2,PS199/MOK,Przedszkole nr 199,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 199,NULL,NULL,NULL,NULL,1179
+326,2,PS228/MOK,Przedszkole nr 228,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 228,NULL,NULL,NULL,NULL,1180
+327,2,PS244/MOK,"Przedszkole nr 244 ""Niegocińskie Skrzaty""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 244 ""Niegocińskie Skrzaty""",NULL,NULL,NULL,NULL,1181
+328,2,PS270/MOK,Przedszkole nr 270,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 270,NULL,NULL,NULL,NULL,1182
+329,2,PS274/MOK,Przedszkole nr 274,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 274,NULL,NULL,NULL,NULL,1183
+330,2,PS275/MOK,Przedszkole nr 275,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 275,NULL,NULL,NULL,NULL,1184
+331,2,PS278/MOK,Przedszkole nr 278,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 278,NULL,NULL,NULL,NULL,1185
+332,2,PS28/MOK,Przedszkole nr 28,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 28,NULL,NULL,NULL,NULL,1186
+333,2,PS284/MOK,Przedszkole nr 284,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 284,NULL,NULL,NULL,NULL,1187
+334,2,PS294/MOK,Przedszkole nr 294,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 294,NULL,NULL,NULL,NULL,1188
+335,2,PS299/MOK,"Przedszkole nr 299 ""Bernardyńskie Krasnale""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 299 ""Bernardyńskie Krasnale""",NULL,NULL,NULL,NULL,1189
+336,2,PS300/MOK,Przedszkole nr 300,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 300,NULL,NULL,NULL,NULL,1190
+337,2,PS305/MOK,Przedszkole nr 305,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 305,NULL,NULL,NULL,NULL,1191
+338,2,PS311/MOK,Przedszkole nr 311 „Sadybiańskie Świerszcze”,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 311 „Sadybiańskie Świerszcze”,NULL,NULL,NULL,NULL,1192
+339,2,PS317/MOK,"Przedszkole nr 317 ""Smykolandia""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 317 ""Smykolandia""",NULL,NULL,NULL,NULL,1193
+340,2,PS325/MOK,Przedszkole nr 325,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 325,NULL,NULL,NULL,NULL,1194
+341,2,PS326/MOK,"Przedszkole z Oddziałami Integracyjnymi nr 326 ""Chatka Skrzatka""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole z Oddziałami Integracyjnymi nr 326 ""Chatka Skrzatka""",NULL,NULL,NULL,NULL,1195
+342,2,PS330/MOK,Przedszkole nr 330,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 330,NULL,NULL,NULL,NULL,1196
+343,2,PS344/MOK,Przedszkole nr 344,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 344,NULL,NULL,NULL,NULL,1197
+344,2,PS349/MOK,"Przedszkole nr 349 ""Barcelonka""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 349 ""Barcelonka""",NULL,NULL,NULL,NULL,1198
+345,2,PS360/MOK,"Przedszkole nr 360 ""Słoneczny Domek""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 360 ""Słoneczny Domek""",NULL,NULL,NULL,NULL,1199
+346,2,PS391/MOK,Przedszkole nr 391,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 391,NULL,NULL,NULL,NULL,1200
+347,2,PS67/MOK,"Przedszkole nr 67 ""Służewiaczek""",1,1,2014-03-27 12:00,NULL,NULL,44,,,,,"Przedszkole nr 67 ""Służewiaczek""",NULL,NULL,NULL,NULL,1201
+348,2,PS69/MOK,Przedszkole nr 69,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 69,NULL,NULL,NULL,NULL,1202
+349,2,PS80/MOK,Przedszkole nr 80,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 80,NULL,NULL,NULL,NULL,1203
+350,2,PS83/MOK,Przedszkole nr 83,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole nr 83,NULL,NULL,NULL,NULL,1204
+351,2,PS188/MOK,Przedszkole Specjalne dla Dzieci Słabowidzących nr 188,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole Specjalne dla Dzieci Słabowidzących nr 188,NULL,NULL,NULL,NULL,1205
+352,2,PS393/MOK,Przedszkole Specjalne nr 393,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Przedszkole Specjalne nr 393,NULL,NULL,NULL,NULL,1206
+353,2,SP103/MOK,Szkoła Podstawowa nr 103 im. Bohaterów Warszawy 1939-1945,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 103 im. Bohaterów Warszawy 1939-1945,NULL,NULL,NULL,NULL,1207
+354,2,SP107/MOK,Szkoła Podstawowa nr 107 im. Bronisława Malinowskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 107 im. Bronisława Malinowskiego,NULL,NULL,NULL,NULL,1208
+355,2,SP115/MOK,Szkoła Podstawowa nr 115 im. Wandy Turowskiej,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 115 im. Wandy Turowskiej,NULL,NULL,NULL,NULL,1209
+356,2,SP119/MOK,Szkoła Podstawowa nr 119 im. 3 Berlińskiego Pułku Piechoty,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 119 im. 3 Berlińskiego Pułku Piechoty,NULL,NULL,NULL,NULL,1210
+357,2,SP146/MOK,Szkoła Podstawowa nr 146,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 146,NULL,NULL,NULL,NULL,1211
+358,2,SP157/MOK,Szkoła Podstawowa nr 157 im. Adama Mickiewicza,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 157 im. Adama Mickiewicza,NULL,NULL,NULL,NULL,1212
+359,2,SP190/MOK,Szkoła Podstawowa nr 190 im. Orła Białego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 190 im. Orła Białego,NULL,NULL,NULL,NULL,1213
+360,2,SP191/MOK,Szkoła Podstawowa nr 191 im. Józefa Ignacego Kraszewskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 191 im. Józefa Ignacego Kraszewskiego,NULL,NULL,NULL,NULL,1214
+361,2,SP202/MOK,Szkoła Podstawowa nr 202 im. 34 Pułku Strzelców Budziszyńskich,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 202 im. 34 Pułku Strzelców Budziszyńskich,NULL,NULL,NULL,NULL,1215
+362,2,SP205/MOK,Szkoła Podstawowa nr 205 im. Żołnierzy Powstania Warszawskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 205 im. Żołnierzy Powstania Warszawskiego,NULL,NULL,NULL,NULL,1216
+363,2,SP212/MOK,Szkoła Podstawowa nr 212 im. Krystyny Krahelskiej,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 212 im. Krystyny Krahelskiej,NULL,NULL,NULL,NULL,1217
+364,2,SP260/MOK,Szkoła Podstawowa nr 260 im. Jana Matejki,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 260 im. Jana Matejki,NULL,NULL,NULL,NULL,1218
+365,2,SP271/MOK,Szkoła Podstawowa nr 271 im. 11 Listopada,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 271 im. 11 Listopada,NULL,NULL,NULL,NULL,1219
+366,2,SP307/MOK,Szkoła Podstawowa nr 307 im. Jana III Sobieskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 307 im. Jana III Sobieskiego,NULL,NULL,NULL,NULL,1220
+367,2,SP33/MOK,Szkoła Podstawowa nr 33 im. Wojsk Obrony Powietrznej Kraju,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 33 im. Wojsk Obrony Powietrznej Kraju,NULL,NULL,NULL,NULL,1221
+368,2,SP46/MOK,Szkoła Podstawowa nr 46 im. Stefana Starzyńskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 46 im. Stefana Starzyńskiego,NULL,NULL,NULL,NULL,1222
+369,2,SP69/MOK,Szkoła Podstawowa nr 69 im. Teodora Duracza,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 69 im. Teodora Duracza,NULL,NULL,NULL,NULL,1223
+370,2,SP70/MOK,Szkoła Podstawowa nr 70 z Oddziałami Integracyjnymi im. Bohaterów Monte Cassino,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 70 z Oddziałami Integracyjnymi im. Bohaterów Monte Cassino,NULL,NULL,NULL,NULL,1224
+371,2,SP85/MOK,Szkoła Podstawowa nr 85 im. Benito Juareza,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 85 im. Benito Juareza,NULL,NULL,NULL,NULL,1225
+372,2,SP98/MOK,Szkoła Podstawowa nr 98 z Oddziałami Integracyjnymi im. Lucy Maud Montgomery,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Szkoła Podstawowa nr 98 z Oddziałami Integracyjnymi im. Lucy Maud Montgomery,NULL,NULL,NULL,NULL,1226
+373,2,LOX/MOK,X Liceum Ogólnokształcące im. Królowej Jadwigi,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,X Liceum Ogólnokształcące im. Królowej Jadwigi,NULL,NULL,NULL,NULL,1227
+374,2,LOXLII/MOK,XLII LO im. Marii Konopnickiej,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,XLII LO im. Marii Konopnickiej,NULL,NULL,NULL,NULL,1228
+375,2,LOXLIII/MOK,XLIII LO im. Kazimierza Wielkiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,XLIII LO im. Kazimierza Wielkiego,NULL,NULL,NULL,NULL,1229
+376,2,LOXLIV/MOK,XLIV LO im. Antoniego Dobiszewskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,XLIV LO im. Antoniego Dobiszewskiego,NULL,NULL,NULL,NULL,1230
+377,2,LOXLIX/MOK,XLIX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im Johanna Wolfganga Goethego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,XLIX Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im Johanna Wolfganga Goethego,NULL,NULL,NULL,NULL,1231
+378,2,LOXXVIII/MOK,XXVIII LO im. Jana Kochanowskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,XXVIII LO im. Jana Kochanowskiego,NULL,NULL,NULL,NULL,1232
+379,2,LOXXXIV/MOK,XXXIV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Miguela de Cervantesa,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,XXXIV Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Miguela de Cervantesa,NULL,NULL,NULL,NULL,1233
+380,2,ZSP1/MOK,Zespół Szkolno - Przedszkolny Nr 1,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkolno - Przedszkolny Nr 1,NULL,NULL,NULL,NULL,1234
+381,2,ZSHTG1/MOK,Zespół Szkół Hotelarsko- Turystyczno-Gastronomicznych Nr 1,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół Hotelarsko- Turystyczno-Gastronomicznych Nr 1,NULL,NULL,NULL,NULL,1235
+382,2,ZSI62/MOK,Zespół Szkół Integracyjnych nr 62 im. Raoula Wallenberga,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół Integracyjnych nr 62 im. Raoula Wallenberga,NULL,NULL,NULL,NULL,1236
+383,2,ZSLT1/MOK,Zespół Szkół Licealnych i Technicznych Nr 1,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół Licealnych i Technicznych Nr 1,NULL,NULL,NULL,NULL,1237
+384,2,LOLXV/MOK,LXV Liceum Ogólnokształcące z Oddziałami Integracyjnymi im.gen.Józefa Bema,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,LXV Liceum Ogólnokształcące z Oddziałami Integracyjnymi im.gen.Józefa Bema,NULL,NULL,NULL,NULL,1238
+385,2,ZS27/MOK,Zespół Szkół Nr 27,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół Nr 27,NULL,NULL,NULL,NULL,1239
+386,2,ZS28/MOK,Zespół Szkół nr 28,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół nr 28,NULL,NULL,NULL,NULL,1240
+387,2,ZS3/MOK,Zespół Szkół nr 3 im. 2 Armii Wojska Polskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół nr 3 im. 2 Armii Wojska Polskiego,NULL,NULL,NULL,NULL,1241
+388,2,ZS39/MOK,Zespół Szkół nr 39 im. prof. Edmunda Jankowskiego,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół nr 39 im. prof. Edmunda Jankowskiego,NULL,NULL,NULL,NULL,1242
+389,2,ZS59/MOK,Zespół Szkół nr 59,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół nr 59,NULL,NULL,NULL,NULL,1243
+390,2,ZS61/MOK,Zespół Szkół nr 61 im. Tadeusza Reytana,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół nr 61 im. Tadeusza Reytana,NULL,NULL,NULL,NULL,1244
+391,2,ZSOFK22/MOK,Zespół Szkół Odzieżowych Fryzjerskich i Kosmetycznych Nr 22,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół Odzieżowych Fryzjerskich i Kosmetycznych Nr 22,NULL,NULL,NULL,NULL,1245
+392,2,ZSS58/MOK,Zespół Szkół Sportowych nr 58,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Zespół Szkół Sportowych nr 58,NULL,NULL,NULL,NULL,1246
+393,2,CKU2/OCH,Centrum Kształcenia Ustawicznego Nr 2,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Centrum Kształcenia Ustawicznego Nr 2,NULL,NULL,NULL,NULL,1253
+394,2,GI15/OCH,"Gimnazjum Nr 15 im. gen. dyw. Stefana Roweckiego ""Grota""",1,1,2014-03-27 12:00,NULL,NULL,46,,,,,"Gimnazjum Nr 15 im. gen. dyw. Stefana Roweckiego ""Grota""",NULL,NULL,NULL,NULL,1254
+395,2,GI16/OCH,Gimnazjum Nr 16 z Oddziałami Integracyjnymi im. Obrońców Barykady Września 1939 roku,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Gimnazjum Nr 16 z Oddziałami Integracyjnymi im. Obrońców Barykady Września 1939 roku,NULL,NULL,NULL,NULL,1255
+396,2,GI14/OCH,Gimnazjum z Oddziałami Integracyjnymi Nr 14  im. Leopolda Staffa,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Gimnazjum z Oddziałami Integracyjnymi Nr 14  im. Leopolda Staffa,NULL,NULL,NULL,NULL,1256
+397,2,OJIII/OCH,III Ogród Jordanowski,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,III Ogród Jordanowski,NULL,NULL,NULL,NULL,1257
+398,2,MSOS7/OCH,Międzyszkolny Ośrodek Sportowy Nr 7,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Międzyszkolny Ośrodek Sportowy Nr 7,NULL,NULL,NULL,NULL,1258
+399,2,MDK/OCH,"Młodzieżowy Dom Kultury ""Ochota""",1,1,2014-03-27 12:00,NULL,NULL,46,,,,,"Młodzieżowy Dom Kultury ""Ochota""",NULL,NULL,NULL,NULL,1259
+400,2,PPP9/OCH,Poradnia Psychologiczno - Pedagogiczna Nr 9,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Poradnia Psychologiczno - Pedagogiczna Nr 9,NULL,NULL,NULL,NULL,1260
+401,2,PS404/OCH,Przedszkole Integracyjne  Nr 404 ,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Integracyjne  Nr 404 ,NULL,NULL,NULL,NULL,1261
+402,2,PS312/OCH,Przedszkole Integracyjne Nr 312 w Warszawie,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Integracyjne Nr 312 w Warszawie,NULL,NULL,NULL,NULL,1262
+403,2,PS100/OCH,Przedszkole Nr 100,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 100,NULL,NULL,NULL,NULL,1263
+404,2,PS101/OCH,Przedszkole Nr 101,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 101,NULL,NULL,NULL,NULL,1264
+405,2,PS111/OCH,Przedszkole Nr 111,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 111,NULL,NULL,NULL,NULL,1265
+406,2,PS114/OCH,Przedszkole Nr 114,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 114,NULL,NULL,NULL,NULL,1266
+407,2,PS176/OCH,Przedszkole Nr 176,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 176,NULL,NULL,NULL,NULL,1267
+408,2,PS225/OCH,Przedszkole Nr 225,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 225,NULL,NULL,NULL,NULL,1268
+409,2,PS239/OCH,Przedszkole Nr 239,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 239,NULL,NULL,NULL,NULL,1269
+410,2,PS241/OCH,Przedszkole Nr 241,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 241,NULL,NULL,NULL,NULL,1270
+411,2,PS248/OCH,Przedszkole Nr 248,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 248,NULL,NULL,NULL,NULL,1271
+412,2,PS255/OCH,Przedszkole Nr 255,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 255,NULL,NULL,NULL,NULL,1272
+413,2,PS293/OCH,Przedszkole Nr 293,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 293,NULL,NULL,NULL,NULL,1273
+414,2,PS315/OCH,Przedszkole Nr 315 im. Zbigniewa Rychlickiego,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 315 im. Zbigniewa Rychlickiego,NULL,NULL,NULL,NULL,1274
+415,2,PS59/OCH,Przedszkole Nr 59,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 59,NULL,NULL,NULL,NULL,1275
+416,2,PS61/OCH,Przedszkole Nr 61,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 61,NULL,NULL,NULL,NULL,1276
+417,2,PS66/OCH,Przedszkole Nr 66,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 66,NULL,NULL,NULL,NULL,1277
+418,2,PS99/OCH,Przedszkole Nr 99,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole Nr 99,NULL,NULL,NULL,NULL,1278
+419,2,PS102/OCH,Przedszkole z Oddziałami Integracyjnymi Nr 102 w Warszawie,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole z Oddziałami Integracyjnymi Nr 102 w Warszawie,NULL,NULL,NULL,NULL,1279
+420,2,PS70/OCH,Przedszkole z Oddziałami Integracyjnymi Nr 70,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Przedszkole z Oddziałami Integracyjnymi Nr 70,NULL,NULL,NULL,NULL,1280
+421,2,SP280/OCH,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 280 im. Tytusa Chałubińskiego ,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 280 im. Tytusa Chałubińskiego ,NULL,NULL,NULL,NULL,1281
+422,2,SP61/OCH,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 61 im. Juliana Przybosia ,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 61 im. Juliana Przybosia ,NULL,NULL,NULL,NULL,1282
+423,2,SP264/OCH,Szkoła Podstawowa Nr  264 im. Gabrieli Mistral,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa Nr  264 im. Gabrieli Mistral,NULL,NULL,NULL,NULL,1283
+424,2,SP10/OCH,Szkoła Podstawowa Nr 10 im. Grzegorza Piramowicza,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa Nr 10 im. Grzegorza Piramowicza,NULL,NULL,NULL,NULL,1284
+425,2,SP175/OCH,Szkoła Podstawowa Nr 175 im. Heleny Marusarzówny,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa Nr 175 im. Heleny Marusarzówny,NULL,NULL,NULL,NULL,1285
+426,2,SP23/OCH,Szkoła Podstawowa Nr 23  im. Edwarda Szymańskiego,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa Nr 23  im. Edwarda Szymańskiego,NULL,NULL,NULL,NULL,1286
+427,2,SP97/OCH,Szkoła Podstawowa Nr 97  im. Leona Kruczkowskiego,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Szkoła Podstawowa Nr 97  im. Leona Kruczkowskiego,NULL,NULL,NULL,NULL,1287
+428,2,LOVII/OCH,VII Liceum Ogólnokształcące  im. Juliusza Słowackiego,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,VII Liceum Ogólnokształcące  im. Juliusza Słowackiego,NULL,NULL,NULL,NULL,1288
+429,2,LOXLVIII/OCH,XLVIII Liceum Ogólnokształcące im. E. Dembowskiego,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,XLVIII Liceum Ogólnokształcące im. E. Dembowskiego,NULL,NULL,NULL,NULL,1289
+430,2,LOXXI/OCH,XXI Liceum Ogólnokształcące  im. Hugona Kołłątaja,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,XXI Liceum Ogólnokształcące  im. Hugona Kołłątaja,NULL,NULL,NULL,NULL,1290
+431,2,ZSKOL/OCH,"Zespół Szkół im. St. Wysockiego d.""Kolejówka""",1,1,2014-03-27 12:00,NULL,NULL,46,,,,,"Zespół Szkół im. St. Wysockiego d.""Kolejówka""",NULL,NULL,NULL,NULL,1291
+432,2,ZS26/OCH,Zespół Szkół Nr 26,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Zespół Szkół Nr 26,NULL,NULL,NULL,NULL,1292
+433,2,ZS4/OCH,Zespół Szkół Nr 4 im. Eugeniusza Kwiatkowskiego,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Zespół Szkół Nr 4 im. Eugeniusza Kwiatkowskiego,NULL,NULL,NULL,NULL,1293
+434,2,ZS82/OCH,Zespół Szkół Nr 82,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Zespół Szkół Nr 82,NULL,NULL,NULL,NULL,1294
+435,2,ZSSL1/OCH,Zespół Szkół Samochodowych i Licealnych Nr 1,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Zespół Szkół Samochodowych i Licealnych Nr 1,NULL,NULL,NULL,NULL,1295
+436,2,ZS83/OCH,Zespół Szkół Nr 83,1,1,2014-03-27 12:00,NULL,NULL,46,,,,,Zespół Szkół Nr 83,NULL,NULL,NULL,NULL,1296
+437,2,CKP/PRD,Centrum Kształcenia Zawodowego,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Centrum Kształcenia Zawodowego,NULL,NULL,NULL,NULL,1302
+438,2,CKU5/PRD,Centrum Kształcenia Ustawicznego Nr 5  ,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Centrum Kształcenia Ustawicznego Nr 5  ,NULL,NULL,NULL,NULL,1303
+439,2,GI18/PRD,Gimnazjum Nr 18,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Gimnazjum Nr 18,NULL,NULL,NULL,NULL,1304
+440,2,GI20/PRD,Gimnazjum Nr 20,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Gimnazjum Nr 20,NULL,NULL,NULL,NULL,1305
+441,2,GI22/PRD,Gimnazjum Nr 22,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Gimnazjum Nr 22,NULL,NULL,NULL,NULL,1306
+442,2,GI23/PRD,Gimnazjum Nr 23,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Gimnazjum Nr 23,NULL,NULL,NULL,NULL,1307
+443,2,GI27/PRD,Gimnazjum Nr 27,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Gimnazjum Nr 27,NULL,NULL,NULL,NULL,1308
+444,2,GI28/PRD,Gimnazjum Nr 28,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Gimnazjum Nr 28,NULL,NULL,NULL,NULL,1309
+445,2,LOIV/PRD,IV LO im. Adama Mickiewicza,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,IV LO im. Adama Mickiewicza,NULL,NULL,NULL,NULL,1310
+446,2,LOLXXII/PRD,LXXII Liceum Ogólnokształcące,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,LXXII Liceum Ogólnokształcące,NULL,NULL,NULL,NULL,1311
+447,2,MSOS2/PRD,Międzyszkolny Ośrodek Sportowy Nr 2,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Międzyszkolny Ośrodek Sportowy Nr 2,NULL,NULL,NULL,NULL,1312
+448,2,OPP1/PRD,Ognisko Pracy Pozaszkolnej Nr 1,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Ognisko Pracy Pozaszkolnej Nr 1,NULL,NULL,NULL,NULL,1313
+449,2,OPP2/PRD,Ognisko Pracy Pozaszkolnej Nr 2,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Ognisko Pracy Pozaszkolnej Nr 2,NULL,NULL,NULL,NULL,1314
+450,2,OPP3/PRD,Ognisko Pracy Pozaszkolnej Nr 3,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Ognisko Pracy Pozaszkolnej Nr 3,NULL,NULL,NULL,NULL,1315
+451,2,OPP4/PRD,Ognisko Pracy Pozaszkolnej Nr 4,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Ognisko Pracy Pozaszkolnej Nr 4,NULL,NULL,NULL,NULL,1316
+452,2,PPP16/PRD,Poradnia Psychologiczno-Pedagogiczna Nr 16,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 16,NULL,NULL,NULL,NULL,1317
+453,2,PPP4/PRD,Poradnia Psychologiczno-Pedagogiczna Nr 4,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 4,NULL,NULL,NULL,NULL,1318
+454,2,PS143/PRD,"Przedszkole nr 143 ""Mali Odkrywcy""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole nr 143 ""Mali Odkrywcy""",NULL,NULL,NULL,NULL,1319
+455,2,PS153/PRD,"Przedszkole Nr 153 ""Słoneczne Przedszkole""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 153 ""Słoneczne Przedszkole""",NULL,NULL,NULL,NULL,1320
+456,2,PS162/PRD,"Przedszkole Nr 162 ""Saski Zakątek""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 162 ""Saski Zakątek""",NULL,NULL,NULL,NULL,1321
+457,2,PS166/PRD,Przedszkole Nr 166,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 166,NULL,NULL,NULL,NULL,1322
+458,2,PS177/PRD,"Przedszkole Nr 177 ""Bajkowe Przedszkole""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 177 ""Bajkowe Przedszkole""",NULL,NULL,NULL,NULL,1323
+459,2,PS178/PRD,"Przedszkole Nr 178 ""Kolorowa Kraina""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 178 ""Kolorowa Kraina""",NULL,NULL,NULL,NULL,1324
+460,2,PS179/PRD,Przedszkole Nr 179,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 179,NULL,NULL,NULL,NULL,1325
+461,2,PS180/PRD,Przedszkole Nr 180,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 180,NULL,NULL,NULL,NULL,1326
+462,2,PS198/PRD,Przedszkole Nr 198,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 198,NULL,NULL,NULL,NULL,1327
+463,2,PS211/PRD,Przedszkole Nr 211 im. Kubusia Puchatka,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 211 im. Kubusia Puchatka,NULL,NULL,NULL,NULL,1328
+464,2,PS218/PRD,Przedszkole Nr 218,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 218,NULL,NULL,NULL,NULL,1329
+465,2,PS220/PRD,Przedszkole Nr 220,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 220,NULL,NULL,NULL,NULL,1330
+466,2,PS227/PRD,Przedszkole Nr 227,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 227,NULL,NULL,NULL,NULL,1331
+467,2,PS230/PRD,Przedszkole Nr 230,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 230,NULL,NULL,NULL,NULL,1332
+468,2,PS235/PRD,"Przedszkole Nr 235 ""Tęczowe Przedszkole""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 235 ""Tęczowe Przedszkole""",NULL,NULL,NULL,NULL,1333
+469,2,PS249/PRD,"Przedszkole Nr 249 ""S""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 249 ""S""",NULL,NULL,NULL,NULL,1334
+470,2,PS250/PRD,"Przedszkole Nr 250 ""Akwarelka""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 250 ""Akwarelka""",NULL,NULL,NULL,NULL,1335
+471,2,PS291/PRD,Przedszkole Nr 291,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 291,NULL,NULL,NULL,NULL,1336
+472,2,PS292/PRD,Przedszkole Nr 292,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 292,NULL,NULL,NULL,NULL,1337
+473,2,PS295/PRD,"Przedszkole Nr 295 ""Kraina Bajek""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 295 ""Kraina Bajek""",NULL,NULL,NULL,NULL,1338
+474,2,PS296/PRD,"Przedszkole Nr 296 ""Bajkowy Parasol""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 296 ""Bajkowy Parasol""",NULL,NULL,NULL,NULL,1339
+475,2,PS331/PRD,"Przedszkole Nr 331 ""U Słonia Szczęściarza""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 331 ""U Słonia Szczęściarza""",NULL,NULL,NULL,NULL,1340
+476,2,PS370/PRD,Przedszkole Nr 370,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 370,NULL,NULL,NULL,NULL,1341
+477,2,PS380/PRD,"Przedszkole Nr 380 ""Promyk Gocławia""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 380 ""Promyk Gocławia""",NULL,NULL,NULL,NULL,1342
+478,2,PS384/PRD,Przedszkole Nr 384,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 384,NULL,NULL,NULL,NULL,1343
+479,2,PS392/PRD,"Przedszkole Nr 392 ""Wróbelka Elemelka""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 392 ""Wróbelka Elemelka""",NULL,NULL,NULL,NULL,1344
+480,2,PS397/PRD,"Przedszkole Nr 397 ""Ziarenko""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 397 ""Ziarenko""",NULL,NULL,NULL,NULL,1345
+481,2,PS407/PRD,Przedszkole Nr 407,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 407,NULL,NULL,NULL,NULL,1346
+482,2,PS411/PRD,"Przedszkole Nr 411 ""Akademia Króla Stasia""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 411 ""Akademia Króla Stasia""",NULL,NULL,NULL,NULL,1347
+483,2,PS46/PRD,"Przedszkole Nr 46 ""W Krainie Baśni""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 46 ""W Krainie Baśni""",NULL,NULL,NULL,NULL,1348
+484,2,PS48/PRD,"Przedszkole Nr 48 ""Zielony Groszek""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 48 ""Zielony Groszek""",NULL,NULL,NULL,NULL,1349
+485,2,PS51/PRD,"Przedszkole Nr 51 ""Misia Czarodzieja""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 51 ""Misia Czarodzieja""",NULL,NULL,NULL,NULL,1350
+486,2,PS54/PRD,Przedszkole Nr 54,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Przedszkole Nr 54,NULL,NULL,NULL,NULL,1351
+487,2,PS57/PRD,"Przedszkole nr 57 ""Grochowiaczek"" ",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole nr 57 ""Grochowiaczek"" ",NULL,NULL,NULL,NULL,1352
+488,2,PS73/PRD,"Przedszkole Nr 73 ""Bajeczka""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 73 ""Bajeczka""",NULL,NULL,NULL,NULL,1353
+489,2,PS89/PRD,"Przedszkole Nr 89 ""Niezapominajka""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Przedszkole Nr 89 ""Niezapominajka""",NULL,NULL,NULL,NULL,1354
+490,2,SP120/PRD,Szkoła Podstawowa Nr 120 z Oddziałami Integracyjnymi im. Pułków Piech. Dzieci Warszawy ,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 120 z Oddziałami Integracyjnymi im. Pułków Piech. Dzieci Warszawy ,NULL,NULL,NULL,NULL,1355
+491,2,SP141/PRD,Szkoła Podstawowa Nr 141 im. mjr Henryka Sucharskiego,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 141 im. mjr Henryka Sucharskiego,NULL,NULL,NULL,NULL,1356
+492,2,SP143/PRD,Szkoła Podstawowa Nr 143  im. Stefana Starzyńskiego,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 143  im. Stefana Starzyńskiego,NULL,NULL,NULL,NULL,1357
+493,2,SP163/PRD,"Szkoła Podstawowa Nr 163 im. Batalionów ""Zośka""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Szkoła Podstawowa Nr 163 im. Batalionów ""Zośka""",NULL,NULL,NULL,NULL,1358
+494,2,SP185/PRD,Szkoła Podstawowa Nr 185 im. UNICEF,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 185 im. UNICEF,NULL,NULL,NULL,NULL,1359
+495,2,SP215/PRD,Szkoła Podstawowa Nr 215 im. Piotra Wysockiego,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 215 im. Piotra Wysockiego,NULL,NULL,NULL,NULL,1360
+496,2,SP246/PRD,"Szkoła Podstawowa Nr 246  im. 1 Warszawskiej Dywizji Piechoty "" Tadeusza Kościuszki"" ",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Szkoła Podstawowa Nr 246  im. 1 Warszawskiej Dywizji Piechoty "" Tadeusza Kościuszki"" ",NULL,NULL,NULL,NULL,1361
+497,2,SP255/PRD,Szkoła Podstawowa Nr 255  im. Cypriana Kamila Norwida,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 255  im. Cypriana Kamila Norwida,NULL,NULL,NULL,NULL,1362
+498,2,SP279/PRD,"Szkoła Podstawowa Nr 279 im. Batalionów AK ""Gustaw"" i ""Harnaś""",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Szkoła Podstawowa Nr 279 im. Batalionów AK ""Gustaw"" i ""Harnaś""",NULL,NULL,NULL,NULL,1363
+499,2,SP312/PRD,Szkoła Podstawowa Nr 312  im. Ewy Szelburg-Zarembiny,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 312  im. Ewy Szelburg-Zarembiny,NULL,NULL,NULL,NULL,1364
+500,2,SP60/PRD,Szkoła Podstawowa Nr 60 im. Powstania Listopadowego,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 60 im. Powstania Listopadowego,NULL,NULL,NULL,NULL,1365
+501,2,SP72/PRD,Szkoła Podstawowa Nr 72  im. Przyjaciół Grochowa,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Szkoła Podstawowa Nr 72  im. Przyjaciół Grochowa,NULL,NULL,NULL,NULL,1366
+502,2,LOXCIC/PRD,XCIX LO  im. Zbigniewa Herberta,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,XCIX LO  im. Zbigniewa Herberta,NULL,NULL,NULL,NULL,1367
+503,2,LOXIX/PRD,XIX LO im. Powstańców Warszawy,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,XIX LO im. Powstańców Warszawy,NULL,NULL,NULL,NULL,1368
+504,2,LOXLVII/PRD,XLVII LO  im. Stanisława Wyspiańskiego,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,XLVII LO  im. Stanisława Wyspiańskiego,NULL,NULL,NULL,NULL,1369
+505,2,LOXXIII/PRD,XXIII LO  im. Marii Skłodowskiej-Curie,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,XXIII LO  im. Marii Skłodowskiej-Curie,NULL,NULL,NULL,NULL,1370
+506,2,ZSGH/PRD,Zespół Szkół Gastronomiczno-Hotelarskich Technikum Spożywcze; Zasadnicza Szkoła Zawodowa Nr 20; Technikum Gastronomiczno-Hotelarskie Nr 2,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Gastronomiczno-Hotelarskich Technikum Spożywcze; Zasadnicza Szkoła Zawodowa Nr 20; Technikum Gastronomiczno-Hotelarskie Nr 2,NULL,NULL,NULL,NULL,1961
+507,2,ZS75/PRD,Zespół Szkół Integracyjnych Nr 75 Gimnazjum Nr 29 Integracyjne im. Janusza Korczaka Szkoła Podstawowa nr 135 im. Marii Kownackiej  ,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Integracyjnych Nr 75 Gimnazjum Nr 29 Integracyjne im. Janusza Korczaka Szkoła Podstawowa nr 135 im. Marii Kownackiej  ,NULL,NULL,NULL,NULL,1372
+508,2,ZS12/PRD,Zespół Szkół Nr 12 im. Olimpijczyków Polskich XCVII Liceum Ogólnokształcące XXX Liceum Profilowane Technikum Nr 12 Policealne Studium Zawodowe,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Nr 12 im. Olimpijczyków Polskich XCVII Liceum Ogólnokształcące XXX Liceum Profilowane Technikum Nr 12 Policealne Studium Zawodowe,NULL,NULL,NULL,NULL,1373
+509,2,ZS21/PRD,Zespół Szkół Nr 21 LXXXVII Liceum Ogólnokształcące Policealne Studium Zawodowe Nr 1 Technikum Chemiczne Nr 3 Zasadnicza Szkoła Zawodowa Nr 25,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Nr 21 LXXXVII Liceum Ogólnokształcące Policealne Studium Zawodowe Nr 1 Technikum Chemiczne Nr 3 Zasadnicza Szkoła Zawodowa Nr 25,NULL,NULL,NULL,NULL,1374
+510,2,ZS37/PRD,Zespół Szkół Łączności w Warszawie,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Nr 37 XCVI Liceum Ogólnokształcące  XII Liceum Profilowane  Technikum Łączności Technikum Łączności dla dorosłych Policealne Studium Łączności,NULL,NULL,NULL,NULL,1375
+511,2,ZS5/PRD,Zespół Szkół Nr 5 CXI Liceum Ogólnokształcące Technikum Ekonomiczne Nr 2 XXVII Liceum Profilowane Policealne Studium Ekonomiczne Nr 7 Liceum Ekonomiczne Nr 9 dla dorosłych  ,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Nr 5 CXI Liceum Ogólnokształcące Technikum Ekonomiczne Nr 2 XXVII Liceum Profilowane Policealne Studium Ekonomiczne Nr 7 Liceum Ekonomiczne Nr 9 dla dorosłych  ,NULL,NULL,NULL,NULL,1376
+512,2,ZS77/PRD,"Zespół Szkół Nr 77 Gimnazjum Nr 19, XXXV Liceum Ogólnokształcące im. Bolesława Prusa",1,1,2014-03-27 12:00,NULL,NULL,51,,,,,"Zespół Szkół Nr 77 Gimnazjum Nr 19, XXXV Liceum Ogólnokształcące im. Bolesława Prusa",NULL,NULL,NULL,NULL,1377
+513,2,ZS84/PRD,Zespół Szkół Nr 84 Gimnazjum Nr 25Szkoła Podstawowa Nr 168  im. Wiktora Gomulickiego    ,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Nr 84 Gimnazjum Nr 25Szkoła Podstawowa Nr 168  im. Wiktora Gomulickiego    ,NULL,NULL,NULL,NULL,1378
+514,2,ZSS70/PRD,Zespół Szkół Sportowych Nr 70 Gimnazjum Nr 21 Szkoła Podstawowa Nr 55 im. płk. Henryka Leliwy-Roycewicza  ,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Sportowych Nr 70 Gimnazjum Nr 21 Szkoła Podstawowa Nr 55 im. płk. Henryka Leliwy-Roycewicza  ,NULL,NULL,NULL,NULL,1379
+515,2,ZSSG/PRD,Zespół Szkół Spożywczo-Gastronomicznych XXXVII Liceum Profilowane; Technikum Spożywczo-Gastronomiczne; Zasadnicza Szkoła Spożywczo-Gastronom; Technikum Uzupełniające Nr 2,1,1,2014-03-27 12:00,NULL,NULL,51,,,,,Zespół Szkół Spożywczo-Gastronomicznych XXXVII Liceum Profilowane; Technikum Spożywczo-Gastronomiczne; Zasadnicza Szkoła Spożywczo-Gastronom; Technikum Uzupełniające Nr 2,NULL,NULL,NULL,NULL,1371
+516,2,GI30/PRN,Gimnazjum nr 30,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Gimnazjum nr 30,NULL,NULL,NULL,NULL,1387
+517,2,GI31/PRN,Gimnazjum nr 31,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Gimnazjum nr 31,NULL,NULL,NULL,NULL,1388
+518,2,GI69/PRN,Gimnazjum nr 69 dla Dorosłych,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Gimnazjum nr 69 dla Dorosłych,NULL,NULL,NULL,NULL,NULL
+519,2,LOLXXVI/PRN,LO LXXVI,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,LO LXXVI,NULL,NULL,NULL,NULL,1389
+520,2,PPP5/PRN,PPP-5,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,PPP-5,NULL,NULL,NULL,NULL,1390
+521,2,PS163/PRN,Przedszkole nr 163,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 163,NULL,NULL,NULL,NULL,1391
+522,2,PS164/PRN,Przedszkole nr 164,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 164,NULL,NULL,NULL,NULL,1392
+523,2,PS165/PRN,Przedszkole nr 165,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 165,NULL,NULL,NULL,NULL,1393
+524,2,PS167/PRN,Przedszkole nr 167,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 167,NULL,NULL,NULL,NULL,1394
+525,2,PS169/PRN,Przedszkole nr 169,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 169,NULL,NULL,NULL,NULL,1395
+526,2,PS171/PRN,Przedszkole nr 171,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 171,NULL,NULL,NULL,NULL,1396
+527,2,PS173/PRN,Przedszkole nr 173,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 173,NULL,NULL,NULL,NULL,1397
+528,2,PS174/PRN,Przedszkole nr 174,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 174,NULL,NULL,NULL,NULL,1398
+529,2,PS183/PRN,Przedszkole nr 183,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 183,NULL,NULL,NULL,NULL,1399
+530,2,PS184/PRN,Przedszkole nr 184,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 184,NULL,NULL,NULL,NULL,1400
+531,2,PS185/PRN,Przedszkole nr 185,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 185,NULL,NULL,NULL,NULL,1401
+532,2,PS186/PRN,Przedszkole nr 186,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 186,NULL,NULL,NULL,NULL,1402
+533,2,PS217/PRN,Przedszkole nr 217,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Przedszkole nr 217,NULL,NULL,NULL,NULL,1403
+534,2,SP127/PRN,Szkoła Podstawowa nr 127,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Szkoła Podstawowa nr 127,NULL,NULL,NULL,NULL,1404
+535,2,SP258/PRN,Szkoła Podstawowa nr 258,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Szkoła Podstawowa nr 258,NULL,NULL,NULL,NULL,1405
+536,2,SP30/PRN,Szkoła Podstawowa nr 30,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Szkoła Podstawowa nr 30,NULL,NULL,NULL,NULL,1406
+537,2,SP73/PRN,Szkoła Podstawowa nr 73,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Szkoła Podstawowa nr 73,NULL,NULL,NULL,NULL,1407
+538,2,OJVII/PRN,VII Ogród Jordanowski,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,VII Ogród Jordanowski,NULL,NULL,NULL,NULL,1408
+539,2,ZS11/PRN,Zespół Szkół nr 11 ,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 11 ,NULL,NULL,NULL,NULL,1409
+540,2,ZS112/PRN,Zespół Szkół Nr 112,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół Nr 112,NULL,NULL,NULL,NULL,1410
+541,2,ZS14/PRN,Zespół Szkół nr 14,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 14,NULL,NULL,NULL,NULL,1411
+542,2,ZS15/PRN,Zespół Szkół nr 15 ,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 15 ,NULL,NULL,NULL,NULL,1412
+543,2,ZS33/PRN,Zespół Szkół nr 33,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 33,NULL,NULL,NULL,NULL,1413
+544,2,ZS40/PRN,Zespół Szkół nr 40,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 40,NULL,NULL,NULL,NULL,1414
+545,2,ZS45/PRN,Zespół Szkół nr 45,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 45,NULL,NULL,NULL,NULL,1415
+546,2,ZS73/PRN,Zespół Szkół nr 73,1,1,2014-03-27 12:00,NULL,NULL,55,,,,,Zespół Szkół nr 73,NULL,NULL,NULL,NULL,1416
+547,2,GI126/REM,Gimnazjum Nr 126,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Gimnazjum Nr 126,NULL,NULL,NULL,NULL,1421
+548,2,LOLI/REM,LI Liceum Ogólnokształcące,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,LI Liceum Ogólnokształcące,NULL,NULL,NULL,NULL,1422
+549,2,PS158/REM,Przedszkole Nr 158,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Przedszkole Nr 158,NULL,NULL,NULL,NULL,1423
+550,2,PS160/REM,Przedszkole Nr 160,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Przedszkole Nr 160,NULL,NULL,NULL,NULL,1424
+551,2,PS243/REM,Przedszkole Nr 243,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Przedszkole Nr 243,NULL,NULL,NULL,NULL,1425
+552,2,PS376/REM,Przedszkole Nr 376,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Przedszkole Nr 376,NULL,NULL,NULL,NULL,1426
+553,2,SP217/REM,Szkoła Podstawowa N4 217,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Szkoła Podstawowa Nr 217,NULL,NULL,NULL,NULL,1428
+554,2,ZS74/REM,Zespół Szkół Nr 74,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Zespół Szkół Nr 74,NULL,NULL,NULL,NULL,1429
+555,2,ZS76/REM,Zespół Szkół Nr 76,1,1,2014-03-27 12:00,NULL,NULL,60,,,,,Zespół Szkół Nr 76,NULL,NULL,NULL,NULL,1430
+556,2,ADK1/ŚRÓ,Zakład Gospodarowania Nieruchomościami ,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Zakład Gospodarowania Nieruchomościami ,NULL,NULL,NULL,NULL,NULL
+557,2,ADK4/ŚRÓ,Administracja Domów Komunalnych Nr 4,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Administracja Domów Komunalnych Nr 4,NULL,NULL,NULL,NULL,NULL
+558,2,ADK6/ŚRÓ,Administracja Domów Komunalnych Nr 6,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Administracja Domów Komunalnych Nr 6,NULL,NULL,NULL,NULL,NULL
+559,2,ADK9/ŚRÓ,Administracja Domów Komunalnych Nr 9,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Administracja Domów Komunalnych Nr 9,NULL,NULL,NULL,NULL,NULL
+560,2,ADK11/ŚRÓ,Administracja Domów Komunalnych Nr 11,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Administracja Domów Komunalnych Nr 11,NULL,NULL,NULL,NULL,NULL
+561,2,ADK14/ŚRÓ,Administracja Domów Komunalnych Nr 14,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Administracja Domów Komunalnych Nr 14,NULL,NULL,NULL,NULL,NULL
+562,2,ADK16/ŚRÓ,Administracja Domów Komunalnych Nr 16,1,1,2014-03-27 12:00,NULL,NULL,64,,,,,Administracja Domów Komunalnych Nr 16,NULL,NULL,NULL,NULL,NULL
+563,2,CKU1/ŚRÓ,Centrum Kształcenia Ustawicznego Nr 1 ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Centrum Kształcenia Ustawicznego Nr 1 ,NULL,NULL,NULL,NULL,1437
+564,2,GI36/ŚRÓ,Gimnazjum nr 36 im.Krzysztofa Kieślowskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Gimnazjum nr 36 im.Krzysztofa Kieślowskiego,NULL,NULL,NULL,NULL,1438
+565,2,GI37/ŚRÓ,Gimnazjum nr 37 z Oddziałami Integracyjnymi im.K.K.Baczyńskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Gimnazjum nr 37 z Oddziałami Integracyjnymi im.K.K.Baczyńskiego,NULL,NULL,NULL,NULL,1439
+566,2,GI38/ŚRÓ,Gimnazjum nr 38 im.Marii Skłodowskiej -Curie,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Gimnazjum nr 38 im.Marii Skłodowskiej -Curie,NULL,NULL,NULL,NULL,1440
+567,2,GI42/ŚRÓ,Gimnazjum Dwujęzyczne nr 42,1,1,2014-03-27 12:00,NULL,NULL,44,,,,,Gimnazjum Dwujęzyczne nr 42,NULL,NULL,NULL,NULL,1442
+568,2,GI43/ŚRÓ,Gimnazjum nr 39,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Gimnazjum nr 39,NULL,NULL,NULL,NULL,1441
+569,2,GI44/ŚRÓ,Gimnazjum nr 44,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Gimnazjum nr 44,NULL,NULL,NULL,NULL,1443
+570,2,GI166/ŚRÓ,Gimnazjum nr 166,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Gimnazjum nr 166,NULL,NULL,NULL,NULL,NULL
+571,2,LOV/ŚRÓ,V Liceum Ogólnokształcące im.Księcia Józefa Poniatowskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,V Liceum Ogólnokształcące im.Księcia Józefa Poniatowskiego,NULL,NULL,NULL,NULL,1444
+572,2,LOIX/ŚRÓ,IX Liceum Ogólnokształcące im.Klementyny Hoffmanowej,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,IX Liceum Ogólnokształcące im.Klementyny Hoffmanowej,NULL,NULL,NULL,NULL,NULL
+573,2,LOXI/ŚRÓ,XI Liceum Ogólnokształcące im.Mikołaja Reja,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,XI Liceum Ogólnokształcące im.Mikołaja Reja,NULL,NULL,NULL,NULL,1445
+574,2,LOXVII/ŚRÓ,XVII Liceum Ogólnokształcące im.Andrzeja Frycza Modrzewskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,XVII Liceum Ogólnokształcące im.Andrzeja Frycza Modrzewskiego,NULL,NULL,NULL,NULL,1446
+575,2,LOXVIII/ŚRÓ,XVIII Liceum Ogólnokształcące im.Jana Zamoyskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,XVIII Liceum Ogólnokształcące im.Jana Zamoyskiego,NULL,NULL,NULL,NULL,1447
+576,2,LOXXVII/ŚRÓ,XXVII Liceum Ogólnokształcące im.Tadeusza Czackiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,XXVII Liceum Ogólnokształcące im.Tadeusza Czackiego,NULL,NULL,NULL,NULL,1448
+577,2,LOXXXVII/ŚRÓ,XXXVII Liceum Ogólnokształcące im.Jarosława Dąbrowskiego ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,XXXVII Liceum Ogólnokształcące im.Jarosława Dąbrowskiego ,NULL,NULL,NULL,NULL,1449
+578,2,LOLXVII/ŚRÓ,LXVII Liceum Ogólnokształcące im.Jana Nowaka-Jeziorańskiego ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,LXVII Liceum Ogólnokształcące im.Jana Nowaka-Jeziorańskiego ,NULL,NULL,NULL,NULL,1450
+579,2,LXXV/ŚRÓ,LXXV Liceum Ogólnokształcące im.Jana III Sobieskiego ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,LXXV Liceum Ogólnokształcące im.Jana III Sobieskiego ,NULL,NULL,NULL,NULL,NULL
+580,2,LXXXI/ŚRÓ,LXXXI Liceum Ogólnokształcące im.Aleksandra Fredry,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,LXXXI Liceum Ogólnokształcące im.Aleksandra Fredry,NULL,NULL,NULL,NULL,1451
+581,2,MSOS3/ŚRÓ,Międzyszkolny Ośrodek Sportowy nr 3 im.Janusza Kusocińskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Międzyszkolny Ośrodek Sportowy nr 3 im.Janusza Kusocińskiego,NULL,NULL,NULL,NULL,1452
+582,2,MDK/ŚRÓ,Młodzieżowy Dom Kultury im.Władysława Broniewskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Młodzieżowy Dom Kultury im.Władysława Broniewskiego,NULL,NULL,NULL,NULL,1453
+583,2,MDKM/ŚRÓ,"Młodzieżowy Dom Kultury ""Muranów""im.Cypriana Kamila Norwida ",1,1,2014-03-27 12:00,NULL,NULL,63,,,,,"Młodzieżowy Dom Kultury ""Muranów""im.Cypriana Kamila Norwida ",NULL,NULL,NULL,NULL,1454
+584,2,PPP1/ŚRÓ,Poradnia Psychologiczno - Pedagogiczna nr 1,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Poradnia Psychologiczno - Pedagogiczna nr 1,NULL,NULL,NULL,NULL,1455
+585,2,PPP11/ŚRÓ,Poradnia Psychologiczno - Pedagogiczna nr 11,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Poradnia Psychologiczno - Pedagogiczna nr 11,NULL,NULL,NULL,NULL,1456
+586,2,PPP12/ŚRÓ,Poradnia Psychologiczno - Pedagogiczna nr 12,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Poradnia Psychologiczno - Pedagogiczna nr 12,NULL,NULL,NULL,NULL,1457
+587,2,PS1/ŚRÓ,Przedszkole nr 1,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 1,NULL,NULL,NULL,NULL,1458
+588,2,PS2/ŚRÓ,Przedszkole nr 2,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 2,NULL,NULL,NULL,NULL,1459
+589,2,PS3/ŚRÓ,Przedszkole nr 3,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 3,NULL,NULL,NULL,NULL,1460
+590,2,PS4/ŚRÓ,Przedszkole nr 4,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 4,NULL,NULL,NULL,NULL,1461
+591,2,PS5/ŚRÓ,Przedszkole nr 5,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 5,NULL,NULL,NULL,NULL,1462
+592,2,PS6/ŚRÓ,Przedszkole Integracyjne nr 6,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole Integracyjne nr 6,NULL,NULL,NULL,NULL,1463
+593,2,PS7/ŚRÓ,Przedszkole  Oddziałami Integracyjnymi nr 7,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole  Oddziałami Integracyjnymi nr 7,NULL,NULL,NULL,NULL,1464
+594,2,PS8/ŚRÓ,Przedszkole Integracyjne nr 8,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole Integracyjne nr 8,NULL,NULL,NULL,NULL,1465
+595,2,PS9/ŚRÓ,Przedszkole nr 9,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 9,NULL,NULL,NULL,NULL,1466
+596,2,PS10/ŚRÓ,Przedszkole nr 10,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 10,NULL,NULL,NULL,NULL,1467
+597,2,PS11/ŚRÓ,Przedszkole nr 11,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 11,NULL,NULL,NULL,NULL,1468
+598,2,PS12/ŚRÓ,Przedszkole nr 12,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 12,NULL,NULL,NULL,NULL,1469
+599,2,PS13/ŚRÓ,Przedszkole nr 13,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 13,NULL,NULL,NULL,NULL,1470
+600,2,PS14/ŚRÓ,Przedszkole nr 14,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 14,NULL,NULL,NULL,NULL,1471
+601,2,PS16/ŚRÓ,"Przedszkole nr 16 ""Zaczarowany Zakątek""",1,1,2014-03-27 12:00,NULL,NULL,63,,,,,"Przedszkole nr 16 ""Zaczarowany Zakątek""",NULL,NULL,NULL,NULL,1472
+602,2,PS17/ŚRÓ,Przedszkole nr 17,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 17,NULL,NULL,NULL,NULL,1473
+603,2,PS19/ŚRÓ,Przedszkole nr 19,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 19,NULL,NULL,NULL,NULL,1474
+604,2,PS20/ŚRÓ,Przedszkole nr 20,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 20,NULL,NULL,NULL,NULL,1475
+605,2,PS21/ŚRÓ,Przedszkole nr 21,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 21,NULL,NULL,NULL,NULL,1476
+606,2,PS23/ŚRÓ,Przedszkole nr 23,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 23,NULL,NULL,NULL,NULL,1477
+607,2,PS24/ŚRÓ,Przedszkole nr 24,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 24,NULL,NULL,NULL,NULL,1478
+608,2,PS25/ŚRÓ,Przedszkole nr 25,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 25,NULL,NULL,NULL,NULL,1479
+609,2,PS26/ŚRÓ,Przedszkole nr 26,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 26,NULL,NULL,NULL,NULL,1480
+610,2,PS30/ŚRÓ,Przedszkole nr 30,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 30,NULL,NULL,NULL,NULL,1481
+611,2,PS31/ŚRÓ,Przedszkole nr 31,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 31,NULL,NULL,NULL,NULL,1482
+612,2,PS32/ŚRÓ,Przedszkole nr 32,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 32,NULL,NULL,NULL,NULL,1483
+613,2,PS33/ŚRÓ,Przedszkole nr 33,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 33,NULL,NULL,NULL,NULL,1484
+614,2,PS34/ŚRÓ,Przedszkole nr 34,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 34,NULL,NULL,NULL,NULL,1485
+615,2,PS35/ŚRÓ,Przedszkole nr 35,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 35,NULL,NULL,NULL,NULL,1486
+616,2,PS36/ŚRÓ,Przedszkole nr 36,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 36,NULL,NULL,NULL,NULL,1487
+617,2,PS38/ŚRÓ,Przedszkole nr 38,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 38,NULL,NULL,NULL,NULL,1488
+618,2,PS41/ŚRÓ,Przedszkole nr 41,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 41,NULL,NULL,NULL,NULL,NULL
+619,2,PS42/ŚRÓ,Przedszkole nr 42,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 42,NULL,NULL,NULL,NULL,1489
+620,2,PS44/ŚRÓ,Przedszkole nr 44,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 44,NULL,NULL,NULL,NULL,1490
+621,2,PS72/ŚRÓ,Przedszkole nr 72,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 72,NULL,NULL,NULL,NULL,1491
+622,2,PS82/ŚRÓ,Przedszkole nr 82,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 82,NULL,NULL,NULL,NULL,1492
+623,2,PS122/ŚRÓ,Przedszkole nr 122,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 122,NULL,NULL,NULL,NULL,1493
+624,2,PS129/ŚRÓ,"Przedszkole nr 129 ""Raj na Skarpie""",1,1,2014-03-27 12:00,NULL,NULL,63,,,,,"Przedszkole nr 129 ""Raj na Skarpie""",NULL,NULL,NULL,NULL,1494
+625,2,PS206/ŚRÓ,Przedszkole nr 206,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole nr 206,NULL,NULL,NULL,NULL,1495
+626,2,PS208/ŚRÓ,Przedszkole Specjalne nr 208,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Przedszkole Specjalne nr 208,NULL,NULL,NULL,NULL,1496
+627,2,SP1/ŚRÓ,Szkoła Podstawowa nr 1 im.Gustawa Morcinka ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 1 im.Gustawa Morcinka ,NULL,NULL,NULL,NULL,1497
+628,2,SP12/ŚRÓ,Szkoła Podstawowa nr 12 im.Powstańców Śląskich,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 12 im.Powstańców Śląskich,NULL,NULL,NULL,NULL,1498
+629,2,SP29/ŚRÓ,Szkoła Podstawowa nr 29 im.Giuseppe Garibaldiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 29 im.Giuseppe Garibaldiego,NULL,NULL,NULL,NULL,1499
+630,2,SP32/ŚRÓ,Szkoła Podstawowa nr 32 z Oddziałami Integracyjnymi im.Małego Powstańca  ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 32 z Oddziałami Integracyjnymi im.Małego Powstańca  ,NULL,NULL,NULL,NULL,1500
+631,2,SP34/ŚRÓ,Szkoła Podstawowa nr 34 im.Stanisława Dubois ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 34 im.Stanisława Dubois ,NULL,NULL,NULL,NULL,NULL
+632,2,SP75/ŚRÓ,Szkoła Podstawowa nr 75 im.Marii Konopnickiej,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 75 im.Marii Konopnickiej,NULL,NULL,NULL,NULL,1501
+633,2,SP158/ŚRÓ,Szkoła Podstawowa nr 158 im.Jana Kilińskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 158 im.Jana Kilińskiego,NULL,NULL,NULL,NULL,1502
+634,2,SP203/ŚRÓ,Szkoła Podstawowa nr 203,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 203,NULL,NULL,NULL,NULL,1503
+635,2,SP210/ŚRÓ,Szkoła Podstawowa nr 210 im.Bohaterów Pawiaka ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 210 im.Bohaterów Pawiaka ,NULL,NULL,NULL,NULL,1504
+636,2,SP211/ŚRÓ,Szkoła Podstawowa nr 211 z Oddziałami Integracyjnymi im.Janusza Korczaka,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 211 z Oddziałami Integracyjnymi im.Janusza Korczaka,NULL,NULL,NULL,NULL,1505
+637,2,SP220/ŚRÓ,Szkoła Podstawowa nr 220 im.Stanisława Kopczyńskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Szkoła Podstawowa nr 220 im.Stanisława Kopczyńskiego,NULL,NULL,NULL,NULL,1506
+638,2,ZS22/ŚRÓ,Zespół Szkół  nr 22 im.Emiliana Konopczyńskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 22 im.Emiliana Konopczyńskiego,NULL,NULL,NULL,NULL,1508
+639,2,ZS23/ŚRÓ,Zespół Szkół  nr 23,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 23,NULL,NULL,NULL,NULL,1509
+640,2,ZS60/ŚRÓ,Zespół Szkół  nr 60,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 60,NULL,NULL,NULL,NULL,1510
+641,2,ZS66/ŚRÓ,Zespół Szkół  nr 66,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 66,NULL,NULL,NULL,NULL,1511
+642,2,ZS67/ŚRÓ,Zespół Szkół  nr 67,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 67,NULL,NULL,NULL,NULL,1512
+643,2,ZS68/ŚRÓ,Zespół Szkół  nr 121,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 121,NULL,NULL,NULL,NULL,1515
+644,2,ZS69/ŚRÓ,Zespół Szkół  nr 69 ,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół  nr 69 ,NULL,NULL,NULL,NULL,1513
+645,2,ZSS72/ŚRÓ,Zespół Szkół Sportowych nr 72,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół Sportowych nr 72,NULL,NULL,NULL,NULL,1514
+646,2,ZSAB/ŚRÓ,Zespół Szkół Architektoniczno - Budowlanych i Licealnych,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół Architektoniczno - Budowlanych i Licealnych,NULL,NULL,NULL,NULL,1517
+647,2,ZSG/ŚRÓ,Zespół Szkół Gastronomicznych im.Prof.Eugeniusza Pijanowskiego,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół Gastronomicznych im.Prof.Eugeniusza Pijanowskiego,NULL,NULL,NULL,NULL,1518
+648,2,ZSLE1/ŚRÓ,Zespół Szkół Licealnych i Ekonomicznych Nr 1,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół Licealnych i Ekonomicznych Nr 1,NULL,NULL,NULL,NULL,1519
+649,2,ZSP/ŚRÓ,Zespół Szkół Poligraficznych im.Marszałka Józefa,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół Poligraficznych im.Marszałka Józefa,NULL,NULL,NULL,NULL,1520
+650,2,ZSSL1/ŚRÓ,Zespół Szkół nr 125,1,1,2014-03-27 12:00,NULL,NULL,63,,,,,Zespół Szkół nr 125,NULL,NULL,NULL,NULL,1516
+651,2,GI141/TAR,"Gimnazjum nr 141 z Oddziałami Dwujęzycznymi im. Majora Henryka Dobrzańskiego ""Hubala""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Gimnazjum nr 141 z Oddziałami Dwujęzycznymi im. Majora Henryka Dobrzańskiego ""Hubala""",NULL,NULL,NULL,NULL,1527
+652,2,GI143/TAR,Gimnazjum nr 143 z Oddziałami Integracyjnymi im. Ignacego Jana Paderewskiego,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Gimnazjum nr 143 z Oddziałami Integracyjnymi im. Ignacego Jana Paderewskiego,NULL,NULL,NULL,NULL,1528
+653,2,GI144/TAR,Gimnazjum nr 144 im. Szarych Szeregów,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Gimnazjum nr 144 im. Szarych Szeregów,NULL,NULL,NULL,NULL,1529
+654,2,GI145/TAR,Gimnazjum nr 145 im. Jana Pawła II,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Gimnazjum nr 145 im. Jana Pawła II,NULL,NULL,NULL,NULL,1530
+655,2,LOXIII/TAR,Liceum Ogólnokształcące nr 13 z Oddziałami Dwujęzycznymi  im. Płk. Leopolda Lisa - Kuli,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Liceum Ogólnokształcące nr 13 z Oddziałami Dwujęzycznymi  im. Płk. Leopolda Lisa - Kuli,NULL,NULL,NULL,NULL,1531
+656,2,LOXLVI/TAR,Liceum Ogólnokształcące nr 46 z Oddziałami Dwujęzycznymi  im. Stefana Czarneckiego,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Liceum Ogólnokształcące nr 46 z Oddziałami Dwujęzycznymi  im. Stefana Czarneckiego,NULL,NULL,NULL,NULL,1532
+657,2,PPP13/TAR,Poradnia Psychologiczno-Pedagogiczna nr 13,1,1,2014-03-27 12:00,NULL,NULL,69,ul. Odrowąża 19,19,03-310,,Poradnia Psychologiczno-Pedagogiczna nr 13,NULL,NULL,NULL,NULL,1533
+658,2,PS120/TAR,Przedszkole Integracyjne nr 120,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole Integracyjne nr 120,NULL,NULL,NULL,NULL,1534
+659,2,PS103/TAR,Przedszkole nr 103,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 103,NULL,NULL,NULL,NULL,1535
+660,2,PS106/TAR,Przedszkole nr 106,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 106,NULL,NULL,NULL,NULL,1536
+661,2,PS113/TAR,"Przedszkole nr 113 ""Przedszkole w Tęczowym Kręgu""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 113 ""Przedszkole w Tęczowym Kręgu""",NULL,NULL,NULL,NULL,1537
+662,2,PS115/TAR,"Przedszkole nr 115 ""Przedszkole Pod Klonem""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 115 ""Przedszkole Pod Klonem""",NULL,NULL,NULL,NULL,1538
+663,2,PS119/TAR,Przedszkole nr 119  „W Zielonym Ogrodzie”,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 119  „W Zielonym Ogrodzie”,NULL,NULL,NULL,NULL,1539
+664,2,PS123/TAR,"Przedszkole nr 123 ""Ocean Marzeń""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 123 ""Ocean Marzeń""",NULL,NULL,NULL,NULL,1540
+665,2,PS125/TAR,"Przedszkole nr 125 ""Pod Złotym Promykiem""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 125 ""Pod Złotym Promykiem""",NULL,NULL,NULL,NULL,1541
+666,2,PS128/TAR,"Przedszkole nr 128 ""Kraina Magicznych Liczb""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 128 ""Kraina Magicznych Liczb""",NULL,NULL,NULL,NULL,1542
+667,2,PS150/TAR,"Przedszkole nr 150 ""Przystanek Uśmiech""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 150 ""Przystanek Uśmiech""",NULL,NULL,NULL,NULL,1543
+668,2,PS154/TAR,"Przedszkole nr 154 ""Pod Wesołą Truskaweczką""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 154 ""Pod Wesołą Truskaweczką""",NULL,NULL,NULL,NULL,1544
+669,2,PS155/TAR,"Przedszkole nr 155 ""Roztańczona Kraina""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 155 ""Roztańczona Kraina""",NULL,NULL,NULL,NULL,1545
+670,2,PS156/TAR,Przedszkole nr 156,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 156,NULL,NULL,NULL,NULL,1546
+671,2,PS157/TAR,"Przedszkole nr 157 ""Przedszkole z Serduszkiem """,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 157 ""Przedszkole z Serduszkiem """,NULL,NULL,NULL,NULL,1547
+672,2,PS18/TAR,Przedszkole nr 18,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 18,NULL,NULL,NULL,NULL,1548
+673,2,PS81/TAR,Przedszkole nr 81,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 81,NULL,NULL,NULL,NULL,1549
+674,2,PS88/TAR,"Przedszkole nr 88 ""Pod Zielonym Listkiem""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 88 ""Pod Zielonym Listkiem""",NULL,NULL,NULL,NULL,1550
+675,2,PS90/TAR,Przedszkole nr 90,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 90,NULL,NULL,NULL,NULL,1551
+676,2,PS91/TAR,"Przedszkole nr 91 ""Zaczarowany Ogród""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 91 ""Zaczarowany Ogród""",NULL,NULL,NULL,NULL,1552
+677,2,PS94/TAR,"Przedszkole nr 94 ""Kraina Słonecznych Marzeń""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Przedszkole nr 94 ""Kraina Słonecznych Marzeń""",NULL,NULL,NULL,NULL,1553
+678,2,PS95/TAR,Przedszkole nr 95 z Oddziałami Integracyjnymi im. Króla Maciusia I,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Przedszkole nr 95 z Oddziałami Integracyjnymi im. Króla Maciusia I,NULL,NULL,NULL,NULL,1554
+679,2,SP114/TAR,Szkoła Podstawowa nr 114 z Oddziałami Integracyjnymi im. Jędrzeja Cierniaka,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 114 z Oddziałami Integracyjnymi im. Jędrzeja Cierniaka,NULL,NULL,NULL,NULL,1555
+680,2,SP277/TAR,Szkoła Podstawowa nr 277 im. Elizy Orzeszkowej,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 277 im. Elizy Orzeszkowej,NULL,NULL,NULL,NULL,1556
+681,2,SP28/TAR,Szkoła Podstawowa nr 28 im. Stefana Żeromskiego,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 28 im. Stefana Żeromskiego,NULL,NULL,NULL,NULL,1557
+682,2,SP285/TAR,Szkoła Podstawowa nr 285 im. Jana Marcina Szancera,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 285 im. Jana Marcina Szancera,NULL,NULL,NULL,NULL,1558
+683,2,SP298/TAR,Szkoła Podstawowa nr 298 im. J. Kasprowicza,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 298 im. J. Kasprowicza,NULL,NULL,NULL,NULL,1559
+684,2,SP42/TAR,Szkoła Podstawowa nr 42 z Oddziałami Integracyjnymi im. K. I. Gałczyńskiego,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 42 z Oddziałami Integracyjnymi im. K. I. Gałczyńskiego,NULL,NULL,NULL,NULL,1560
+685,2,SP52/TAR,"Szkoła Podstawowa nr 52 im. M. A. Dawidowskiego ""Alka""",1,1,2014-03-27 12:00,NULL,NULL,69,,,,,"Szkoła Podstawowa nr 52 im. M. A. Dawidowskiego ""Alka""",NULL,NULL,NULL,NULL,1561
+686,2,SP58/TAR,Szkoła Podstawowa nr 58 im. Tadeusza Gajcego,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 58 im. Tadeusza Gajcego,NULL,NULL,NULL,NULL,1562
+687,2,SP84/TAR,Szkoła Podstawowa nr 84 im. Waleriana Łukasińskiego,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa nr 84 im. Waleriana Łukasińskiego,NULL,NULL,NULL,NULL,1563
+688,2,SP275/TAR,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 275 im. Artura Oppmana,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 275 im. Artura Oppmana,NULL,NULL,NULL,NULL,1564
+689,2,OJVIII/TAR,VIII Ogród Jordanowski,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,VIII Ogród Jordanowski,NULL,NULL,NULL,NULL,1565
+690,2,ZSPW/TAR,Zespół Szkół im. Piotra Wysockiego,1,1,2014-03-27 12:00,NULL,NULL,69,ul. Odrowąża,19,03-310,,Zespół Szkół im. Piotra Wysockiego,NULL,NULL,NULL,NULL,1566
+691,2,ZS113/TAR,Zespół Szkół nr 113 z Oddziałami Dwujęzycznymi,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Zespół Szkół nr 113 z Oddziałami Dwujęzycznymi,NULL,NULL,NULL,NULL,1567
+692,2,ZS34/TAR,Zespół Szkół nr 34 im. Mieszka I,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Zespół Szkół nr 34 im. Mieszka I,NULL,NULL,NULL,NULL,1568
+693,2,ZS41/TAR,Zespół Szkół z Oddziałami Integracyjnymi nr 41  ,1,1,2014-03-27 12:00,NULL,NULL,69,,,,,Zespół Szkół z Oddziałami Integracyjnymi nr 41  ,NULL,NULL,NULL,NULL,1569
+694,2,GI131/URS,Gimnazjum nr 131 im. Krzysztofa Kamila Baczyńskiego,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Gimnazjum nr 131 im. Krzysztofa Kamila Baczyńskiego,NULL,NULL,NULL,NULL,1575
+695,2,GI132/URS,Gimnazjum nr 132 z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Gimnazjum nr 132 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1576
+696,2,GI133/URS,Gimnazjum nr 133 im. Ks. Stefana Kardynała Wyszyńskiego,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Gimnazjum nr 133 im. Ks. Stefana Kardynała Wyszyńskiego,NULL,NULL,NULL,NULL,1577
+697,2,LOLVI/URS,LVI Liceum Ogólnokształcące im. Rotmistrza Witolda Pileckiego,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,LVI Liceum Ogólnokształcące im. Rotmistrza Witolda Pileckiego,NULL,NULL,NULL,NULL,1578
+698,2,PPP15/URS,Poradnia Psychologiczno-Pedagogiczna nr 15,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Poradnia Psychologiczno-Pedagogiczna nr 15,NULL,NULL,NULL,NULL,1579
+699,2,PS137/URS,Przedszkole Integracyjne Nr 137 im. Janusza Korczaka,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Integracyjne Nr 137 im. Janusza Korczaka,NULL,NULL,NULL,NULL,1580
+700,2,PS112/URS,"Przedszkole Nr 112 ""Leśne Skrzaty""",1,1,2014-03-27 12:00,NULL,NULL,73,,,,,"Przedszkole Nr 112 ""Leśne Skrzaty""",NULL,NULL,NULL,NULL,1581
+701,2,PS168/URS,Przedszkole Nr 168,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Nr 168,NULL,NULL,NULL,NULL,1582
+702,2,PS194/URS,Przedszkole Nr 194,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Nr 194,NULL,NULL,NULL,NULL,1583
+703,2,PS200/URS,Przedszkole Nr 200 „Gąski Balbinki”,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Nr 200 „Gąski Balbinki”,NULL,NULL,NULL,NULL,1584
+704,2,PS219/URS,"Przedszkole Nr 219 ""Niezapominajka""",1,1,2014-03-27 12:00,NULL,NULL,73,,,,,"Przedszkole Nr 219 ""Niezapominajka""",NULL,NULL,NULL,NULL,1585
+705,2,PS343/URS,Przedszkole Nr 343,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Nr 343,NULL,NULL,NULL,NULL,1586
+706,2,PS413/URS,Przedszkole Nr 413,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Nr 413,NULL,NULL,NULL,NULL,1587
+707,2,PS418/URS,Przedszkole Nr 418,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Przedszkole Nr 418,NULL,NULL,NULL,NULL,1588
+708,2,SP11/URS,Szkoła Podstawowa nr 11 im. Żołnierzy I Dywizji Kościuszkowskiej,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Szkoła Podstawowa nr 11 im. Żołnierzy I Dywizji Kościuszkowskiej,NULL,NULL,NULL,NULL,1589
+709,2,SP4/URS,Szkoła Podstawowa nr 4 im. Władysława Broniewskiego,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Szkoła Podstawowa nr 4 im. Władysława Broniewskiego,NULL,NULL,NULL,NULL,1590
+710,2,SP14/URS,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 14 im. Bohaterów Warszawy,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 14 im. Bohaterów Warszawy,NULL,NULL,NULL,NULL,1591
+711,2,ZS42/URS,Zespół Szkół Nr 42,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Zespół Szkół Nr 42,NULL,NULL,NULL,NULL,1592
+712,2,ZS80/URS,Zespół Szkół nr 80 z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,73,,,,,Zespół Szkół nr 80 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1593
+713,2,SP16/URN,Szkoła Podstawowa Nr  16,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr  16,NULL,NULL,NULL,NULL,1597
+714,2,GI91/URN,Gimnazjum Nr 91,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Gimnazjum Nr 91,NULL,NULL,NULL,NULL,1598
+715,2,GI92/URN,Gimnazjum Nr 92,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Gimnazjum Nr 92,NULL,NULL,NULL,NULL,1599
+716,2,GI93/URN,Gimnazjum Nr 93,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Gimnazjum Nr 93,NULL,NULL,NULL,NULL,1600
+717,2,GI94/URN,Gimnazjum Nr 94,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Gimnazjum Nr 94,NULL,NULL,NULL,NULL,1601
+718,2,GI95/URN,Gimnazjum Nr 95,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Gimnazjum Nr 95,NULL,NULL,NULL,NULL,1602
+719,2,GI96/URN,Gimnazjum Nr 96,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Gimnazjum Nr 96,NULL,NULL,NULL,NULL,1603
+720,2,LOLXIII/URN,Liceum Ogólnokształcące Nr  63,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Liceum Ogólnokształcące Nr  63,NULL,NULL,NULL,NULL,1604
+721,2,LOLXX/URN,Liceum Ogólnokształcące Nr  70,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Liceum Ogólnokształcące Nr  70,NULL,NULL,NULL,NULL,1605
+722,2,LOCIX/URN,Liceum Ogólnokształcące Nr 109,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Liceum Ogólnokształcące Nr 109,NULL,NULL,NULL,NULL,1606
+723,2,PPP18/URN,Poradnia Psychologiczno-Pedagogiczna Nr 18,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 18,NULL,NULL,NULL,NULL,1607
+724,2,PPP19/URN,Poradnia Psychologiczno-Pedagogiczna Nr 19,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 19,NULL,NULL,NULL,NULL,1608
+725,2,PS50/URN,Przedszkole Nr  50,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr  50,NULL,NULL,NULL,NULL,1609
+726,2,PS52/URN,Przedszkole Nr  52,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr  52,NULL,NULL,NULL,NULL,1610
+727,2,PS55/URN,Przedszkole Nr  55,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr  55,NULL,NULL,NULL,NULL,1611
+728,2,PS79/URN,Przedszkole Nr  79,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr  79,NULL,NULL,NULL,NULL,1612
+729,2,PS126/URN,Przedszkole Nr 126,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 126,NULL,NULL,NULL,NULL,1613
+730,2,PS159/URN,Przedszkole Nr 159,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 159,NULL,NULL,NULL,NULL,1614
+731,2,PS201/URN,Przedszkole Nr 201,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 201,NULL,NULL,NULL,NULL,1615
+732,2,PS267/URN,Przedszkole Nr 267,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 267,NULL,NULL,NULL,NULL,1616
+733,2,PS282/URN,Przedszkole Nr 282,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 282,NULL,NULL,NULL,NULL,1617
+734,2,PS283/URN,Przedszkole Nr 283,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 283,NULL,NULL,NULL,NULL,1618
+735,2,PS286/URN,Przedszkole Nr 286,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 286,NULL,NULL,NULL,NULL,1619
+736,2,PS351/URN,Przedszkole Nr 351,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 351,NULL,NULL,NULL,NULL,1620
+737,2,PS352/URN,Przedszkole Nr 352,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 352,NULL,NULL,NULL,NULL,1621
+738,2,PS366/URN,Przedszkole Nr 366,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 366,NULL,NULL,NULL,NULL,1622
+739,2,PS385/URN,Przedszkole Nr 385,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 385,NULL,NULL,NULL,NULL,1623
+740,2,PS394/URN,Przedszkole Nr 394,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 394,NULL,NULL,NULL,NULL,1624
+741,2,PS395/URN,Przedszkole Nr 395,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 395,NULL,NULL,NULL,NULL,1625
+742,2,PS400/URN,Przedszkole Nr 400,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 400,NULL,NULL,NULL,NULL,1626
+743,2,PS401/URN,Przedszkole Nr 401,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 401,NULL,NULL,NULL,NULL,1627
+744,2,PS412/URN,Przedszkole Nr 412,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Nr 412,NULL,NULL,NULL,NULL,1628
+745,2,PS213/URN,Przedszkole Specjalne Nr 213,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Przedszkole Specjalne Nr 213,NULL,NULL,NULL,NULL,1629
+746,2,SP81/URN,Szkoła Podstawowa Nr  81,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr  81,NULL,NULL,NULL,NULL,1630
+747,2,SP96/URN,Szkoła Podstawowa Nr  96,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr  96,NULL,NULL,NULL,NULL,1631
+748,2,SP100/URN,Szkoła Podstawowa Nr 100,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 100,NULL,NULL,NULL,NULL,1632
+749,2,SP303/URN,Szkoła Podstawowa Nr 303,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 303,NULL,NULL,NULL,NULL,1633
+750,2,SP310/URN,Szkoła Podstawowa Nr 310,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 310,NULL,NULL,NULL,NULL,1634
+751,2,SP313/URN,Szkoła Podstawowa Nr 313,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 313,NULL,NULL,NULL,NULL,1635
+752,2,SP318/URN,Szkoła Podstawowa Nr 318,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 318,NULL,NULL,NULL,NULL,1636
+753,2,SP319/URN,Szkoła Podstawowa Nr 319,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 319,NULL,NULL,NULL,NULL,1637
+754,2,SP322/URN,Szkoła Podstawowa Nr 322,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 322,NULL,NULL,NULL,NULL,1638
+755,2,SP323/URN,Szkoła Podstawowa Nr 323,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 323,NULL,NULL,NULL,NULL,1639
+756,2,SP330/URN,Szkoła Podstawowa Nr 330,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 330,NULL,NULL,NULL,NULL,1640
+757,2,SP336/URN,Szkoła Podstawowa Nr 336,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 336,NULL,NULL,NULL,NULL,1641
+758,2,SP340/URN,Szkoła Podstawowa Nr 340,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 340,NULL,NULL,NULL,NULL,1642
+759,2,SP343/URN,Szkoła Podstawowa Nr 343,1,1,2014-03-27 12:00,NULL,NULL,77,,,,,Szkoła Podstawowa Nr 343,NULL,NULL,NULL,NULL,1643
+760,2,PPP17/WAW,Poradnia Psychologiczno-Pedagogiczna Nr 17,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 17,NULL,NULL,NULL,NULL,1651
+761,2,PS86/WAW,Przedszkole nr 86 z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole nr 86 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1652
+762,2,PS107/WAW,Przedszkole Nr 107 „Bajkowe Przedszkole”,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 107 „Bajkowe Przedszkole”,NULL,NULL,NULL,NULL,1653
+763,2,PS110/WAW,Przedszkole Nr 110 im. Warszawskiej Syrenki,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 110 im. Warszawskiej Syrenki,NULL,NULL,NULL,NULL,1654
+764,2,PS233/WAW,Przedszkole Nr 233 „Zielony Domek”,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 233 „Zielony Domek”,NULL,NULL,NULL,NULL,1655
+765,2,PS264/WAW,Przedszkole Nr 264 „Pluszowego Misia”,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 264 „Pluszowego Misia”,NULL,NULL,NULL,NULL,1656
+766,2,PS338/WAW,Przedszkole Nr 338,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 338,NULL,NULL,NULL,NULL,1657
+767,2,PS348/WAW,Przedszkole Nr 348,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 348,NULL,NULL,NULL,NULL,NULL
+768,2,PS84/WAW,Przedszkole Nr 84 „Promyk”,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 84 „Promyk”,NULL,NULL,NULL,NULL,1658
+769,2,PS85/WAW,Przedszkole Nr 85 „Leśny Zakątek”,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Przedszkole Nr 85 „Leśny Zakątek”,NULL,NULL,NULL,NULL,1659
+770,2,SP109/WAW,Szkoła Podstawowa Nr 109 im. Batalionów Chłopskich,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Szkoła Podstawowa Nr 109 im. Batalionów Chłopskich,NULL,NULL,NULL,NULL,1660
+771,2,SP124/WAW,Szkoła Podstawowa Nr 124 im. Stanisława Jachowicza,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Szkoła Podstawowa Nr 124 im. Stanisława Jachowicza,NULL,NULL,NULL,NULL,1661
+772,2,SP128/WAW,Szkoła Podstawowa Nr 128 im. Józefa Niećki,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Szkoła Podstawowa Nr 128 im. Józefa Niećki,NULL,NULL,NULL,NULL,NULL
+773,2,SP138/WAW,Szkoła Podstawowa Nr 138 z Oddziałem Integracyjnym im. Józefa Horsta,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Szkoła Podstawowa Nr 138 z Oddziałem Integracyjnym im. Józefa Horsta,NULL,NULL,NULL,NULL,1662
+774,2,ZS120/WAW,Zespół Szkół Nr 120,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Zespół Szkół Nr 120,NULL,NULL,NULL,NULL,1663
+775,2,SP216/WAW,Szkoła Podstawowa Nr 216 im. Klonowego  Liścia z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Szkoła Podstawowa Nr 216 im. Klonowego  Liścia z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1664
+776,2,SP218/WAW,Szkoła Podstawowa Nr 218 im. Michała Kajki,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Szkoła Podstawowa Nr 218 im. Michała Kajki,NULL,NULL,NULL,NULL,1665
+777,2,LOXXV/WAW,XXV LO im. Józefa Wybickiego,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,XXV LO im. Józefa Wybickiego,NULL,NULL,NULL,NULL,1666
+778,2,ZS111/WAW,Zespół Szkół Nr 111 ,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Zespół Szkół Nr 111 ,NULL,NULL,NULL,NULL,1667
+779,2,ZS114/WAW,Zespół Szkół Nr 114,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Zespół Szkół Nr 114,NULL,NULL,NULL,NULL,1668
+780,2,ZS115/WAW,Zespół Szkół Nr 115,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Zespół Szkół Nr 115,NULL,NULL,NULL,NULL,1669
+781,2,ZS116/WAW,Zespół Szkół Nr 116,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Zespół Szkół Nr 116,NULL,NULL,NULL,NULL,1670
+782,2,ZS70/WAW,Zespół Szkół Nr 70,1,1,2014-03-27 12:00,NULL,NULL,80,,,,,Zespół Szkół Nr 70,NULL,NULL,NULL,NULL,1671
+783,2,GI119/WES,Gimnazjum Nr 119 im. Marszałka J. Piłsudskiego,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Gimnazjum Nr 119 im. Marszałka J. Piłsudskiego,NULL,NULL,NULL,NULL,1676
+784,2,GI120/WES,Gimnazjum Nr 120 m. Noblistów Polskich,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Gimnazjum Nr 120 m. Noblistów Polskich,NULL,NULL,NULL,NULL,1677
+785,2,PPP23/WES,Poradnia Psychologiczno-Pedagogiczna Nr 23,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 23,NULL,NULL,NULL,NULL,1678
+786,2,PS259/WES,Przedszkole Nr 259 ,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Przedszkole Nr 259 ,NULL,NULL,NULL,NULL,1679
+787,2,PS260/WES,Przedszkole Nr 260 ,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Przedszkole Nr 260 ,NULL,NULL,NULL,NULL,1680
+788,2,PS261/WES,Przedszkole Nr 261 „Pod Dębami”,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Przedszkole Nr 261 „Pod Dębami”,NULL,NULL,NULL,NULL,1681
+789,2,PS262/WES,Przedszkole Nr 262,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Przedszkole Nr 262,NULL,NULL,NULL,NULL,1682
+790,2,SP171/WES,Szkoła Podstawowa Nr 171 im. Stanisława Staszica,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Szkoła Podstawowa Nr 171 im. Stanisława Staszica,NULL,NULL,NULL,NULL,1683
+791,2,SP173/WES,Szkoła Podstawowa Nr 173  im. Górników Polskich,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Szkoła Podstawowa Nr 173  im. Górników Polskich,NULL,NULL,NULL,NULL,1684
+792,2,SP174/WES,Szkoła Podstawowa Nr 174 z Oddziałami Integracyjnymi im. Tadeusza Kościuszki,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Szkoła Podstawowa Nr 174 z Oddziałami Integracyjnymi im. Tadeusza Kościuszki,NULL,NULL,NULL,NULL,1685
+793,2,ZS94/WES,Zespół Szkół Nr 94,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Zespół Szkół Nr 94,NULL,NULL,NULL,NULL,1686
+794,2,SP353/WES,Szkoła Podstawowa nr 353,1,1,2014-03-27 12:00,NULL,NULL,86,,,,,Szkoła Podstawowa nr 353,NULL,NULL,NULL,NULL,1687
+795,2,GI116/WIL,Przedszkole Nr 420,1,1,2014-03-27 12:00,NULL,NULL,88,,,,,Przedszkole Nr 420,NULL,NULL,NULL,NULL,1694
+796,2,PS416/WIL,Przedszkole Nr 416,1,1,2014-03-27 12:00,NULL,NULL,88,,,,,Przedszkole Nr 416,NULL,NULL,NULL,NULL,1692
+797,2,PS56/WIL,"Przedszkole Nr 56  ""Wesołe Kubusie""",1,1,2014-03-27 12:00,NULL,NULL,88,,,,,"Przedszkole Nr 56  ""Wesołe Kubusie""",NULL,NULL,NULL,NULL,1693
+798,2,SP169/WIL,Zespół Szkół nr 123,1,1,2014-03-27 12:00,NULL,NULL,88,,,,,Zespół Szkół nr 123,NULL,NULL,NULL,NULL,1698
+799,2,ZSP3/WIL,Zespół Szkolno - Przedszkolny Nr 3   ,1,1,2014-03-27 12:00,NULL,NULL,88,,,,,Zespół Szkolno - Przedszkolny Nr 3   ,NULL,NULL,NULL,NULL,1695
+800,2,ZS2/WIL,Zespół Szkół Nr 2 im. Wandy Rutkiewicz,1,1,2014-03-27 12:00,NULL,NULL,88,,,,,Zespół Szkół Nr 2 im. Wandy Rutkiewicz,NULL,NULL,NULL,NULL,1696
+801,2,ZS79/WIL,Zespół Szkół Nr 79 im. Stanisława Kostki Potockiego,1,1,2014-03-27 12:00,NULL,NULL,88,,,,,Zespół Szkół Nr 79 im. Stanisława Kostki Potockiego,NULL,NULL,NULL,NULL,1697
+802,2,GI112/WŁO,Gimnazjum Nr 112 im. Króla Jana III Sobieskiego,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Gimnazjum Nr 112 im. Króla Jana III Sobieskiego,NULL,NULL,NULL,NULL,1704
+803,2,GI114/WŁO,Gimnazjum Nr 114 z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Gimnazjum Nr 114 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1705
+804,2,PPP22/WŁO,Poradnia Psychologiczno-Pedagogiczna Nr 22,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 22,NULL,NULL,NULL,NULL,1706
+805,2,PS214/WŁO,Przedszkole Integracyjne Nr 314,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Integracyjne Nr 314,NULL,NULL,NULL,NULL,1707
+806,2,PS175/WŁO,Przedszkole Nr 419,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 419,NULL,NULL,NULL,NULL,1714
+807,2,PS29/WŁO,Przedszkole Nr 29,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 29,NULL,NULL,NULL,NULL,1708
+808,2,PS313/WŁO,Przedszkole Nr 313,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 313,NULL,NULL,NULL,NULL,1709
+809,2,PS60/WŁO,Przedszkole Nr 60,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 60,NULL,NULL,NULL,NULL,1710
+810,2,PS71/WŁO,Przedszkole Nr 71,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 71,NULL,NULL,NULL,NULL,1711
+811,2,PS77/WŁO,Przedszkole Nr 77 Akademia Pana Kleksa,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 77 Akademia Pana Kleksa,NULL,NULL,NULL,NULL,1712
+812,2,PS78/WŁO,Przedszkole Nr 78,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Przedszkole Nr 78,NULL,NULL,NULL,NULL,1713
+813,2,PS22/WŁO,Publiczne Przedszkole Nr 22,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Publiczne Przedszkole Nr 22,NULL,NULL,NULL,NULL,1715
+814,2,SP227/WŁO,Zespół Szkolno-Przedszkolny nr 5,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Zespół Szkolno-Przedszkolny nr 5,NULL,NULL,NULL,NULL,1721
+815,2,SP66/WŁO,Szkoła Podstawowa Nr 66 im. Ks. Luliana Chrościckiego,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Szkoła Podstawowa Nr 66 im. Ks. Luliana Chrościckiego,NULL,NULL,NULL,NULL,1716
+816,2,SP88/WŁO,Szkoła Podstawowa Nr 88 im. Gabriela Narutowicza,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Szkoła Podstawowa Nr 88 im. Gabriela Narutowicza,NULL,NULL,NULL,NULL,1717
+817,2,SP94/WŁO,Szkoła Podstawowa Nr 94 im. I Marszałka Polski Józefa Piłsudskiego,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Szkoła Podstawowa Nr 94 im. I Marszałka Polski Józefa Piłsudskiego,NULL,NULL,NULL,NULL,1718
+818,2,SP87/WŁO,"Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 87 im. 7 PP AK ""Garłuch""",1,1,2014-03-27 12:00,NULL,NULL,90,,,,,"Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 87 im. 7 PP AK ""Garłuch""",NULL,NULL,NULL,NULL,1719
+819,2,ZSBN/WŁO,Zespół Szkół im. Bohaterów Narwiku,1,1,2014-03-27 12:00,NULL,NULL,90,,,,,Zespół Szkół im. Bohaterów Narwiku,NULL,NULL,NULL,NULL,1720
+820,2,ZS17/WŁO,"Zespół Szkół Nr 17 im. Zawiszaków Proporca ""Viktoria""",1,1,2014-03-27 12:00,NULL,NULL,90,,,,,"Zespół Szkół Nr 17 im. Zawiszaków Proporca ""Viktoria""",NULL,NULL,NULL,NULL,1722
+821,2,CKU/WOL,Centrum Kształcenia Zawodowego i Ustawicznego nr 1,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Centrum Kształcenia Zawodowego i Ustawicznego nr 1,NULL,NULL,NULL,NULL,1727
+822,2,LOCXIX/WOL,CXIX LO im. Jacka Kuronia,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,CXIX LO im. Jacka Kuronia,NULL,NULL,NULL,NULL,1728
+823,2,GI45/WOL,Gimnazjum Nr 45 z Oddziałami Integracyjnymi im. Powstania Warszawskiego ,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Gimnazjum Nr 45 z Oddziałami Integracyjnymi im. Powstania Warszawskiego ,NULL,NULL,NULL,NULL,1729
+824,2,GI46/WOL,Gimnazjum Nr 46 im. Szarych Szeregów,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Gimnazjum Nr 46 im. Szarych Szeregów,NULL,NULL,NULL,NULL,1730
+825,2,GI47/WOL,Gimnazjum Nr 47 z Oddziałami Dwujęzycznymi im. Marszałka Józefa Piłsudskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Gimnazjum Nr 47 z Oddziałami Dwujęzycznymi im. Marszałka Józefa Piłsudskiego,NULL,NULL,NULL,NULL,1731
+826,2,GI48/WOL,Gimnazjum Nr 48 im. Jana Pawła II,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Gimnazjum Nr 48 im. Jana Pawła II,NULL,NULL,NULL,NULL,1732
+827,2,GI49/WOL,Gimnazjum Nr 49 im. Stefana Starzyńskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Gimnazjum Nr 49 im. Stefana Starzyńskiego,NULL,NULL,NULL,NULL,1733
+828,2,GI51/WOL,Gimnazjum Nr 51 im. Bolesława Prusa,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Gimnazjum Nr 51 im. Bolesława Prusa,NULL,NULL,NULL,NULL,NULL
+829,2,LOIII/WOL,III  LO im. Gen. Sowińskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,III  LO im. Gen. Sowińskiego,NULL,NULL,NULL,NULL,1734
+830,2,LOLXXXVI/WOL,LXXXVI LO im. Batalionu „Zośka”,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,LXXXVI LO im. Batalionu „Zośka”,NULL,NULL,NULL,NULL,1735
+831,2,MSOS6/WOL,Międzyszkolny Ośrodek Sportowy Nr 6,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Międzyszkolny Ośrodek Sportowy Nr 6,NULL,NULL,NULL,NULL,1736
+832,2,MDK/WOL,Młodzieżowy Dom Kultury,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Młodzieżowy Dom Kultury,NULL,NULL,NULL,NULL,NULL
+833,2,PSSJO/WOL,Zespół Szkół Stenotypii i Języków Obcych,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Stenotypii i Języków Obcych,NULL,NULL,NULL,NULL,1738
+834,2,PPP14/WOL,Zespół Poradni Psychologiczno-Pedegogicznych nr 1,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Poradni Psychologiczno-Pedegogicznych nr 1,NULL,NULL,NULL,NULL,1795
+835,2,PPP2/WOL,Poradnia Psychologiczno – Pedagogiczna Nr 2,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Poradnia Psychologiczno – Pedagogiczna Nr 2,NULL,NULL,NULL,NULL,1739
+836,2,PPP6/WOL,Poradnia Psychologiczno – Pedagogiczna Nr 6,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Poradnia Psychologiczno – Pedagogiczna Nr 6,NULL,NULL,NULL,NULL,NULL
+837,2,PS209/WOL,Przedszkole Integracyjne Nr 209 „Zaczarowane Ziarenko”,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Integracyjne Nr 209 „Zaczarowane Ziarenko”,NULL,NULL,NULL,NULL,1740
+838,2,PS116/WOL,Przedszkole Nr 116,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 116,NULL,NULL,NULL,NULL,1741
+839,2,PS118/WOL,Przedszkole Nr 118 z Oddziałami Integracyjnymi,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 118 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1742
+840,2,PS124/WOL,Przedszkole Nr 124,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 124,NULL,NULL,NULL,NULL,1743
+841,2,PS133/WOL,Przedszkole Nr 133,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 133,NULL,NULL,NULL,NULL,1744
+842,2,PS134/WOL,Przedszkole Nr 134,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 134,NULL,NULL,NULL,NULL,1745
+843,2,PS135/WOL,Przedszkole Nr 135,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 135,NULL,NULL,NULL,NULL,1746
+844,2,PS136/WOL,Przedszkole Nr 136,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 136,NULL,NULL,NULL,NULL,1747
+845,2,PS172/WOL,Przedszkole Nr 172 im. Danuty Wawiłow,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 172 im. Danuty Wawiłow,NULL,NULL,NULL,NULL,1748
+846,2,PS234/WOL,Przedszkole Nr 234,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 234,NULL,NULL,NULL,NULL,1749
+847,2,PS237/WOL,Przedszkole Nr 237 im. Warszawskiej Syrenki,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 237 im. Warszawskiej Syrenki,NULL,NULL,NULL,NULL,1750
+848,2,PS238/WOL,Przedszkole Nr 238,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 238,NULL,NULL,NULL,NULL,1751
+849,2,PS353/WOL,Przedszkole Nr 253 „Akademia Pana Kleksa”,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 253 „Akademia Pana Kleksa”,NULL,NULL,NULL,NULL,1752
+850,2,PS263/WOL,Przedszkole Nr 263,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 263,NULL,NULL,NULL,NULL,1753
+851,2,PS269/WOL,Przedszkole Nr 269,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 269,NULL,NULL,NULL,NULL,1754
+852,2,PS273/WOL,Przedszkole Nr 273,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 273,NULL,NULL,NULL,NULL,1755
+853,2,PS289/WOL,Przedszkole Nr 289,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 289,NULL,NULL,NULL,NULL,1756
+854,2,PS350/WOL,Przedszkole Nr 350 „Jaśminowy Gaj”,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 350 „Jaśminowy Gaj”,NULL,NULL,NULL,NULL,1757
+855,2,PS403/WOL,Przedszkole Nr 403,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 403,NULL,NULL,NULL,NULL,1758
+856,2,PS47/WOL,Przedszkole Nr 47 „Mali Artyści”,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 47 „Mali Artyści”,NULL,NULL,NULL,NULL,1759
+857,2,PS58/WOL,Przedszkole Nr 58 im. Czesława Janczarskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 58 im. Czesława Janczarskiego,NULL,NULL,NULL,NULL,1760
+858,2,PS62/WOL,Przedszkole Nr 62 ,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 62 ,NULL,NULL,NULL,NULL,1761
+859,2,PS74/WOL,Przedszkole Nr 74 ,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 74 ,NULL,NULL,NULL,NULL,1762
+860,2,PS93/WOL,Przedszkole Nr 93 „Baśniowy Dworek na Kole”,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole Nr 93 „Baśniowy Dworek na Kole”,NULL,NULL,NULL,NULL,1763
+861,2,PS127/WOL,Przedszkole z Oddziałami Integracyjnymi Nr 127 im. Wandy Chotomskiej,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole z Oddziałami Integracyjnymi Nr 127 im. Wandy Chotomskiej,NULL,NULL,NULL,NULL,1764
+862,2,PS310/WOL,Przedszkole z Oddziałami Integracyjnymi Nr 310,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole z Oddziałami Integracyjnymi Nr 310,NULL,NULL,NULL,NULL,1765
+863,2,PS37/WOL,Przedszkole z Oddziałami Integracyjnymi Nr 37 „Bajkowy Świat” ,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Przedszkole z Oddziałami Integracyjnymi Nr 37 „Bajkowy Świat” ,NULL,NULL,NULL,NULL,1766
+864,2,SP132/WOL,Szkoła Podstawowa Nr 132 im. Sandora Petofiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 132 im. Sandora Petofiego,NULL,NULL,NULL,NULL,1767
+865,2,SP139/WOL,Szkoła Podstawowa Nr 139 im. Ludwiki Wawrzyńskiej,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 139 im. Ludwiki Wawrzyńskiej,NULL,NULL,NULL,NULL,1768
+866,2,SP148/WOL,Szkoła Podstawowa Nr 148 im. Hugona Kołłątaja,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 148 im. Hugona Kołłątaja,NULL,NULL,NULL,NULL,1769
+867,2,SP166/WOL,Szkoła Podstawowa nr 166 im. Żwirki i Wigury,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa nr 166 im. Żwirki i Wigury,NULL,NULL,NULL,NULL,1770
+868,2,SP221/WOL,Szkoła Podstawowa nr 221 z Oddziałami Integracyjnymi im. Barbary Bronisławy Czarnowskiej,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa nr 221 z Oddziałami Integracyjnymi im. Barbary Bronisławy Czarnowskiej,NULL,NULL,NULL,NULL,1771
+869,2,SP222/WOL,Szkoła Podstawowa Nr 222 im. Jana Brzechwy,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 222 im. Jana Brzechwy,NULL,NULL,NULL,NULL,1772
+870,2,SP225/WOL,Szkoła Podstawowa Nr 225 im. Józefa Gardeckiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 225 im. Józefa Gardeckiego,NULL,NULL,NULL,NULL,1773
+871,2,SP234/WOL,Szkoła Podstawowa Nr 234 im. Juliana Tuwima,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 234 im. Juliana Tuwima,NULL,NULL,NULL,NULL,1774
+872,2,SP238/WOL,Szkoła Podstawowa Nr 238 im. Christo Botewa,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 238 im. Christo Botewa,NULL,NULL,NULL,NULL,1775
+873,2,SP25/WOL,Szkoła Podstawowa Nr 25 im. Komisji Edukacji Narodowej,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 25 im. Komisji Edukacji Narodowej,NULL,NULL,NULL,NULL,1776
+874,2,SP26/WOL,Szkoła Podstawowa Nr 26 im. Mirosława Biernackiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 26 im. Mirosława Biernackiego,NULL,NULL,NULL,NULL,1777
+875,2,SP63/WOL,Szkoła Podstawowa Nr 63 im. Zawiszy Czarnego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Szkoła Podstawowa Nr 63 im. Zawiszy Czarnego,NULL,NULL,NULL,NULL,1778
+876,2,OJV/WOL,V Ogród Jordanowski,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,V Ogród Jordanowski,NULL,NULL,NULL,NULL,NULL
+877,2,LOXII/WOL,XII LO im. Henryka Sienkiewicza,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,XII LO im. Henryka Sienkiewicza,NULL,NULL,NULL,NULL,1779
+878,2,LOXL/WOL,XL Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Stefana Żeromskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,XL Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi im. Stefana Żeromskiego,NULL,NULL,NULL,NULL,1780
+879,2,LOXLV/WOL,XLV LO im. Romualda Traugutta,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,XLV LO im. Romualda Traugutta,NULL,NULL,NULL,NULL,1781
+880,2,LOXXIV/WOL,XXIV LO im. Cypriana Kamila Norwida,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,XXIV LO im. Cypriana Kamila Norwida,NULL,NULL,NULL,NULL,1782
+881,2,LOXXX/WOL,XXX LO im. Jana Śniadeckiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,XXX LO im. Jana Śniadeckiego,NULL,NULL,NULL,NULL,1783
+882,2,ZS71/WOL,Zespól Szkół Integracyjnych  Nr 71 im. Edmunda Bojanowskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespól Szkół Integracyjnych  Nr 71 im. Edmunda Bojanowskiego,NULL,NULL,NULL,NULL,1784
+883,2,ZSF/WOL,Zespół Szkół Fototechnicznych,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Fototechnicznych,NULL,NULL,NULL,NULL,1785
+884,2,ZSMK/WOL,Zespół Szkół im. Michała Konarskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół im. Michała Konarskiego,NULL,NULL,NULL,NULL,1786
+885,2,ZS24/WOL,Zespół Szkół Nr 24 im. prof. Stefana Bryły,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Nr 24 im. prof. Stefana Bryły,NULL,NULL,NULL,NULL,NULL
+886,2,ZS32/WOL,Zespół Szkół Nr 32 im. Krzysztofa Kamila Baczyńskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Nr 32 im. Krzysztofa Kamila Baczyńskiego,NULL,NULL,NULL,NULL,1787
+887,2,ZS36/WOL,Zespół Szkół Nr 36 im. Marcina Kasprzaka,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Nr 36 im. Marcina Kasprzaka,NULL,NULL,NULL,NULL,1788
+888,2,ZS117/WOL,Zespół Szkół Nr 117,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Nr 117,NULL,NULL,NULL,NULL,1789
+889,2,ZS7/WOL,Zespół Szkół Nr 7 im. Szczepana Bońkowskiego,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Nr 7 im. Szczepana Bońkowskiego,NULL,NULL,NULL,NULL,1791
+890,2,ZSS2/WOL,Zespół Szkół Samochodowych i Licealnych Nr 2,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół Samochodowych i Licealnych Nr 2,NULL,NULL,NULL,NULL,1792
+891,2,ZS65/WOL,Zespół Szkół z Oddziałami Integracyjnymi  Nr 65  ,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Szkół z Oddziałami Integracyjnymi  Nr 65  ,NULL,NULL,NULL,NULL,1793
+892,2,ZWPEK/WOL,Zespół Wolskich Placówek Edukacji Kulturalnej,1,1,2014-03-27 12:00,NULL,NULL,95,,,,,Zespół Wolskich Placówek Edukacji Kulturalnej,NULL,NULL,NULL,NULL,1794
+893,2,GI55/ŻOL,Gimnazjum nr 55,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Gimnazjum nr 55,NULL,NULL,NULL,NULL,1802
+894,2,GI56/ŻOL,Gimnazjum nr 56,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Gimnazjum nr 56,NULL,NULL,NULL,NULL,1803
+895,2,LOI/ŻOL,I Liceum Ogólnokształcące,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,I Liceum Ogólnokształcące,NULL,NULL,NULL,NULL,1804
+896,2,OPP/ŻOL,Ognisko Pracy Pozaszkolnej Żoliborz,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Ognisko Pracy Pozaszkolnej Żoliborz,NULL,NULL,NULL,NULL,1805
+897,2,PPP3/ŻOL,Poradnia Psychologiczno-Pedagogiczna nr 3,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Poradnia Psychologiczno-Pedagogiczna nr 3,NULL,NULL,NULL,NULL,1806
+898,2,PS109/ŻOL,Przedszkole nr 109,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 109,NULL,NULL,NULL,NULL,1807
+899,2,PS130/ŻOL,Przedszkole nr 130,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 130,NULL,NULL,NULL,NULL,1808
+900,2,PS131/ŻOL,Przedszkole nr 131,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 131,NULL,NULL,NULL,NULL,1809
+901,2,PS132/ŻOL,Przedszkole nr 132,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 132,NULL,NULL,NULL,NULL,1810
+902,2,PS197/ŻOL,Przedszkole nr 197,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 197,NULL,NULL,NULL,NULL,1811
+903,2,PS212/ŻOL,Przedszkole nr 212,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 212,NULL,NULL,NULL,NULL,1812
+904,2,PS247/ŻOL,Przedszkole nr 247,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 247,NULL,NULL,NULL,NULL,1813
+905,2,PS288/ŻOL,Przedszkole nr 288,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 288,NULL,NULL,NULL,NULL,1814
+906,2,PS361/ŻOL,Przedszkole nr 361,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 361,NULL,NULL,NULL,NULL,1815
+907,2,PS87/ŻOL,Przedszkole nr 87,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 87,NULL,NULL,NULL,NULL,1816
+908,2,PS96/ŻOL,Przedszkole nr 96,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Przedszkole nr 96,NULL,NULL,NULL,NULL,1817
+909,2,SP267/ŻOL,Szkoła Podstawowa nr 267,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Szkoła Podstawowa nr 267,NULL,NULL,NULL,NULL,1818
+910,2,SP65/ŻOL,Szkoła Podstawowa nr 65,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Szkoła Podstawowa nr 65,NULL,NULL,NULL,NULL,1819
+911,2,SP68/ŻOL,Szkoła Podstawowa nr 68,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Szkoła Podstawowa nr 68,NULL,NULL,NULL,NULL,1820
+912,2,SP92/ŻOL,Szkoła Podstawowa nr 92,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Szkoła Podstawowa nr 92,NULL,NULL,NULL,NULL,1821
+913,2,ZSEL/ŻOL,Zespół Szkół Elektronicznych i Licealnych,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Zespół Szkół Elektronicznych i Licealnych,NULL,NULL,NULL,NULL,1822
+914,2,ZS31/ŻOL,Zespół Szkół nr 31,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Zespół Szkół nr 31,NULL,NULL,NULL,NULL,1824
+915,2,ZS53/ŻOL,Zespół Szkół nr 53,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Zespół Szkół nr 53,NULL,NULL,NULL,NULL,1825
+916,2,ZS54/ŻOL,Zespół Szkół nr 54,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Zespół Szkół nr 54,NULL,NULL,NULL,NULL,1826
+917,2,ZSS3/ŻOL,Zespół Szkół Samochodowych i Licealnych nr 3,1,1,2014-03-27 12:00,NULL,NULL,99,,,,,Zespół Szkół Samochodowych i Licealnych nr 3,NULL,NULL,NULL,NULL,1827
+918,2,BUR1/MBFO,Bursa Nr 1,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Bursa Nr 1,NULL,NULL,NULL,NULL,1893
+919,2,BUR5/MBFO,Bursa Nr 5,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Bursa Nr 5,NULL,NULL,NULL,NULL,1894
+920,2,BUR6/MBFO,Bursa nr 6,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Bursa nr 6,NULL,NULL,NULL,NULL,1895
+921,2,BURS4/MBFO,Bursa Szkolna Nr 4,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Bursa Szkolna Nr 4,NULL,NULL,NULL,NULL,1896
+922,2,GIS150/MBFO,Gimnazjum Specjalne nr 150,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Gimnazjum Specjalne nr 150,NULL,NULL,NULL,NULL,1897
+923,2,IGF/MBFO,Instytut Głuchoniemych im. Jakuba Falkowskiego,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Instytut Głuchoniemych im. Jakuba Falkowskiego,NULL,NULL,NULL,NULL,1898
+924,2,MSOSS/MBFO,"Międzyszkolny Ośrodek Sportowo - Szkoleniowy ""Omega"" ",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Międzyszkolny Ośrodek Sportowo - Szkoleniowy ""Omega"" ",NULL,NULL,NULL,NULL,1899
+925,2,MOS1/MBFO,Młodzieżowy Ośrodek Socjoterapii Nr 1 SOS,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Socjoterapii Nr 1 SOS,NULL,NULL,NULL,NULL,1900
+926,2,MOS2/MBFO,"Młodzieżowy Ośrodek Socjoterapii nr 2 ""Kąt""",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Młodzieżowy Ośrodek Socjoterapii nr 2 ""Kąt""",NULL,NULL,NULL,NULL,1901
+927,2,MOS3/MBFO,Młodzieżowy Ośrodek Socjoterapii nr 3,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Socjoterapii nr 3,NULL,NULL,NULL,NULL,1902
+928,2,SOW/MBFO,"Specjalny Ośrodek Wychowawczy ""Dom przy Rynku""",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Specjalny Ośrodek Wychowawczy ""Dom przy Rynku""",NULL,NULL,NULL,NULL,1903
+929,2,MOS6/MBFO,Młodzieżowy Ośrodek Socjoterapii nr 6,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Socjoterapii nr 6,NULL,NULL,NULL,NULL,1904
+930,2,MOS7/MBFO,Młodzieżowy Ośrodek Socjoterapii nr 7,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Socjoterapii nr 7,NULL,NULL,NULL,NULL,1905
+931,2,MOS8/MBFO,Młodzieżowy Ośrodek Socjoterapii nr 8,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Socjoterapii nr 8,NULL,NULL,NULL,NULL,1906
+932,2,MOW2/MBFO,Młodzieżowy Ośrodek Wychowawczy nr 2,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Wychowawczy nr 2,NULL,NULL,NULL,NULL,1907
+933,2,MOW3/MBFO,Młodzieżowy Ośrodek Wychowawczy nr 3 im. dr Grzegorza Maja,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Wychowawczy nr 3 im. dr Grzegorza Maja,NULL,NULL,NULL,NULL,1908
+934,2,MOW4/MBFO,Młodzieżowy Ośrodek Wychowawczy Nr 4,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Młodzieżowy Ośrodek Wychowawczy Nr 4,NULL,NULL,NULL,NULL,1909
+935,2,OOS/MBFO,"Ośrodek Oświatowo-Szkoleniowy ""Arkadia"" ",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Ośrodek Oświatowo-Szkoleniowy ""Arkadia"" ",NULL,NULL,NULL,NULL,1910
+936,2,OR-W/MBFO,"Ośrodek Rehabilitacyjno -Wypoczynkowy ""Syrena"" w Mielnie",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Ośrodek Rehabilitacyjno -Wypoczynkowy ""Syrena"" w Mielnie",NULL,NULL,NULL,NULL,1911
+937,2,OSWG/MBFO,Ośrodek Szkolno-Wychowawczy dla Głuchych,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Ośrodek Szkolno-Wychowawczy dla Głuchych,NULL,NULL,NULL,NULL,1912
+938,2,PMPKiN/MBFO,Pałac Młodzieży PKiN,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Pałac Młodzieży PKiN,NULL,NULL,NULL,NULL,1913
+939,2,POA/MBFO,Państwowe Ognisko Artystyczne,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Państwowe Ognisko Artystyczne,NULL,NULL,NULL,NULL,1914
+940,2,PPSMO/MBFO,"Pozaszkolna Placówka Specjalistyczna Młodzieżowy Ośrodek Edukacyjno -  Wypoczynkowy ""Zatoka Uklei"" w Gawrych Rudzie",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Pozaszkolna Placówka Specjalistyczna Młodzieżowy Ośrodek Edukacyjno -  Wypoczynkowy ""Zatoka Uklei"" w Gawrych Rudzie",NULL,NULL,NULL,NULL,1915
+941,2,PPSSOW/MBFO,"Pozaszkolna Placówka Specjalistyczna Szkolny Ośrodek Wypoczynkowy ""Syrenka"" w Marózie ",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Pozaszkolna Placówka Specjalistyczna Szkolny Ośrodek Wypoczynkowy ""Syrenka"" w Marózie ",NULL,NULL,NULL,NULL,1916
+942,2,PS68/MBFO,Przedszkole Specjalne nr 68,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Przedszkole Specjalne nr 68,NULL,NULL,NULL,NULL,1917
+943,2,PSMOPiP/MBFO,"PS MOPiP ""MOP""",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"PS MOPiP ""MOP""",NULL,NULL,NULL,NULL,1918
+944,2,SPPTOPTA/MBFO,"Specjalistyczna Poradnia Profilaktyczno- Terapeutyczna ""OPTA""",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Specjalistyczna Poradnia Profilaktyczno- Terapeutyczna ""OPTA""",NULL,NULL,NULL,NULL,1919
+945,2,SPPPTOP/MBFO,"Specjalistyczna Poradnia Psychologiczno- Pedagogiczna ""TOP""",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Specjalistyczna Poradnia Psychologiczno- Pedagogiczna ""TOP""",NULL,NULL,NULL,NULL,1920
+946,2,SPPPUdR/MBFO,"Specjalistyczna Poradnia Psychologiczno- Pedagogiczna ""Uniwersytet dla Rodziców""",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Specjalistyczna Poradnia Psychologiczno- Pedagogiczna ""Uniwersytet dla Rodziców""",NULL,NULL,NULL,NULL,1921
+947,2,SOSW15/MBFO,Specjalny Ośrodek Szkolno-Wychowawczy dla Dzieci Słabosłyszących Nr 15 im. Ottona Lipkowskiego,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Specjalny Ośrodek Szkolno-Wychowawczy dla Dzieci Słabosłyszących Nr 15 im. Ottona Lipkowskiego,NULL,NULL,NULL,NULL,1922
+948,2,SOSW8/MBFO,Specjalny Ośrodek Szkolno-Wychowawczy dla Dzieci Słabowidzących nr 8,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Specjalny Ośrodek Szkolno-Wychowawczy dla Dzieci Słabowidzących nr 8,NULL,NULL,NULL,NULL,1923
+949,2,SOSW9/MBFO,Specjalny Ośrodek Szkolno-Wychowawczy nr 9,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Specjalny Ośrodek Szkolno-Wychowawczy nr 9,NULL,NULL,NULL,NULL,1924
+950,2,SCEK/MBFO,Stołeczne Centrum Edukacji Kulturalnej,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Stołeczne Centrum Edukacji Kulturalnej,NULL,NULL,NULL,NULL,1925
+951,2,SSM3/MBFO,Szkolne Schronisko Młodzieżowe nr 3,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Szkolne Schronisko Młodzieżowe nr 3,NULL,NULL,NULL,NULL,1926
+952,2,SOWOG/MBFO,"Szkolny Ośrodek Wypoczynkowy ""Orle Gniazdo"" ",1,1,2014-03-27 12:00,NULL,NULL,23,,,,,"Szkolny Ośrodek Wypoczynkowy ""Orle Gniazdo"" ",NULL,NULL,NULL,NULL,1927
+953,2,SP302/MBFO,Szkoła Podstawowa nr 302,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Szkoła Podstawowa nr 302,NULL,NULL,NULL,NULL,1928
+954,2,WCIESiS/MBFO,Warszawskie Centrum Innowacji Edukacyjno-Społecznych i Szkoleń,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Warszawskie Centrum Innowacji Edukacyjno-Społecznych i Szkoleń,NULL,NULL,NULL,NULL,1929
+955,2,WCSM/MBFO,Warszawskie Centrum Sportu Młodzieżowego AGRYKOLA,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Warszawskie Centrum Sportu Młodzieżowego AGRYKOLA,NULL,NULL,NULL,NULL,1930
+956,2,ZSS87/MBFO,Zespól Szkół Specjalnych Nr 87,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespól Szkół Specjalnych Nr 87,NULL,NULL,NULL,NULL,1931
+957,2,ZSS88/MBFO,Zespól Szkół Specjalnych Nr 88,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespól Szkół Specjalnych Nr 88,NULL,NULL,NULL,NULL,NULL
+958,2,ZPOW/MBFO,Zespół Placówek Opiekuńczo-Wychowawczych,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Placówek Opiekuńczo-Wychowawczych,NULL,NULL,NULL,NULL,1932
+959,2,ZPEDSM/MBFO,Zespół Placówek Europejski Dom Spotkań Młodzieży w Warszawie,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Placówek Europejski Dom Spotkań Młodzieży w Warszawie,NULL,NULL,NULL,NULL,1933
+960,2,ZPZWR1/MBFO,Zespół Placówek Szkolno- Wychowawczo- Rewalidacyjnych nr 1,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Placówek Szkolno- Wychowawczo- Rewalidacyjnych nr 1,NULL,NULL,NULL,NULL,1934
+961,2,ZSS95/MBFO,Zespół Szkól Specjalnych nr 95,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkól Specjalnych nr 95,NULL,NULL,NULL,NULL,1935
+962,2,ZSS100/MBFO,Zespół Szkół Specjalnych Nr 100,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 100,NULL,NULL,NULL,NULL,1936
+963,2,ZSS101/MBFO,Zespół Szkół Specjalnych Nr 101,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 101,NULL,NULL,NULL,NULL,1937
+964,2,ZSS102/MBFO,Zespół Szkół Specjalnych nr 102,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 102,NULL,NULL,NULL,NULL,1938
+965,2,ZSS103/MBFO,Zespół Szkół Specjalnych nr 103,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 103,NULL,NULL,NULL,NULL,1939
+966,2,ZSS104/MBFO,Zespół Szkół Specjalnych nr 104,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 104,NULL,NULL,NULL,NULL,1940
+967,2,ZSS105/MBFO,Zespół Szkół Specjalnych Nr 105 im. Kazimierza Kirejczyka,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 105 im. Kazimierza Kirejczyka,NULL,NULL,NULL,NULL,1941
+968,2,ZSS107/MBFO,Zespół Szkół Specjalnych Nr 107,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 107,NULL,NULL,NULL,NULL,1942
+969,2,ZSS108/MBFO,Zespół Szkół Specjalnych nr 108,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 108,NULL,NULL,NULL,NULL,1943
+970,2,ZSS109/MBFO,Zespół Szkół Specjalnych nr 109,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 109,NULL,NULL,NULL,NULL,1944
+971,2,ZSS38/MBFO,Zespół Szkół Specjalnych nr 38,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 38,NULL,NULL,NULL,NULL,1945
+972,2,ZSS63/MBFO,Zespół Szkół Specjalnych nr 63,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 63,NULL,NULL,NULL,NULL,1946
+973,2,ZSS78/MBFO,Zespół Szkół Specjalnych nr 78,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 78,NULL,NULL,NULL,NULL,1947
+974,2,ZSS85/MBFO,Zespół Szkół Specjalnych nr 85,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 85,NULL,NULL,NULL,NULL,1948
+975,2,ZSS86/MBFO,Zespół Szkół Specjalnych Nr 86,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 86,NULL,NULL,NULL,NULL,1949
+976,2,ZSS89/MBFO,Zespół Szkół Specjalnych nr 89,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 89,NULL,NULL,NULL,NULL,1950
+977,2,ZSS90/MBFO,Zespół Szkół Specjalnych Nr 90,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 90,NULL,NULL,NULL,NULL,1951
+978,2,ZSS91/MBFO,Zespół Szkół Specjalnych nr 91,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 91,NULL,NULL,NULL,NULL,1952
+979,2,ZSS92/MBFO,Zespół Szkół Specjalnych nr 92,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 92,NULL,NULL,NULL,NULL,1953
+980,2,ZSS93/MBFO,Zespół Szkół Specjalnych nr 93,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 93,NULL,NULL,NULL,NULL,1954
+981,2,ZSS94/MBFO,Zespół Szkół Specjalnych nr 94,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 94,NULL,NULL,NULL,NULL,1955
+982,2,ZSS96/MBFO,Zespół Szkół Specjalnych Nr 96,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 96,NULL,NULL,NULL,NULL,1956
+983,2,ZSS97/MBFO,Zespół Szkół Specjalnych nr 97,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych nr 97,NULL,NULL,NULL,NULL,1957
+984,2,ZSS98/MBFO,Zespół Szkół Specjalnych Nr 98,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 98,NULL,NULL,NULL,NULL,1958
+985,2,ZSS99/MBFO,Zespół Szkół Specjalnych Nr 99,1,1,2014-03-27 12:00,NULL,NULL,23,,,,,Zespół Szkół Specjalnych Nr 99,NULL,NULL,NULL,NULL,1959
+986,2,UD/BEM,Urząd Dzielnicy Bemowo,1,1,2014-07-16 15:39,NULL,NULL,1,ul.Powstańców Śląskich,70,01-381,15259663,Urząd Dzielnicy Bemowo,1,525-224-84-81,525-224-84-81,NULL,1001
+987,2,UD/BIA,Urząd Dzielnicy Białołęka,1,1,2014-07-16 15:45,NULL,NULL,2,ul.Modlińska,197,03-122,15259663,Urząd Dzielnicy Białołęka,1,525-224-84-81,525-224-84-81,NULL,1039
+988,2,UD/BIE,Urząd Dzielnicy Bielany,1,1,2014-07-16 15:46,NULL,NULL,3,ul.Żeromskiego,29,01-882,15259640,Urząd Dzielnicy Bielany,1,525-224-84-81,525-224-84-81,NULL,1068
+989,2,UD/MOK,Urząd Dzielnicy Mokotów,1,1,2014-07-16 15:47,NULL,NULL,4,ul.Rakowiecka,25/27,02-517,15259640,Urząd Dzielnicy Mokotów,1,525-224-84-81,525-224-84-81,NULL,1136
+990,2,UD/OCH,Urząd Dzielnicy Ochota,1,1,2014-07-16 15:48,NULL,NULL,5,ul.Grójecka,17a,02-021,15259663,Urząd Dzielnicy Ochota,1,525-224-84-81,525-224-84-81,NULL,1247
+991,2,UD/PRD,Urząd Dzielnicy Praga Południe,1,1,2014-07-16 15:49,NULL,NULL,6,ul.Grochowska,274,03-841,15259640,Urząd Dzielnicy Praga Południe,1,525-224-84-81,525-224-84-81,NULL,1297
+992,2,UD/PRN,Urząd Dzielnicy Praga Północ,1,1,2014-07-16 15:50,NULL,NULL,7,ul.Ks. Ignacego Kłopotowskiego,15,03-708,15259663,Urząd Dzielnicy Praga Północ,1,525-224-84-81,525-224-84-81,NULL,1381
+993,2,UD/REM,Urząd Dzielnicy Rembertów,1,1,2014-07-16 15:51,NULL,NULL,8,"Al.Gen. A.Chruściela ""Montera""",28,04-401,15259663,Urząd Dzielnicy Rembertów,1,525-224-84-81,525-224-84-81,NULL,1417
+994,2,UD/ŚRÓ,Urząd Dzielnicy Śródmieście,1,1,2014-07-16 15:52,NULL,NULL,9,ul.Nowogrodzka,43,00-691,15259663,Urząd Dzielnicy Śródmieście,1,525-224-84-81,525-224-84-81,NULL,1431
+995,2,UD/TAR,Urząd Dzielnicy Targówek,1,1,2014-07-16 15:53,NULL,NULL,10,ul.Kondratowicza,20,00-983,15259640,Urząd Dzielnicy Targówek,1,525-224-84-81,525-224-84-81,NULL,1521
+996,2,UD/URS,Urząd Dzielnicy Ursus,1,1,2014-07-16 15:54,NULL,NULL,11,Pl.Czerwca 1976,1,02-495,15259663,Urząd Dzielnicy Ursus,1,525-224-84-81,525-224-84-81,NULL,1570
+997,2,UD/URN,Urząd Dzielnicy Ursynów,1,1,2014-07-16 15:55,NULL,NULL,12,Al.Komisji Edukacji Narodowej,61,02-777,15259663,Urząd Dzielnicy Ursynów,1,525-224-84-81,525-224-84-81,NULL,1594
+998,2,UD/WAW,Urząd Dzielnicy Wawer,1,1,2014-07-16 15:56,NULL,NULL,13,ul.Żegańska,1,04-713,15259663,Urząd Dzielnicy Wawer,1,525-224-84-81,525-224-84-81,NULL,1645
+999,2,UD/WES,Urząd Dzielnicy Wesoła,1,1,2014-07-16 15:58,NULL,NULL,14,ul. 1 Praskiego Pułku,33,05-075,15259663,Urząd Dzielnicy Wesoła,1,525-224-84-81,525-224-84-81,NULL,1673
+1000,2,UD/WIL,Urząd Dzielnicy Wilanów,1,1,2014-07-16 15:58,NULL,NULL,15,ul.Franciszka Klimczaka,2,02-797,15259663,Urząd Dzielnicy Wilanów,1,525-224-84-81,525-224-84-81,NULL,1688
+1001,2,UD/WŁO,Urząd Dzielnicy Włochy,1,1,2014-07-16 15:59,NULL,NULL,16,Al.Krakowska,257,02-133,15259663,Urząd Dzielnicy Włochy,1,525-224-84-81,525-224-84-81,NULL,1699
+1002,2,UD/WOL,Urząd Dzielnicy Wola,1,1,2014-07-16 16:00,NULL,NULL,17,Al.Solidarności,90,01-003,15259663,Urząd Dzielnicy Wola,1,525-224-84-81,525-224-84-81,NULL,1723
+1003,2,UD/ŻOL,Urząd Dzielnicy Żoliborz,1,1,2014-07-16 16:01,NULL,NULL,18,ul.Słowackiego,06-VIII,01-627,15259663,Urząd Dzielnicy Żoliborz,1,525-224-84-81,525-224-84-81,NULL,1796
+1004,2,,Centrum Sportu Wilanów m.st. Warszawy,1,1,2015-02-16 14:31,1,2015-02-24 09:50,15,ul.Wiertnicza,26a,02-952,147302974,Centrum Sportu Wilanów m.st. Warszawy,1,,,NULL,1689
+1005,2,,Zarząd Terenów Publicznych,1,1,2015-02-16 14:34,NULL,NULL,NULL,ul. Podwale,23,00-261,10496921,Zarząd Terenów Publicznych,1,,,,1434
+1006,2,CWR/UM,"Centrum Wspierania Rodzin ""Rodzinna Warszawa""",1,1,2015-12-07 00:27,NULL,NULL,-99,,,,,"Centrum Wspierania Rodzin ""Rodzinna Warszawa""",1,,,3300000095,1887
+1007,2,CA1/UM,Centrum Administracyjne Nr 1 do obsługi placówek opiekuńczo-wychowawczych,1,1,2015-12-07 08:22,1,2016-02-19 12:19,-99,ul. Bonifacego,81,02-945,,Centrum Administracyjne Nr 1 do obsługi placówek opiekuńczo-wychowawczych,1,,,3300000096,1890
+1008,2,CS/UM,"Stołeczne Centrum Sportu ""Aktywna Warszawa""",1,1,2015-12-07 08:22,1,2016-02-19 12:21,-99,ul. Rozbrat,26,02-429,,"Stołeczne Centrum Sportu ""Aktywna Warszawa""",1,,,3300000108,1871
+1009,2,,Specjalny Ośrodek Wychowawczy,1,1,2016-01-15 15:27,NULL,NULL,23,,,,,Specjalny Ośrodek Wychowawczy,NULL,NULL,NULL,NULL,1962
+1010,2,,Zespół Placówek Szkolno-Wychowawczo-Rewalidacyjnych Nr 1,1,1,2016-01-15 15:27,NULL,NULL,23,,,,,Zespół Placówek Szkolno-Wychowawczo-Rewalidacyjnych Nr 1,NULL,NULL,NULL,NULL,1934
+1011,2,,Szkoła Podstawowa nr 357,1,1,2016-01-15 15:27,NULL,NULL,30,,,,,Szkoła Podstawowa nr 357,NULL,NULL,NULL,NULL,1032
+1012,2,,LXXVIII LO,1,1,2016-01-15 15:27,NULL,NULL,30,,,,,LXXVIII LO,NULL,NULL,NULL,NULL,1011
+1013,2,,Zespół Szkolno-Przedszkolny nr 6,1,1,2016-01-15 15:27,NULL,NULL,30,,,,,Zespół Szkolno-Przedszkolny nr 6,NULL,NULL,NULL,NULL,1035
+1014,2,,Szkoła Podstawowa nr 355 im Jana Wedla,1,1,2016-01-15 15:27,NULL,NULL,35,,,,,Szkoła Podstawowa nr 355 im Jana Wedla,NULL,NULL,NULL,NULL,1064
+1015,2,,Szkoła Podstawowa nr 356 im. Ryszarda Kaczorowskiego,1,1,2016-01-15 15:27,NULL,NULL,35,,,,,Szkoła Podstawowa nr 356 im. Ryszarda Kaczorowskiego,NULL,NULL,NULL,NULL,1065
+1016,2,,Zespół Szkół nr 124,1,1,2016-01-15 15:27,NULL,NULL,39,,,,,Zespół Szkół nr 124,NULL,NULL,NULL,NULL,1135
+1017,2,,Gimnazjum nr 75,1,1,2016-01-15 15:27,NULL,NULL,39,,,,,Gimnazjum nr 75,NULL,NULL,NULL,NULL,1078
+1018,2,,Przedszkole nr 422,1,1,2016-01-15 15:27,NULL,NULL,39,,,,,Przedszkole nr 422,NULL,NULL,NULL,NULL,1110
+1019,2,,Przedszkole nr 421,1,1,2016-01-15 15:27,NULL,NULL,39,,,,,Przedszkole nr 421,NULL,NULL,NULL,NULL,1109
+1020,2,,Przedszkole 423,1,1,2016-01-15 15:27,NULL,NULL,60,,,,,Przedszkole nr 423,NULL,NULL,NULL,NULL,1427
+1021,2,,Zespół Szkolno-Przedszkolny nr 8,1,1,2016-01-15 15:27,NULL,NULL,63,,,,,Zespół Szkolno-Przedszkolny nr 8,NULL,NULL,NULL,NULL,1507
+1022,2,,Zespół Szkolno-Przedszkolny nr 9,1,1,2016-01-15 15:27,NULL,NULL,80,,,,,Zespół Szkolno-Przedszkolny nr 9,NULL,NULL,NULL,NULL,1672
+1023,2,,Zespół Szkół nr 122,1,1,2016-01-15 15:27,NULL,NULL,95,,,,,Zespół Szkół nr 122,NULL,NULL,NULL,NULL,1790
+1024,2,WO/UM,Warszawski Ośrodek Interwencji Kryzysowej,1,1,2016-06-03 12:12,NULL,NULL,-99,ul. 6-go Sierpnia,,02-843,364045408,Warszawski Ośrodek Interwencji Kryzysowej,2,NULL,NULL,3300000113,1892
+1025,2,,Przedszkole Nr 425,1,1,2016-09-05 15:31,NULL,NULL,51,,,,,Przedszkole Nr 425,NULL,NULL,NULL,NULL,1963
+1026,2,,Szkoła Podstawowa Nr 358,1,1,2016-09-05 15:31,NULL,NULL,88,,,,,Szkoła Podstawowa Nr 358,NULL,NULL,NULL,NULL,1964
+1027,2,,Poradnia Psychologiczno-Pedagogiczna Nr 24,1,1,2016-09-05 15:31,NULL,NULL,88,,,,,Poradnia Psychologiczno-Pedagogiczna Nr 24,NULL,NULL,NULL,NULL,1965
+1028,2,,Zespół Szkół nr 126 z Oddziałami Integracyjnymi,1,1,2016-09-07 14:57,NULL,NULL,90,NULL,NULL,NULL,NULL,Zespół Szkół nr 126 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,1966
+1029,2,,Przedszkole nr 426,1,1,2016-10-12 14:45,NULL,NULL,95,,,,,Przedszkole nr 426,NULL,NULL,NULL,NULL,1967
+1030,2,ZZM/UM,Zarząd Zieleni m.st. Warszawy,1,1,2016-10-12 14:45,NULL,NULL,-99,ul. Czerniakowska,71,00-715,365421948,Zarząd Zieleni m.st. Warszawy,2,NULL,NULL,3300000147,1968
+1031,2,,Przedszkole nr 427,1,1,2017-03-13 12:18,NULL,NULL,88,NULL,NULL,NULL,NULL,Przedszkole nr 427,NULL,NULL,NULL,NULL,1969
+1032,2,,Centrum Usług Społecznych „ Społeczna Warszawa”,1,1,2017-06-06 11:22,NULL,NULL,-99,,,,,Centrum Usług Społecznych „ Społeczna Warszawa”,NULL,NULL,NULL,NULL,1970
+1033,2,,Szkoła Podstawowa Specjalna nr 6,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 6,NULL,NULL,NULL,NULL,1971
+1034,2,,"Szkoła Podstawowa Specjalna nr 22 w Narodowym Instytucie Geriatrii, Reumatologii i Rehabilitacji im. Prof. dr hab.. Eleonory Reicher",1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,"Szkoła Podstawowa Specjalna nr 22 w Narodowym Instytucie Geriatrii, Reumatologii i Rehabilitacji im. Prof. dr hab.. Eleonory Reicher",NULL,NULL,NULL,NULL,1972
+1035,2,,Szkoła Podstawowa Specjalna nr 99 im. Małego Powstańca,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 99 im. Małego Powstańca,NULL,NULL,NULL,NULL,1973
+1036,2,,Szkoła Podstawowa Specjalna nr 111 im. Stefana Starzyńskiego,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 111 im. Stefana Starzyńskiego,NULL,NULL,NULL,NULL,1974
+1037,2,,Szkoła Podstawowa Specjalna nr 123,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 123,NULL,NULL,NULL,NULL,1975
+1038,2,,Szkoła Podstawowa Specjalna nr 147,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 147,NULL,NULL,NULL,NULL,1976
+1039,2,,Szkoła Podstawowa Specjalna nr 167,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 167,NULL,NULL,NULL,NULL,1977
+1040,2,,Szkoła Podstawowa Specjalna nr 177 im. Marii Konopnickiej,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 177 im. Marii Konopnickiej,NULL,NULL,NULL,NULL,1978
+1041,2,,Szkoła Podstawowa Specjalna nr 213 im. Ireny Sendlerowej,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 213 im. Ireny Sendlerowej,NULL,NULL,NULL,NULL,1979
+1042,2,,Szkoła Podstawowa Specjalna nr 240,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 240,NULL,NULL,NULL,NULL,1980
+1043,2,,Szkoła Podstawowa Specjalna nr 244,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 244,NULL,NULL,NULL,NULL,1981
+1044,2,,Szkoła Podstawowa Specjalna nr 282 w Samodzielnym Zespole Publicznych Zakładów Opieki Zdrowotnej im. prof. dr Jana Bogdanowicza,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 282 w Samodzielnym Zespole Publicznych Zakładów Opieki Zdrowotnej im. prof. dr Jana Bogdanowicza,NULL,NULL,NULL,NULL,1982
+1045,2,,Szkoła Podstawowa Specjalna nr 283 w Instytucie Matki i Dziecka,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 283 w Instytucie Matki i Dziecka,NULL,NULL,NULL,NULL,1983
+1046,2,,Szkoła Podstawowa,,,,,,,,,,,,,,,,
+w Dziecięcym Szpitalu Klinicznym im. Józefa Polikarpa Brudzińskiego,,,,,,,,,,,,,,,,,,,
+Specjalna nr 287 w Warszawie,,,,,,,,,,,,,,,,,,,
+,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa,,,,,,,,
+w Dziecięcym Szpitalu Klinicznym im. Józefa Polikarpa Brudzińskiego,,,,,,,,,,,,,,,,,,,
+Specjalna nr 287 w Warszawie,,,,,,,,,,,,,,,,,,,
+,NULL,NULL,NULL,NULL,1984,,,,,,,,,,,,,,
+1047,2,,Szkoła Podstawowa Specjalna nr 291,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 291,NULL,NULL,NULL,NULL,1985
+1048,2,,Szkoła Podstawowa Specjalna nr 327 im. Dr Anny Lechowicz,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 327 im. Dr Anny Lechowicz,NULL,NULL,NULL,NULL,1986
+1049,2,,Szkoła Podstawowa Specjalna nr 346 w Szpitalu Bielańskim im. ks. Jerzego Popiełuszki w SPZOZ,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 346 w Szpitalu Bielańskim im. ks. Jerzego Popiełuszki w SPZOZ,NULL,NULL,NULL,NULL,1987
+1050,2,,Szkoła Podstawowa Specjalna nr 394,1,NULL,NULL,NULL,NULL,23,NULL,NULL,NULL,NULL,Szkoła Podstawowa Specjalna nr 394,NULL,NULL,NULL,NULL,1988
+1051,2,,Przedszkole Nr 435,1,NULL,NULL,NULL,NULL,30,NULL,NULL,NULL,NULL,Przedszkole Nr 435,NULL,NULL,NULL,NULL,1989
+1052,2,,Szkoła Podstawowa Nr 150,1,NULL,NULL,NULL,NULL,30,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 150,NULL,NULL,NULL,NULL,1990
+1053,2,,Szkoła Podstawowa Nr 362,1,NULL,NULL,NULL,NULL,30,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 362,NULL,NULL,NULL,NULL,1991
+1054,2,,Szkoła Podstawowa Nr 363,1,NULL,NULL,NULL,NULL,30,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 363,NULL,NULL,NULL,NULL,1992
+1055,2,,Szkoła Podstawowa Nr 364,1,NULL,NULL,NULL,NULL,30,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 364,NULL,NULL,NULL,NULL,1993
+1056,2,,Przedszkole nr 428,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Przedszkole nr 428,NULL,NULL,NULL,NULL,1994
+1057,2,,Przedszkole nr 429,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Przedszkole nr 429,NULL,NULL,NULL,NULL,1995
+1058,2,,Przedszkole z Oddziałami Integracyjnymi nr 430,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Przedszkole z Oddziałami Integracyjnymi nr 430,NULL,NULL,NULL,NULL,1996
+1059,2,,Przedszkole nr 431,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Przedszkole nr 431,NULL,NULL,NULL,NULL,1997
+1060,2,,Szkoła Podstawowa nr 31 im. Kardynała Stefana Wyszyńskiego,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 31 im. Kardynała Stefana Wyszyńskiego,NULL,NULL,NULL,NULL,1998
+1061,2,,Szkoła Podstawowa nr 365,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 365,NULL,NULL,NULL,NULL,1999
+1062,2,,Szkoła Podstawowa nr 366,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 366,NULL,NULL,NULL,NULL,2000
+1063,2,,Szkoła Podstawowa nr 367,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 367,NULL,NULL,NULL,NULL,2001
+1064,2,,Szkoła Podstawowa nr 368,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 368,NULL,NULL,NULL,NULL,2002
+1065,2,,CV LO im. Zbigniewa Herberta,1,NULL,NULL,NULL,NULL,35,NULL,NULL,NULL,NULL,CV LO im. Zbigniewa Herberta,NULL,NULL,NULL,NULL,2003
+1066,2,,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 214,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 214,NULL,NULL,NULL,NULL,2004
+1067,2,,Szkoła Podstawowa nr 263,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 263,NULL,NULL,NULL,NULL,2005
+1068,2,,Szkoła Podstawowa nr 352,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 352,NULL,NULL,NULL,NULL,2006
+1069,2,,Szkoła Podstawowa nr 369,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 369,NULL,NULL,NULL,NULL,2007
+1070,2,,XXXIX LO im. Lotnictwa Polskiego,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,XXXIX LO im. Lotnictwa Polskiego,NULL,NULL,NULL,NULL,2008
+1071,2,,XLI LO im. Joachima Lelewela,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,XLI LO im. Joachima Lelewela,NULL,NULL,NULL,NULL,2009
+1072,2,,LIX LO mistrzostwa Sportowego,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,LIX LO mistrzostwa Sportowego,NULL,NULL,NULL,NULL,2010
+1073,2,,XCIV LO im. Gen. Stanisława Maczka,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,XCIV LO im. Gen. Stanisława Maczka,NULL,NULL,NULL,NULL,2011
+1074,2,,CXXII LO im. Ignacego Domeyki,1,NULL,NULL,NULL,NULL,39,NULL,NULL,NULL,NULL,CXXII LO im. Ignacego Domeyki,NULL,NULL,NULL,NULL,2012
+1075,2,,Szkoła Podstawowa Sportowa nr 272,1,NULL,NULL,NULL,NULL,44,NULL,NULL,NULL,NULL,Szkoła Podstawowa Sportowa nr 272,NULL,NULL,NULL,NULL,2013
+1076,2,,Szkoła Podstawowa Integracyjna nr 339,1,NULL,NULL,NULL,NULL,44,NULL,NULL,NULL,NULL,Szkoła Podstawowa Integracyjna nr 339,NULL,NULL,NULL,NULL,2014
+1077,2,,VI LO im. Tadeusza Rejtana,1,NULL,NULL,NULL,NULL,44,NULL,NULL,NULL,NULL,VI LO im. Tadeusza Rejtana,NULL,NULL,NULL,NULL,2015
+1078,2,,CLV LO z Oddziałami Dwujęzycznymi,1,NULL,NULL,NULL,NULL,44,NULL,NULL,NULL,NULL,CLV LO z Oddziałami Dwujęzycznymi,NULL,NULL,NULL,NULL,2016
+1079,2,,CLVI LO Integracyjne,1,NULL,NULL,NULL,NULL,44,NULL,NULL,NULL,NULL,CLVI LO Integracyjne,NULL,NULL,NULL,NULL,2017
+1080,2,,Szkoła Podstawowa Nr 152 im. Marii Dabrowskiej,1,NULL,NULL,NULL,NULL,46,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 152 im. Marii Dabrowskiej,NULL,NULL,NULL,NULL,2018
+1081,2,,XIV LO im. Stanisława Staszica,1,NULL,NULL,NULL,NULL,46,NULL,NULL,NULL,NULL,XIV LO im. Stanisława Staszica,NULL,NULL,NULL,NULL,2019
+1082,2,,"CLX LO im. Gen. Dyw. Stefana Roweckiego ""Grota""",1,NULL,NULL,NULL,NULL,46,NULL,NULL,NULL,NULL,"CLX LO im. Gen. Dyw. Stefana Roweckiego ""Grota""",NULL,NULL,NULL,NULL,2020
+1083,2,,Szkoła Padstawowa Integracyjna Nr 135,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,Szkoła Padstawowa Integracyjna Nr 135,NULL,NULL,NULL,NULL,2021
+1084,2,,Szkoła Podstawowa Nr 168 im. Wiktora Gomulickiego,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 168 im. Wiktora Gomulickiego,NULL,NULL,NULL,NULL,2022
+1085,2,,Szkoła Podstawowa Nr 373 im. Ignacego Jana Paderewskiego,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 373 im. Ignacego Jana Paderewskiego,NULL,NULL,NULL,NULL,2023
+1086,2,,Szkoła Podstawowa Nr 374i m. Gen. Piotra Szembeka,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 374i m. Gen. Piotra Szembeka,NULL,NULL,NULL,NULL,2024
+1087,2,,Szkoła Podstawowa Nr 375 im. Orląt Lwowskich,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 375 im. Orląt Lwowskich,NULL,NULL,NULL,NULL,2025
+1088,2,,Szkoła Podstawowa Nr 397 im. Bohaterów Olszynki Grochwskiej,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 397 im. Bohaterów Olszynki Grochwskiej,NULL,NULL,NULL,NULL,2026
+1089,2,,XXXV LO z Oddziałami Dwujęzycznymi im. Bolesława Prusa,1,NULL,NULL,NULL,NULL,51,NULL,NULL,NULL,NULL,XXXV LO z Oddziałami Dwujęzycznymi im. Bolesława Prusa,NULL,NULL,NULL,NULL,2027
+1090,2,,VIII LO im. Władysława IV,1,NULL,NULL,NULL,NULL,55,NULL,NULL,NULL,NULL,VIII LO im. Władysława IV,NULL,NULL,NULL,NULL,2028
+1091,2,,Szkoła Podstawowa nr 50 im. Królowej Jadwigi,1,NULL,NULL,NULL,NULL,55,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 50 im. Królowej Jadwigi,NULL,NULL,NULL,NULL,2029
+1092,2,,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 354 im. Adama Asnyka,1,NULL,NULL,NULL,NULL,55,NULL,NULL,NULL,NULL,Szkoła Podstawowa z Oddziałami Integracyjnymi nr 354 im. Adama Asnyka,NULL,NULL,NULL,NULL,2030
+1093,2,,Szkoła Podstawowa nr 395 im. Rotmistrza Witolda Pileckiego,1,NULL,NULL,NULL,NULL,55,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 395 im. Rotmistrza Witolda Pileckiego,NULL,NULL,NULL,NULL,2031
+1094,2,,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 189,1,NULL,NULL,NULL,NULL,60,NULL,NULL,NULL,NULL,Szkoła Podstawowa z Oddziałami Integracyjnymi Nr 189,NULL,NULL,NULL,NULL,2032
+1095,2,,Szkoła Podstawowa Nr 376,1,NULL,NULL,NULL,NULL,60,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 376,NULL,NULL,NULL,NULL,2033
+1096,2,,Szkoła Podstawowa nr 41 z Oddziałami Integracyjnymi,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 41 z Oddziałami Integracyjnymi,NULL,NULL,NULL,NULL,2034
+1097,2,,Szkoła Podstawowa nr 48,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 48,NULL,NULL,NULL,NULL,2035
+1098,2,,II LO z Oddziałami Inegracyjnymi im. Stafana Batorego,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,II LO z Oddziałami Inegracyjnymi im. Stafana Batorego,NULL,NULL,NULL,NULL,2036
+1099,2,,IX LO im. Klementyny Hoffmanowej,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,IX LO im. Klementyny Hoffmanowej,NULL,NULL,NULL,NULL,2037
+1100,2,,XV LO z Oddziałami Integracyjnymi im. Narcyzy Żmichowskiej,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,XV LO z Oddziałami Integracyjnymi im. Narcyzy Żmichowskiej,NULL,NULL,NULL,NULL,2038
+1101,2,,LXII LO Mistrzostwa Sportowego im. Generała Broni Władysława Andersa,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,LXII LO Mistrzostwa Sportowego im. Generała Broni Władysława Andersa,NULL,NULL,NULL,NULL,2039
+1102,2,,LXXV LO im. Jana III Sobieskiego,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,LXXV LO im. Jana III Sobieskiego,NULL,NULL,NULL,NULL,2040
+1103,2,,CLVII LO im. Marii Skłodowskiej-Curie,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,CLVII LO im. Marii Skłodowskiej-Curie,NULL,NULL,NULL,NULL,2041
+1104,2,,Technikum Kinematograficzno-Komputerowe im. Krzysztofa Kieślowskiego,1,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,NULL,Technikum Kinematograficzno-Komputerowe im. Krzysztofa Kieślowskiego,NULL,NULL,NULL,NULL,2042
+1105,2,,CXXXVII LO z Oddziałami Dwujęzycznymi im. Roberta Schumana,1,NULL,NULL,NULL,NULL,69,NULL,NULL,NULL,NULL,CXXXVII LO z Oddziałami Dwujęzycznymi im. Roberta Schumana,NULL,NULL,NULL,NULL,2043
+1106,2,,Przedszkole nr 432,1,NULL,NULL,NULL,NULL,69,NULL,NULL,NULL,NULL,Przedszkole nr 432,NULL,NULL,NULL,NULL,2044
+1107,2,,"Szkoła Podstawowa nr 377 im. Majora Henryka Dobrzańskiego ""Hubala""",1,NULL,NULL,NULL,NULL,69,NULL,NULL,NULL,NULL,"Szkoła Podstawowa nr 377 im. Majora Henryka Dobrzańskiego ""Hubala""",NULL,NULL,NULL,NULL,2045
+1108,2,,Szkoła Podstawowa nr 378 im. Ignacego Jana Paderewskiego,1,NULL,NULL,NULL,NULL,69,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 378 im. Ignacego Jana Paderewskiego,NULL,NULL,NULL,NULL,2046
+1109,2,,Szkoła Podstawowa nr 379 im. Szarych Szeregów,1,NULL,NULL,NULL,NULL,69,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 379 im. Szarych Szeregów,NULL,NULL,NULL,NULL,2047
+1110,2,,Szkoła Podstawowa nr 380 imJana Pawła II,1,NULL,NULL,NULL,NULL,69,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 380 imJana Pawła II,NULL,NULL,NULL,NULL,2048
+1111,2,,Szkoła Podstawowa z Oddziałami Intagracyjnymi  nr 2 im. Jana Pawła II,1,NULL,NULL,NULL,NULL,73,NULL,NULL,NULL,NULL,Szkoła Podstawowa z Oddziałami Intagracyjnymi  nr 2 im. Jana Pawła II,NULL,NULL,NULL,NULL,2049
+1112,2,,Szkoła Podstawowa nr 381 im. Krzysztofa Kamila Baczyńskiego,1,NULL,NULL,NULL,NULL,73,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 381 im. Krzysztofa Kamila Baczyńskiego,NULL,NULL,NULL,NULL,2050
+1113,2,,Szkoła Podstawowa nr 382,1,NULL,NULL,NULL,NULL,73,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 382,NULL,NULL,NULL,NULL,2051
+1114,2,,Szkoła Podstawowa nr 383 im. Ks. Stefana Kardynała Wyszyńskiego,1,NULL,NULL,NULL,NULL,73,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 383 im. Ks. Stefana Kardynała Wyszyńskiego,NULL,NULL,NULL,NULL,2052
+1115,2,,CLVIII LO z Oddziałami Dwujęzycznymi,1,NULL,NULL,NULL,NULL,77,NULL,NULL,NULL,NULL,CLVIII LO z Oddziałami Dwujęzycznymi,NULL,NULL,NULL,NULL,2053
+1116,2,,Szkoła Podstawowa Nr 384,1,NULL,NULL,NULL,NULL,77,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 384,NULL,NULL,NULL,NULL,2054
+1117,2,,Szkoła Podstawowa Nr 76 im. 13 Dywizji Piechoty Strzelców Kresowych,1,NULL,NULL,NULL,NULL,80,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 76 im. 13 Dywizji Piechoty Strzelców Kresowych,NULL,NULL,NULL,NULL,2055
+1118,2,,Szkoła Podstawowa Nr 86 im. Bronisława Czecha,1,NULL,NULL,NULL,NULL,80,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 86 im. Bronisława Czecha,NULL,NULL,NULL,NULL,2056
+1119,2,,Szkoła Podstawowa Nr 140 im. Kazimierza Jeżewskiego,1,NULL,NULL,NULL,NULL,80,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 140 im. Kazimierza Jeżewskiego,NULL,NULL,NULL,NULL,2057
+1120,2,,Szkoła Podstawowa Nr 195 im. Króla Maciusia I,1,NULL,NULL,NULL,NULL,80,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 195 im. Króla Maciusia I,NULL,NULL,NULL,NULL,2058
+1121,2,,Szkoła Podstawowa Nr 204 im. 19 Pułku Ułanów Wołyńskich,1,NULL,NULL,NULL,NULL,80,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 204 im. 19 Pułku Ułanów Wołyńskich,NULL,NULL,NULL,NULL,2059
+1122,2,,"XXVI LO im. Gen. Henryka Jankowskiego ""Kuby""",1,NULL,NULL,NULL,NULL,80,NULL,NULL,NULL,NULL,"XXVI LO im. Gen. Henryka Jankowskiego ""Kuby""",NULL,NULL,NULL,NULL,2060
+1123,2,,Przedszkole Nr 434,1,NULL,NULL,NULL,NULL,86,NULL,NULL,NULL,NULL,Przedszkole Nr 434,NULL,NULL,NULL,NULL,2061
+1124,2,,Szkoła Podstawowa Nr 172 im. Polskiej Organizacji Wojskowej,1,NULL,NULL,NULL,NULL,86,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 172 im. Polskiej Organizacji Wojskowej,NULL,NULL,NULL,NULL,2062
+1125,2,,Szkoła Podstawowa nr 385,1,NULL,NULL,NULL,NULL,86,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 385,NULL,NULL,NULL,NULL,2063
+1126,2,,Przedszkole Nr 424,1,NULL,NULL,NULL,NULL,88,NULL,NULL,NULL,NULL,Przedszkole Nr 424,NULL,NULL,NULL,NULL,2064
+1127,2,,Szkoła Podstawowa nr 169 im. Orła Białego,1,NULL,NULL,NULL,NULL,88,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 169 im. Orła Białego,NULL,NULL,NULL,NULL,2065
+1128,2,,Szkoła Podstawowa nr 300 im. Wandy Rutkiewicz,1,NULL,NULL,NULL,NULL,88,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 300 im. Wandy Rutkiewicz,NULL,NULL,NULL,NULL,2066
+1129,2,,CLIX Liceum Ogólnokształcące,1,NULL,NULL,NULL,NULL,90,NULL,NULL,NULL,NULL,CLIX Liceum Ogólnokształcące,NULL,NULL,NULL,NULL,2067
+1130,2,,Szkoła Podstawowa nr 236,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 236,NULL,NULL,NULL,NULL,2068
+1131,2,,Szkoła Podstawowa nr 317,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 317,NULL,NULL,NULL,NULL,2069
+1132,2,,Szkoła Podstawowa nr 351,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 351,NULL,NULL,NULL,NULL,2070
+1133,2,,Szkoła Podstawowa nr 386,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 386,NULL,NULL,NULL,NULL,2071
+1134,2,,Szkoła Podstawowa nr 387,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 387,NULL,NULL,NULL,NULL,2072
+1135,2,,Szkoła Podstawowa nr 388,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 388,NULL,NULL,NULL,NULL,2073
+1136,2,,Szkoła Podstawowa nr 389,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 389,NULL,NULL,NULL,NULL,2074
+1137,2,,XXXIII Liceum Ogólnokształcące Dwujęzyczna,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,XXXIII Liceum Ogólnokształcące Dwujęzyczna,NULL,NULL,NULL,NULL,2075
+1138,2,,CLXI Liceum Ogólnokształcące,1,NULL,NULL,NULL,NULL,95,NULL,NULL,NULL,NULL,CLXI Liceum Ogólnokształcące,NULL,NULL,NULL,NULL,2076
+1139,2,,Przedszkole nr 433,1,NULL,NULL,NULL,NULL,99,NULL,NULL,NULL,NULL,Przedszkole nr 433,NULL,NULL,NULL,NULL,2077
+1140,2,,Szkoła Podstawowa nr 391,1,NULL,NULL,NULL,NULL,99,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 391,NULL,NULL,NULL,NULL,2078
+1141,2,,Szkoła Podstawowa nr 392,1,NULL,NULL,NULL,NULL,99,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 392,NULL,NULL,NULL,NULL,2079
+1142,2,,XVI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,1,NULL,NULL,NULL,NULL,99,NULL,NULL,NULL,NULL,XVI Liceum Ogólnokształcące z Oddziałami Dwujęzycznymi,NULL,NULL,NULL,NULL,2080
+1143,2,,LXIV Liceum Ogólnokształcące,1,NULL,NULL,NULL,NULL,99,NULL,NULL,NULL,NULL,LXIV Liceum Ogólnokształcące,NULL,NULL,NULL,NULL,2081
+1144,2,,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Mokotów,1,1,2017-10-04 16:07,NULL,NULL,4,ul. Olkuska,3 lok. 16,02-604,368187223,Ośrodek Sportu i Rekreacji m.st. Warszawy w Dzielnicy Mokotów,1,,,NULL,2082
+1145,2,,"Centrum Aktywności Międzypokoleniowej ""Nowolipie""",1,1,2018-01-25 13:33,NULL,NULL,-99,NULL,NULL,NULL,NULL,"Centrum Aktywności Międzypokoleniowej ""Nowolipie""",NULL,NULL,NULL,,2083
+1146,2,ZDO1/UM,Zespół do obsługi Placówek Opiekuńczo-Wychowawczych Nr 1,1,1,2018-03-26 13:56,NULL,NULL,-99,NULL,NULL,NULL,NULL,Zespół do obsługi Placówek Opiekuńczo-Wychowawczych Nr 1,NULL,NULL,NULL,3300000157,2084
+1147,2,ZDO2/UM,Zespół do obsługi Placówek Opiekuńczo-Wychowawczych Nr 2,1,1,2018-07-26 09:31,NULL,NULL,-99,NULL,NULL,NULL,NULL,Zespół do obsługi Placówek Opiekuńczo-Wychowawczych Nr 2,NULL,NULL,NULL,3300000159,2085
+1148,2,,Zespół do obsługi Placówek Opiekuńczo-Wychowawczych Nr 3,1,1,2018-07-26 09:31,NULL,NULL,-99,NULL,NULL,NULL,NULL,Zespół do obsługi Placówek Opiekuńczo-Wychowawczych Nr 3,NULL,NULL,NULL,3300000160,2086
+1149,2,,"Placówka Opiekuńczo-Wychowawcza ""Przystań""",1,1,2018-09-05 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka Opiekuńczo-Wychowawcza ""Przystań""",NULL,NULL,NULL,,2087
+1150,2,,"Placówka Opiekuńczo-Wychowawcza ""Dom na Jagiellońskiej""",1,1,2018-09-05 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka Opiekuńczo-Wychowawcza ""Dom na Jagiellońskiej""",NULL,NULL,NULL,,2088
+1151,2,,Przedszkole Nr 439,1,1,2018-09-07 00:00,NULL,NULL,73,NULL,NULL,NULL,NULL,Przedszkole Nr 439,NULL,NULL,NULL,,2089
+1152,2,,Szkoła Podstawowa Nr 360,1,1,2018-09-07 00:00,NULL,NULL,73,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 360,NULL,NULL,NULL,,2090
+1153,2,,CLXII Liceum Ogólnokształcące,1,1,2018-09-20 00:00,NULL,NULL,69,NULL,NULL,NULL,NULL,CLXII Liceum Ogólnokształcące,NULL,NULL,NULL,,2091
+1154,2,,Przedszkole Nr 437,1,1,2018-10-02 00:00,NULL,NULL,80,NULL,NULL,NULL,NULL,Przedszkole Nr 437,NULL,NULL,NULL,,2092
+1155,2,,Zespół Szkolno-Przedszkolny Nr 10,1,1,2018-10-12 00:00,NULL,NULL,23,NULL,NULL,NULL,NULL,Zespół Szkolno-Przedszkolny Nr 10,NULL,NULL,NULL,,2093
+1156,2,,Ognisko Pracy Pozaszkolnej,1,1,2018-11-14 00:00,NULL,NULL,46,NULL,NULL,NULL,NULL,Ognisko Pracy Pozaszkolnej,NULL,NULL,NULL,,2094
+1157,2,,"Placówka opiekuńczo-wychowawcza ""Zielona Sąsiedzka""",1,1,2019-01-14 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka opiekuńczo-wychowawcza ""Zielona Sąsiedzka""",NULL,NULL,NULL,,2095
+1158,2,,"Placówka opiekuńczo-wychowawcza ""Bezpieczna Wyspa""",1,1,2019-01-14 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka opiekuńczo-wychowawcza ""Bezpieczna Wyspa""",NULL,NULL,NULL,,2096
+1159,2,,"Placówka opiekuńczo-wychowawcza ""Bezpieczny Dom""",1,1,2019-01-14 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka opiekuńczo-wychowawcza ""Bezpieczny Dom""",NULL,NULL,NULL,,2097
+1160,2,,"Placówka opiekuńczo-wychowawcza ""Dom przy Chełmżyńskiej""",1,1,2019-01-14 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka opiekuńczo-wychowawcza ""Dom przy Chełmżyńskiej""",NULL,NULL,NULL,,2098
+1161,2,NULL,Szkoła Podstawowa nr 350,1,1,2019-02-12 00:00,NULL,NULL,30,NULL,NULL,NULL,NULL,Szkoła Podstawowa nr 350,NULL,NULL,NULL,,2099
+1162,2,,Przedszkole Nr 440,1,1,2019-09-16 00:00,NULL,NULL,88,NULL,NULL,NULL,NULL,Przedszkole Nr 440,NULL,NULL,NULL,,2100
+1163,2,,Zespół Szkół nr 127,1,1,2019-09-16 00:00,NULL,NULL,95,NULL,NULL,NULL,NULL,Zespół Szkół nr 127,NULL,NULL,NULL,,2101
+1164,2,,CLXIV Liceum Ogólnokształcące Mistrzostwa Sportowego,1,1,2019-09-16 00:00,NULL,NULL,44,NULL,NULL,NULL,NULL,CLXIV Liceum Ogólnokształcące Mistrzostwa Sportowego,NULL,NULL,NULL,,2102
+1165,2,,Szkoła Policealna nr 11,1,1,2019-09-16 00:00,NULL,NULL,44,NULL,NULL,NULL,NULL,Szkoła Policealna nr 11,NULL,NULL,NULL,,2103
+1166,2,,Szkoła Policealna nr 49,1,1,2019-09-16 00:00,NULL,NULL,44,NULL,NULL,NULL,NULL,Szkoła Policealna nr 49,NULL,NULL,NULL,,2104
+1167,2,,Szkoła Policealna nr 51,1,1,2019-09-16 00:00,NULL,NULL,44,NULL,NULL,NULL,NULL,Szkoła Policealna nr 51,NULL,NULL,NULL,,2105
+1168,2,,Szkoła Policealna nr 52,1,1,2019-09-16 00:00,NULL,NULL,44,NULL,NULL,NULL,NULL,Szkoła Policealna nr 52,NULL,NULL,NULL,,2106
+1169,2,,LXIX Liceum Ogólnokształcące z Oddziałami Integracyjnymi im. Bohaterów Powstania Warszawskiego 1944 w Warszawie,1,1,2019-09-16 00:00,NULL,NULL,46,NULL,NULL,NULL,NULL,LXIX Liceum Ogólnokształcące z Oddziałami Integracyjnymi im. Bohaterów Powstania Warszawskiego 1944 w Warszawie,NULL,NULL,NULL,,2107
+1170,2,,Przedszkole nr 441,1,1,2019-09-16 00:00,NULL,NULL,73,NULL,NULL,NULL,NULL,Przedszkole nr 441,NULL,NULL,NULL,,2108
+1171,2,,Zespół Szkół nr 128 w Warszawie,1,1,2019-09-16 00:00,NULL,NULL,69,NULL,NULL,NULL,NULL,Zespół Szkół nr 128 w Warszawie,NULL,NULL,NULL,,2109
+1172,2,,CLXIII Liceum Ogólnokształcące,1,1,2019-09-16 00:00,NULL,NULL,86,NULL,NULL,NULL,NULL,CLXIII Liceum Ogólnokształcące,NULL,NULL,NULL,,2110
+1173,3,NULL,Biuro Pomocy i Projektów Społecznych,1,1,2020-02-25 00:00,NULL,NULL,0,,,,,Biuro Pomocy i Projektów Społecznych,NULL,NULL,NULL,,NULL
+1174,2,,Placówka Opiekuńczo-Wychowawcza „Cichy Port”,1,1,2020-05-18 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Cichy Port”,NULL,NULL,NULL,,2111
+1175,2,,Placówka Opiekuńczo-Wychowawcza „Zakątek”,1,1,2020-05-18 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „ Zakątek”,NULL,NULL,NULL,,2112
+1176,2,,Placówka Opiekuńczo-Wychowawcza „Stalówka”,1,1,2020-05-18 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „ Stalówka”,NULL,NULL,NULL,,2113
+1177,2,,Placówka Opiekuńczo-Wychowawcza „Cichy Kąt”,1,1,2020-08-25 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Cichy Kąt”,NULL,NULL,NULL,,2114
+1178,2,,Placówka Opiekuńczo-Wychowawcza „Wiśniowa”,1,1,2020-08-25 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Wiśniowa”,NULL,NULL,NULL,,2115
+1179,2,,Placówka Opiekuńczo-Wychowawcza „Dom przy Mickiewicza”,1,1,2020-08-25 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Dom przy Mickiewicza”,NULL,NULL,NULL,,2116
+1180,2,,Placówka Opiekuńczo-Wychowawcza „Dom przy Tynieckiej”,1,1,2020-08-25 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Dom przy Tynieckiej”,NULL,NULL,NULL,,2117
+1181,2,,Placówka Opiekuńczo-Wychowawcza „Dom przy Łazienkach Królewskich”,1,1,2020-08-25 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Dom przy Łazienkach Królewskich”,NULL,NULL,NULL,,2118
+1182,2,,Placówka Opiekuńczo-Wychowawcza „Biały Domek”,1,1,2020-08-25 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Biały Domek”,NULL,NULL,NULL,,2119
+1183,2,,Placówka Opiekuńczo-Wychowawcza „Dom przy Koszykowej”,1,1,2020-08-25 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Dom przy Koszykowej”,NULL,NULL,NULL,,2120
+1184,2,,Placówka Opiekuńczo-Wychowawcza „Dom w pół drogi”,1,1,2020-08-25 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Dom w pół drogi”,NULL,NULL,NULL,,2121
+1185,2,,Placówka Opiekuńczo-Wychowawcza „Radosny Dom”,1,1,2020-08-25 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Radosny Dom”,NULL,NULL,NULL,,2122
+1186,2,,Placówka Opiekuńczo-Wychowawcza „Kameralna Grupa Usamodzielniania”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Kameralna Grupa Usamodzielniania”,NULL,NULL,NULL,,2123
+1187,2,,Placówka Opiekuńczo-Wychowawcza „Pszczółki”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Pszczółki”,NULL,NULL,NULL,,2124
+1188,2,,Placówka Opiekuńczo-Wychowawcza „Tęcza”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Tęcza”,NULL,NULL,NULL,,2125
+1189,2,,Placówka Opiekuńczo-Wychowawcza „Kwadrat”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Kwadrat”,NULL,NULL,NULL,,2126
+1190,2,,Placówka Opiekuńczo-Wychowawcza „Domino”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Domino”,NULL,NULL,NULL,,2127
+1191,2,,Placówka Opiekuńczo-Wychowawcza „Słoneczna ekipa”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Słoneczna ekipa”,NULL,NULL,NULL,,2128
+1192,2,,Placówka Opiekuńczo-Wychowawcza „Zielona dolina”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Zielona dolina”,NULL,NULL,NULL,,2129
+1193,2,,Placówka Opiekuńczo-Wychowawcza „Słoneczka”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Słoneczka”,NULL,NULL,NULL,,2130
+1194,2,,Placówka Opiekuńczo-Wychowawcza „Radosna”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Radosna”,NULL,NULL,NULL,,2131
+1195,2,,Placówka Opiekuńczo-Wychowawcza „Nowa Ogrodowa”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Nowa Ogrodowa”,NULL,NULL,NULL,,2132
+1196,2,,Placówka Opiekuńczo-Wychowawcza „Zielona”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Zielona”,NULL,NULL,NULL,,2133
+1197,2,,Placówka Opiekuńczo-Wychowawcza „Mega Mocni”,1,1,2020-08-25 00:00,NULL,NULL,1147,NULL,NULL,NULL,NULL,Placówka Opiekuńczo-Wychowawcza „Mega Mocni”,NULL,NULL,NULL,,2134
+1198,2,,Szkoła Podstawowa nr 398,1,1,2020-09-09 00:00,NULL,NULL,NULL,ul. Rembrandta,8,03-531,NULL,Szkoła Podstawowa nr 398,NULL,NULL,NULL,,2135
+1199,2,,Przedszkole Nr 443,1,1,2020-09-15 00:00,NULL,NULL,90,NULL,NULL,NULL,NULL,Przedszkole Nr 443,NULL,NULL,NULL,,2136
+1200,2,,"Placówka Opiekuńczo-Wychowawcza ""Bajkowy Dworek""",1,1,2020-09-29 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,"Placówka Opiekuńczo-Wychowawcza ""Bajkowy Dworek""",NULL,NULL,NULL,,2137
+1201,2,,"Placówka Opiekuńczo-Wychowawcza ""Słoneczny Dom""",1,1,2020-09-29 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,"Placówka Opiekuńczo-Wychowawcza ""Słoneczny Dom""",NULL,NULL,NULL,,2138
+1202,2,,Szkoła Podstawowa Nr 400,1,1,2020-09-29 00:00,NULL,NULL,88,al. Rzeczypospolitej,23B,NULL,NULL,Szkoła Podstawowa Nr 400,NULL,NULL,NULL,,2139
+1203,2,,Technikum Ekonomiczne Nr 8,1,1,2020-10-05 00:00,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Technikum Ekonomiczne Nr 8,NULL,NULL,NULL,,2140
+1204,2,,Technikum Hotelarsko-Turystyczno-Gastronomiczne nr 21,1,1,2020-10-05 00:00,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Technikum Hotelarsko-Turystyczno-Gastronomiczne nr 21,NULL,NULL,NULL,,2141
+1205,2,,Szkoła Podstawowa Nr 399,1,1,2020-10-06 00:00,NULL,NULL,77,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 399,NULL,NULL,NULL,,2142
+1206,2,,CLXV Liceum Ogólnokształcące,1,1,2020-10-12 00:00,NULL,NULL,NULL,NULL,NULL,NULL,NULL,CLXV Liceum Ogólnokształcące,NULL,NULL,NULL,,2143
+1207,2,,Szkoła Podstawowa Nr 361,1,1,2020-10-12 00:00,NULL,NULL,NULL,NULL,NULL,NULL,NULL,Szkoła Podstawowa Nr 361,NULL,NULL,NULL,,2144
+1208,2,,"Warszawskie Centrum Integracji ""Integracyjna Warszawa""",1,1,2020-10-23 00:00,NULL,NULL,-99,NULL,NULL,NULL,NULL,"Warszawskie Centrum Integracji ""Integracyjna Warszawa""",NULL,NULL,NULL,,2145
+1209,2,NULL,Środowiskowy Dom SAMOPOMOCY „Pachnąca”,1,1,2021-01-19 00:00,NULL,NULL,12,NULL,NULL,NULL,NULL,Środowiskowy Dom SAMOPOMOCY „Pachnąca”,NULL,NULL,NULL,,2146
+1210,2,,Przedszkole z Oddziałami Integracyjnymi nr 442,1,1,2021-01-20 00:00,NULL,NULL,69,NULL,NULL,NULL,NULL,Przedszkole z Oddziałami Integracyjnymi nr 442,NULL,NULL,NULL,,2147
+1211,2,,"Placówka Opiekuńczo-Wychowawcza ""Nowa Łomżyńska”",1,1,2021-01-21 00:00,NULL,NULL,1148,NULL,NULL,NULL,NULL,"Placówka Opiekuńczo-Wychowawcza ""Nowa Łomżyńska”",NULL,NULL,NULL,,2148
+1212,2,,Środowiskowy Dom SAMOPOMOCY „Pod Daszkiem”,1,1,2021-01-21 00:00,NULL,NULL,17,NULL,NULL,NULL,NULL,Środowiskowy Dom SAMOPOMOCY „Pod Daszkiem”,NULL,NULL,NULL,,2149
+1213,2,,Środowiskowy Dom Samopomocy „Słoneczny Dom”,1,1,2021-01-26 00:00,NULL,NULL,11,NULL,NULL,NULL,NULL,Środowiskowy Dom Samopomocy „Słoneczny Dom”,NULL,NULL,NULL,,2150
+1214,2,,"Placówka Opiekuńczo-Wychowawcza ""Dom przy Nieborowskiej""",1,1,2021-02-04 00:00,NULL,NULL,1146,NULL,NULL,NULL,NULL,"Placówka Opiekuńczo-Wychowawcza ""Dom przy Nieborowskiej""",NULL,NULL,NULL,,2151

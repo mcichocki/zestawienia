@@ -1,0 +1,52 @@
+<div class="tab-pane fade {% if zakladka == "corrects" %}show active{% endif %}" id="custom-content-above-correct" role="tabpanel" aria-labelledby="custom-content-above-correct-tab">
+    <div class="row">
+        <div class="card-body" style="display: block;">
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="m-0">1. Lista korekt w roku zestawieniowym</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn float-right btn-sm ml-2 btn-primary correct-window" id="2" value="2" data-value="dodatni" data-id="2"><i class="fas fa-plus"></i> Dodaj korektę</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered text-center">
+                        <tr>
+                            <th class="align-middle">Nazwa podgrupy</th>
+                            <th class="align-middle">Kwota<br>(przed korektą)</th>
+                            <th class="align-middle">Kwota<br>(po korekcie)</th>
+                            <th class="align-middle">Różnica kwot</th>
+                            <th class="align-middle">Kto wprowadził<br>korektę</th>
+                            <th class="align-middle">Data</th>
+                            <th class="align-middle">Akcja</th>
+                        </tr>
+                        {% for korekta in korekty %}
+                        <tr>
+                            <td class="align-middle">{{ korekta.podgrupa.nazwa }}</td>
+                            <td class="align-middle">{{ korekta.korekta.aktualnaWartosc|number_format(2, ',', ' ') }}</td>
+                            <td class="align-middle">{{ korekta.korekta.nowaWartosc|number_format(2, ',', ' ') }}</td>
+                            <td class="align-middle">223 444,21</td>
+                            <td class="align-middle">{{ korekta.korekta.weryfikujacy.login }}</td>
+                            <td class="align-middle">{{ korekta.korekta.data|date('d-m-Y H:i') }}</td>
+                            <td class="align-middle">
+                                <div class="dropdown dropleft">
+                                    <button class="btn btn-sm" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                                            <a class="dropdown-item detail-window" id="2" value="2">Edytuj korektę</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item usun-korekte" value="{{ korekta.korekta.id }}">Usuń korektę</a>
+                                        </div>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

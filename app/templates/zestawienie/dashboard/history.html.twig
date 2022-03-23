@@ -1,0 +1,45 @@
+<div class="tab-pane fade {% if zakladka == "history" %}show active{% endif %}" id="custom-content-above-history" role="tabpanel" aria-labelledby="custom-content-above-history-tab">
+    <div class="row">
+        <div class="card-body" style="display: block;">
+            <div class="card card-primary card-outline">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="m-0">1. Lista zestawień z poprzednich lat</h5>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered text-center">
+                        <tr>
+                            <th class="align-middle">Rok zestawieniowy</th>
+                            <th class="align-middle">Wartość łączna</th>
+                            <th class="align-middle">Forma organizacyjna</th>
+                            <th class="align-middle">Status</th>
+                            <th class="align-middle">Utworzył</th>
+                            <th class="align-middle">Data utworzenia</th>
+                            <th class="align-middle">Akcja</th>
+                        </tr>
+                        {% for zestawienie in archiwum %}
+                        <tr>
+                            <td class="align-middle">{{ zestawienie.rokZestawieniowy.rok }}</td>
+                            <td class="align-middle">{{ zestawienie.podsumowania[0].sumaRokBiezacy|number_format(2, ',', ' ')  }}</td>
+                            <td class="align-middle">{{ zestawienie.formaOrganizacyjnaRokAktualny.nazwa }}</td>
+                            <td class="align-middle">{{ zestawienie.state }}</td>
+                            <td class="align-middle">{{ zestawienie.worker.login }}</td>
+                            <td class="align-middle">{{ zestawienie.dataUtworzenia|date('d-m-Y') }}</td>
+                            <td class="align-middle">
+                                <button class="btn btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                                    <a href="{{ path('zestawienia_dashboards', {form: zestawienie.rokZestawieniowy.rok, id: zestawienie.jednostka.id}) }}" class="dropdown-item" type="button">Przejdź do archiwum</a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

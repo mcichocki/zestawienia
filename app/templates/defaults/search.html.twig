@@ -1,0 +1,34 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+<div class="content-header">
+    <div class="container-fluid">
+        {% include 'website/flash_messages.html.twig' %}
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h5 style="color:#172b6d; font-weight:bold;">Wyszukiwanie</h5>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="color: #172b4d;">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-olive">
+                <div class="card-header">
+                    <h3 class="card-title">Lista wyników:</h3>
+                </div>
+                <div class="card-body">
+                    <span class="text-center">Brak wyników.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

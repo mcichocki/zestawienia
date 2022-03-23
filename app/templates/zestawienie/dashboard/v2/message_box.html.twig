@@ -1,0 +1,74 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+    <div class="loader" style="display:none;"><span>Trwa wysyłanie zestawienia</span></div>
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h5 style="color:#172b6d; font-weight:bold;">{{ formularz.jednostka.nazwa }}</h5>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                        <li class="breadcrumb-item"><a href="{{ path('zestawienia_todo') }}">Zestawienia</a></li>
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="color: #172b4d;">
+        {% include 'website/flash_messages.html.twig' %}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-body" style="display: block;">
+                        <div class="card card-primary card-outline direct-chat direct-chat-primary">
+                            <div class="card-header">
+                                <h3 class="card-title"><a href="{{ path('zestawienie_dashboard_messages', {id: formularz.id}) }}"><i class="fas fa-arrow-left"></i> Powrót</a></h3>
+                                <div class="card-tools">
+                                    <span><i class="fas fa-comments"></i> Rozmowa z: <b>Jan Kowalski</b></span>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="direct-chat-messages" style="min-height: 55vh;">
+                                  {% for wiadomosc in formularz.wiadomosci.toArray|sort %}
+                                  <div class="direct-chat-msg {% if wiadomosc.odKogo.login != app.user.login %}right{% endif %}">
+                                    <div class="direct-chat-infos clearfix">
+                                      <span class="direct-chat-name {% if wiadomosc.odKogo.login != app.user.login %}float-right{% endif %}">{{ wiadomosc.odKogo.imie }} {{ wiadomosc.odKogo.nazwisko }} ({{ wiadomosc.odKogo.login }})</span>
+                                      <span class="direct-chat-timestamp {% if wiadomosc.odKogo.login != app.user.login %}float-left{% else %}float-right{% endif %}">{{ wiadomosc.dataWyslania|date('d/m/Y H:i:s') }}</span>
+                                    </div>
+                                    <img class="direct-chat-img" src="{{ asset('build/anonymous.png') }}" id="img2" alt="message user image">
+                                    <div class="direct-chat-text">{{ wiadomosc.tresc }}</div>
+                                  </div>
+                                  {% endfor %}
+                                </div>
+
+                              <div class="card-footer">
+                                <form action="#" method="post">
+                                  <div class="row">
+                                    <div class="input-group col-md-12">
+                                      <textarea name="message" placeholder="Treść wiadomości..." rows="1" aria-label="" class="form-control"></textarea>
+                                      <span class="input-group-append">
+                                        <button type="button" class="btn btn-primary send-message" id="{{ formularz.id }}" value="{{ app.user.id }}"><span class="fas fa-paper-plane"></span> Wyślij</button>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}

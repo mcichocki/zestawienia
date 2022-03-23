@@ -1,0 +1,87 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+    <div class="loader" style="display:none;"></div>
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h5 style="color:#172b6d; font-weight:bold;">{{ jednostka.nazwa }}</h5>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                        <li class="breadcrumb-item"><a href="{{ path('zestawienia_todo') }}">Zestawienie</a></li>
+                        <li class="breadcrumb-item active">Archiwum</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'website/flash_messages.html.twig' %}
+
+    <div class="container-fluid" style="color: #172b4d;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-body" style="display: block;">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <ul class="nav nav-tabs" id="custom-content-above-tab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link zestawienie-nav active" id="custom-content-above-profile-tab" data-toggle="pill" href="#custom-content-above-profile" role="tab" aria-controls="custom-content-above-profile" aria-selected="false"><i class="fas fa-chart-line"></i> Zestawienie</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link zestawienie-nav" id="custom-content-above-messages-tab" data-toggle="pill" href="#custom-content-above-messages" role="tab" aria-controls="custom-content-above-messages" aria-selected="false"><i class="fas fa-comments"></i> Korespondencja</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link zestawienie-nav" id="custom-content-above-correct-tab" data-toggle="pill" href="#custom-content-above-correct" role="tab" aria-controls="custom-content-above-correct" aria-selected="false"><i class="fas fa-check-square"></i> Korekty</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link zestawienie-nav" id="custom-content-above-settings-tab" data-toggle="pill" href="#custom-content-above-settings" role="tab" aria-controls="custom-content-above-settings" aria-selected="false"><i class="fas fa-ellipsis-v "></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="form-control" id="select_year">
+                                        {% if formularze %}
+                                            {% for formularz in formularze %}
+                                                <option {% if form == formularz.rokZestawieniowy.rok %}selected="selected"{% endif %} value="{{ formularz.rokZestawieniowy.rok }}">{{ formularz.rokZestawieniowy.rok }}</option>
+                                            {% endfor %}
+                                            {% else %}
+                                                <option selected="selected" disabled>Dane za rok</option>
+                                        {% endif %}
+                                    </select>
+                                    <input type="hidden" value="{{ jednostka.id }}" id="jednostka">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content " id="custom-content-above-tabContent">
+                            <div class="card-body" style="display: block; padding-bottom: 0px !important;">
+                                <div class="card card-outline" style="display: block;">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5 class="m-0 font-weight-bold" id="header-text">Dane za rok 2020</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% include 'zestawienie/archiwum/estimate.html.twig' %}
+                            {% include 'zestawienie/archiwum/messages.html.twig' %}
+                            {% include 'zestawienie/archiwum/correct.html.twig' %}
+                            {% include 'zestawienie/archiwum/settings.html.twig' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+        {{ encore_entry_script_tags('zestawienie_complex') }}
+{% endblock %}

@@ -1,0 +1,56 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+    <div class="loader" style="display:none;"></div>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h5 style="color:#172B4D;"><b>Jednostki</b></h5>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                        <li class="breadcrumb-item active">Jednostki</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Main content -->
+<div class="container-fluid" style="color: #172b4d;">
+    <div class="row">
+        <div class="col-md-12">
+            <table id="worker_jednostki" class="table table-bordered table-striped">
+                <thead>
+                    <tr class="align-middle text-center">
+                        <th class="align-middle">Nazwa</th>
+                        <th class="align-middle">Adres</th>
+                        <th class="align-middle">Numer</th>
+                        <th class="align-middle">Kod pocztowy</th>
+                        <th class="align-middle" width="10%;">Identyfikator w Kikum</th>
+                        <th class="align-middle">Akcja</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for jednostka in jednostki %}
+                    <tr>
+                        <td class="align-middle">{{ jednostka.nazwa }}</td>
+                        <td class="align-middle">{{ jednostka.ulica }}</td>
+                        <td class="align-middle text-center">{{ jednostka.numer }}</td>
+                        <td class="align-middle text-center">{{ jednostka.kodPocztowy }}</td>
+                        <td class="align-middle text-center">{{ jednostka.identyfikator }}</td>
+                        <td class="align-middle text-center"><a href="{{ path('zestawienia_dashboards', {form: 0, id: jednostka.id}) }}" class="btn btn-sm btn-primary">Zestawienia</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('worker_base') }}
+{% endblock %}

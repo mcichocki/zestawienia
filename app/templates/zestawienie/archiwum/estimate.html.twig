@@ -1,0 +1,172 @@
+<div class="tab-pane fade show active" id="custom-content-above-profile" role="tabpanel" aria-labelledby="custom-content-above-profile-tab">
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card-body" style="display: block;">
+                <div class="card card-primary card-outline" style="display: block; min-height: 400px;">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="m-0">1. Podstawowe dane</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Dane jednostki:</h6>
+                        <p class="card-text">
+                            <span><i class="fas fa-minus"></i> Nazwa: <b>Dzielnicowe Biuro Finansów Oświaty - Bemowo m.st. Warszawy</b></span><br>
+                            <span><i class="fas fa-minus"></i> Adres: <b>Jasnogórska 15</b></span><br>
+                            <span><i class="fas fa-minus"></i> Kod pocztowy: <b>99-400 Warszawa</b></span>
+{#                            <span>Nazwa: <b>{{ formularz.jednostka.nazwa }}</b></span><br>#}
+{#                            <span>Adres: <b>{{ formularz.jednostka.ulica }} {{ formularz.jednostka.numer }}</b></span><br>#}
+{#                            <span>Kod pocztowy: <b>{{ formularz.jednostka.kodPocztowy }} {{ formularz.jednostka.miasto }}</b></span>#}
+                        </p>
+                        <p class="card-text">
+{#                            <span>Wartość łączna: <b>{{ podsumowanie.sumaRokBiezacy|number_format(2, ',', ' ')  }}zł</b></span><br>#}
+{#                            <span>Data utworzenia: <b>{{ formularz.dataUtworzenia|date('d/m/Y') }}</b></span><br><br>#}
+{#                            <span>Utworzył: <b>{{ formularz.worker.imie }} {{ formularz.worker.nazwisko }} ({{ formularz.worker.login }})</b></span><br>#}
+{#                            <span>E-mail: <b>{{ formularz.worker.email }}</b></span>#}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card-body">
+                <div class="card card-primary card-outline">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="m-0">2. Podgląd graficzny</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="m-0 text-right"></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="pieChart" style="min-height: 310px; height: 310px; max-height: 310px; max-width: 100%;"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+{#    <div class="card-body" style="display: block;">#}
+{#        <div class="card card-primary card-outline">#}
+{#            <div class="card-header">#}
+{#            <div class="row">#}
+{#            <div class="col-md-6">#}
+{#            <h5 class="m-0">3. Zestawienia kwot</h5>#}
+{#            </div>#}
+{#            <div class="col-md-6">#}
+{#                <a href="{{ path('zestawienie_estimate', {id: id}) }}" class="btn btn-sm btn-primary float-right ml-2"><i class="fas fa-edit"></i> Wypełnij dane</a>#}
+{#                {% if workflow_can(formularz, 'worker_to_supervisor_to_verify') %}#}
+{#                    <a type="button" class="btn btn-primary btn-sm float-right ml-2" href="{{ path('app_change', {'id': id, 'to': 'worker_to_supervisor_to_verify'}) }}"><i class="fas fa-user"></i> Do akceptacji przełożonego</a>#}
+{#                {% endif %}#}
+{#                <a href="{{ path('zestawienie_estimate', {id: id}) }}" class="btn btn-sm btn-primary float-right ml-2"><i class="fas fa-file-excel"></i> Excel</a>#}
+{#                <a href="{{ path('generate_unit_pdf', {id: id}) }}" class="btn btn-sm btn-primary float-right"><i class="fas fa-file-pdf"></i> PDF</a>#}
+{#            </div>#}
+{#            </div>#}
+{#            </div>#}
+{#            <div class="card-body">#}
+{#            <table class="table table-bordered text-center">#}
+{#                <tr>#}
+{#                    <th width="20%">Nazwa</th>#}
+{#                    <th>Rok poprzedni</th>#}
+{#                    <th>Rok aktualny</th>#}
+{#                    <th>Różnica kwot</th>#}
+{#                    <th>Wartość procentowa</th>#}
+{#                    <th>Suma</th>#}
+{#                    <th>Czynniki</th>#}
+{#                </tr>#}
+{#                {% for zestawienie in formularz.zestawienia %}#}
+{#                <tr>#}
+{#                    <td class="align-middle">{{ zestawienie.podgrupa.nazwa }}</td>#}
+{#                    <td class="align-middle">{{ zestawienie.wartoscRokPoprzedni|number_format(2, ',', ' ') }}</td>#}
+{#                    <td class="align-middle">{{ zestawienie.wartoscRokZestawieniowy|number_format(2, ',', ' ') }}</td>#}
+{#                    <td class="align-middle">{{ zestawienie.wartoscRoznicaKwot|number_format(2, ',', ' ') }}</td>#}
+{#                    <td class="align-middle">{{ zestawienie.wartoscProcentowa|number_format(2, ',', ' ') }}</td>#}
+{#                    {% if zestawienie.podgrupa.nazwa == "Grunty przekazane w użytkowanie wieczyste" %}#}
+{#                        <td class="align-middle">{{ podsumowanie.sumaGruntyPrzekazaneUzytkowanieWieczyste|number_format(2, ',', ' ') }}</td>  #}{# rowspan="2" #}
+{#                    {% elseif zestawienie.podgrupa.nazwa == "Grunty inne niż przekazane w użytkowanie wieczyste" %}#}
+{#                        <td class="align-middle">{{ podsumowanie.sumaGruntyInneNizPrzekazaneUzytkowanieWieczyste|number_format(2, ',', ' ') }}</td>#}
+{#                    {% else %}#}
+{#                      <td class="align-middle">#}
+{#                          {% if zestawienie.podgrupa.robocza == 'budynki_lokale_i_obiekty_inzynierii_ladowej_i_wodnej' %}#}
+{#                              {{ podsumowanie.sumaBudynki|number_format(2, ',', ' ') }}#}
+{#                          {% elseif zestawienie.podgrupa.robocza == 'nieruchomosci_inwestycyjne' %}#}
+{#                              {{ podsumowanie.sumaNieruchomosciInwestycyjne|number_format(2, ',', ' ') }}#}
+{#                          {% elseif zestawienie.podgrupa.robocza == 'naleznosci_dlugoterminowe' %}#}
+{#                              {{ podsumowanie.sumaNaleznosciDlugoterminowe|number_format(2, ',', ' ') }}#}
+{#                          {% elseif zestawienie.podgrupa.robocza == 'dlugotermiowe_aktywa_finansowe' %}#}
+{#                              {{ podsumowanie.sumaDlugoterminoweAktywaFinansowe|number_format(2, ',', ' ') }}#}
+{#                          {% elseif zestawienie.podgrupa.robocza == 'pozostale_srodki_trwale' %}#}
+{#                              {{ podsumowanie.sumaPozostaleSrodkiTrwale|number_format(2, ',', ' ') }}#}
+{#                          {% elseif zestawienie.podgrupa.robocza == 'srodki_trwale_w_budowie_i_zaliczki_na_ich_poczet' %}#}
+{#                              {{ podsumowanie.sumaSrodkiTrwale|number_format(2, ',', ' ') }}#}
+{#                          {% elseif zestawienie.podgrupa.robocza == 'wartosci_niematerialne_i_prawne' %}#}
+{#                              {{ podsumowanie.sumaWartosciNiematerialne|number_format(2, ',', ' ') }}#}
+{#                          {% endif %}#}
+{#                      </td>#}
+{#                    {% endif %}#}
+{#                    <td class="align-middle">#}
+{#                        <div class="dropleft">#}
+{#                            <button class="btn btn-sm btn-primary accordion-toggle" id="dropdownMenuLink{{loop.index0}}" data-toggle="collapse" data-target="#demo{{ loop.index0 }}">Pokaż</button>#}
+{#                        </div>#}
+{#                    </td>#}
+{#                </tr>#}
+{#                <tr style="background-color: #f1f1f1;">#}
+{#                    <td colspan="7" class="hiddenRow">#}
+{#                        <div id="demo{{ loop.index0 }}" class="accordian-body collapse row mb-3">#}
+{#                            <div class="col-md-6"><br>#}
+{#                                <div class="text-left">#}
+{#                                    <b class="pl-4">Czynniki dodatnie</b> <hr>#}
+{#                                    {% for dodatni in czynniki_dodatnie %}#}
+{#                                        <ul>#}
+{#                                        {% if dodatni.podgrupa.id == zestawienie.podgrupa.id %}#}
+{#                                            <li>{{ dodatni.tresc }}</li>#}
+{#                                        {% endif %}#}
+{#                                        </ul>#}
+{#                                    {% endfor %}#}
+{#                                </div>#}
+{#                            </div>#}
+{#                            <div class="col-md-6"><br>#}
+{#                                <div class="text-left">#}
+{#                                    <b class="pl-4">Czynniki ujemne</b> <hr>#}
+{#                                    {% for ujemny in czynniki_ujemne %}#}
+{#                                        <ul>#}
+{#                                            {% if ujemny.podgrupa.id == zestawienie.podgrupa.id %}#}
+{#                                                <li>{{ ujemny.tresc }}</li>#}
+{#                                            {% endif %}#}
+{#                                        </ul>#}
+{#                                    {% endfor %}#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </td>#}
+{#                </tr>#}
+{#                    {% if zestawienie.podgrupa.nazwa == "Grunty inne niż przekazane w użytkowanie wieczyste"  %}#}
+{#                        <tr style="background-color: #f0f0f0">#}
+{#                            <td><b>Suma gruntów</b></td>#}
+{#                            <td>0,00</td>#}
+{#                            <td>0,00</td>#}
+{#                            <td colspan="2"></td>#}
+{#                            <td>0,00</td>#}
+{#                            <td></td>#}
+{#                        </tr>#}
+{#                    {% endif %}#}
+{#                {% endfor %}#}
+{#                <tr style="background-color: #f0f0f0">#}
+{#                    <td class="align-middle"><b>Suma łączna</b></td>#}
+{#                    <td class="align-middle">{{ podsumowanie.sumaRokPoprzedni|number_format(2, ',', ' ')  }}</td>#}
+{#                    <td class="align-middle">{{ podsumowanie.sumaRokBiezacy|number_format(2, ',', ' ')  }}</td>#}
+{#                    <td colspan="2"></td>#}
+{#                    <td>0,00</td>#}
+{#                    <td></td>#}
+{#                </tr>#}
+{#            </table>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+</div>    

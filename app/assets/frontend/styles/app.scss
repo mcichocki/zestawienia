@@ -1,0 +1,196 @@
+@import "~bootstrap/scss/bootstrap";
+@import '~admin-lte/dist/css/adminlte.min.css';
+@import '~admin-lte/plugins/chart.js/Chart.min.css';
+@import '~admin-lte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css';
+@import '~admin-lte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css';
+@import '~admin-lte/plugins/datatables-buttons/css/buttons.bootstrap4.min.css';
+@import '~admin-lte/plugins/datatables-select/css/select.bootstrap4.min.css';
+@import '~admin-lte/plugins/select2/css/select2.min.css';
+@import '~admin-lte/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css';
+@import '~admin-lte/plugins/sweetalert2/sweetalert2.css';
+@import '~admin-lte/plugins/toastr/toastr.min.css';
+@import '~node-snackbar/dist/snackbar.css';
+
+// Variables
+$background: "../../images/bg.png";
+$basicColor1: #f0f0f0;
+$basicColor2: #3c8dbc;
+$basicColor3: #307095;
+
+body {
+    background-color: $basicColor1;
+}
+
+.card-width {
+    min-height: 270px;
+}
+.card-style {
+    font-size: 14px;
+}
+
+.login-box {
+    min-width: 440px;
+    opacity: 0.93;
+}
+
+.btn-white {
+    font-weight: bold;
+    background-color: #fff;
+    color: #172b4d !important;
+}
+
+.btn-white:hover {
+    background-color: #e5e5e5;
+    color: #172b4d !important;
+}
+
+a.zestawienie-nav {
+    color: #172b4d !important; 
+}
+
+ .bg-olive {
+     background-color: $basicColor3 !important;
+ }
+
+ .card-olive:not(.card-outline)>.card-header {
+     background-color: $basicColor3 !important;
+ }
+
+#send {
+    display: none;
+}
+
+#password_question {
+    display: none;
+}
+
+.nav-sidebar .menu-is-opening>.nav-link .right {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); 
+}
+
+.reset-form-group {
+    margin-bottom: 0 !important;
+}
+.bg-navy {
+    background-color: #142737 !important;
+}
+.btn-info {
+    background-color: #3973B9 !important;
+    border-color: #3973B9 !important;;
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus {
+    background-color: #346aaa !important;
+    border-color: #346aaa !important;
+}
+
+.direct-chat-primary .right>.direct-chat-text {
+    border-color: $basicColor2;
+    background-color: $basicColor2;
+}
+.direct-chat-primary .right>.direct-chat-text::after {
+    border-left-color: $basicColor2;
+}
+
+.btn-primary {
+    background-color: $basicColor2 !important;
+    border-color: $basicColor2 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: $basicColor3 !important;
+    border-color: $basicColor3 !important;
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid $basicColor2;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0.90;
+    background: url('../../images/loader.gif') 50% 50% no-repeat rgb(30,30,30);
+}
+
+.loader span {
+    position: fixed;
+    top: 35%;
+    left: 38%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.loader span:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4,end) 900ms infinite;
+    animation: ellipsis steps(4,end) 900ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0px;
+}
+
+@keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-webkit-keyframes ellipsis {
+    to {
+        width: 1.25em;
+    }
+}
+
+.custom-file-label::after {
+    content: "Przeglądaj";
+    cursor: pointer;
+}
+
+.login-header {
+    color: #f00f0f;
+}
+
+.badge {
+    margin-top: -10px;
+    margin-right: -5px;
+}
+
+.login-page {
+    background: url($background) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hiddenRow {
+    padding: 0 !important;
+}
+
+.brand-link-v1 {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    transition: width .3s ease-in-out;
+    //padding: 0.8125rem 0.5rem;
+    border-bottom: 1px solid #4b545c;
+    white-space: nowrap;
+}
+
+.chat:hover {
+    background-color: #142737;
+    cursor: pointer;
+}
+
+.chat:hover .contacts-list-name b {
+    color: #fff !important;
+}

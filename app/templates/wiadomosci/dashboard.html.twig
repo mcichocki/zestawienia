@@ -1,0 +1,154 @@
+{% extends 'layout.html.twig' %}
+
+{% block body %}
+    <div class="loader" style="display:none;"></div>
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h5 style="color:#172B4D;"><b>Wiadomości</b></h5>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="{{ path('redirect_route') }}">Strona domowa</a></li>
+                        <li class="breadcrumb-item active">Wiadomości</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-outline">
+                    <div class="card-header">
+                        <h3 class="card-title">Maile</h3>
+                    </div>
+                    <div class="card-body">
+                        <table id="admin_mails" class="table table-striped">
+                            <thead>
+                            <tr class="text-center">
+                                <th>Nadawca</th>
+                                <th>Odbiorca</th>
+                                <th>Treść wiadomości</th>
+                                <th>Zestawienie</th>
+                                <th>Kiedy wysłano</th>
+                                <th>Status</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>01-12-2021 15:43</td>
+                                <td><span class="fas fa-check-circle" style="color:#006700"></span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>04-12-2021 15:43</td>
+                                <td><span class="fas fa-check-circle" style="color:#006700"></span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>03-12-2021 15:43</td>
+                                <td><span class="fas fa-check-circle" style="color:#006700"></span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>02-12-2021 15:43</td>
+                                <td><span class="fas fa-times-circle" style="color:#f00f0f;"></span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-outline">
+                    <div class="card-header">
+                        <h3 class="card-title">Czat</h3>
+                    </div>
+                    <div class="card-body">
+                        <table id="admin_chat" class="table table-striped">
+                            <thead>
+                            <tr class="text-center">
+                                <th>Nadawca</th>
+                                <th>Odbiorca</th>
+                                <th>Treść wiadomości</th>
+                                <th>Zestawienie</th>
+                                <th>Kiedy wysłano</th>
+                                <th>Status</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>01-12-2021 15:43</td>
+                                <td><span class="fas fa-check-circle" style="color:#006700"></span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>04-12-2021 15:43</td>
+                                <td><span class="fas fa-check-circle" style="color:#006700"></span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>03-12-2021 15:43</td>
+                                <td><span class="fas fa-check-circle" style="color:#006700"></span></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Jan Kowalski (j.kowalski)</td>
+                                <td>Adam Nowak (a.nowak)</td>
+                                <td>Wysyłka akceptacji zestawienia przez pracownika</td>
+                                <td>61</td>
+                                <td>02-12-2021 15:43</td>
+                                <td><span class="fas fa-times-circle" style="color:#f00f0f;"></span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <div class="form-group">
+                    <a href="{{ path('redirect_route') }}" class="btn btn-sm btn-secondary"><span class="fas fa-reply"></span> Powrót</a>
+                </div>
+            </div>
+            <div class="col-6">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+{{ parent() }}
+{{ encore_entry_script_tags('admin_messages') }}
+{% endblock %}

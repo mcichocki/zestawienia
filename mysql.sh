@@ -1,0 +1,1 @@
+docker exec -it orders-mysql-container bash -c "mysql -uroot -psecret db_sm_v2"

@@ -1,0 +1,28 @@
+Stan i cykl życia
+https://pl.reactjs.org/docs/state-and-lifecycle.html
+componentDidMount() - metoda uruchamiana jest po wyrenderowaniu komponentu do drzewa DOM. To dobre miejsce na inicjalizację timera:
+
+
+<div id="root"></div>
+Ten węzeł drzewa DOM nazywamy "korzeniem", bo wszystko, co się w nim znajduje będzie zarządzane przez React DOM.
+Aplikacje zbudowane przy pomocy samego Reacta zazwyczaj posiadają pojedynczy węzeł drzewa DOM.
+Jeśli natomiast integrujesz reactową aplikację z już istniejącą aplikacją, możesz mieć tyle odizolowanych “korzeni”, ile chcesz.
+
+
+
+Elementy to najmniejsze bloki budujące reactowe aplikacji
+const element = <h1>Witaj, świecie!</h1>;
+ReactDOM.render(element, document.getElementById('root'));
+
+
+
+// Super
+W JavaScript super odnosi się do konstruktora klasy nadrzędnej. (W naszym przykładzie wskazuje na implementację React.Component.)
+
+class Test extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { isOn: true }
+    }
+}
+

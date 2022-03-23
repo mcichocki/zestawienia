@@ -1,0 +1,24 @@
+<div class="tab-pane fade" id="custom-content-above-messages" role="tabpanel" aria-labelledby="">
+  <div class="card-body" style="display: block;">
+    <div class="card card-primary card-outline direct-chat direct-chat-primary">
+      <div class="card-header">
+        <h3 class="card-title"><i class="fas fa-comments"></i> Korespondencja</h3>
+      </div>
+
+      <div class="card-body">
+        <div class="direct-chat-messages" style="min-height: 50vh;">
+{#          {% for wiadomosc in wiadomosci %}#}
+{#          <div class="direct-chat-msg {% if wiadomosc.odKogo.login != app.user.login %}right{% endif %}">#}
+{#            <div class="direct-chat-infos clearfix">#}
+{#              <span class="direct-chat-name {% if wiadomosc.odKogo.login != app.user.login %}float-right{% endif %}">{{ wiadomosc.odKogo.imie }} {{ wiadomosc.odKogo.nazwisko }} ({{ wiadomosc.odKogo.login }})</span>#}
+{#              <span class="direct-chat-timestamp {% if wiadomosc.odKogo.login != app.user.login %}float-left{% else %}float-right{% endif %}">{{ wiadomosc.dataWyslania|date('d/m/Y H:i:s') }}</span>#}
+{#            </div>#}
+{#            <img class="direct-chat-img" src="{{ asset('build/anonymous.png') }}" id="img2" alt="message user image">#}
+{#            <div class="direct-chat-text">{{ wiadomosc.tresc }}</div>#}
+{#          </div>#}
+{#          {% endfor %}#}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

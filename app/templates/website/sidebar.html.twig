@@ -1,0 +1,194 @@
+<aside class="main-sidebar sidebar-dark-primary elevation-4 bg-navy">
+    <a href="{{ path('redirect_route') }}" class="brand-link">
+        <img src="{{ asset('build/logo.jpg') }}" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">Stan Mienia v{{ga_tracking}}</span>
+    </a>
+
+
+    <div class="sidebar">
+        <div class="form-inline mt-2">
+            <form action="{{ path('search_default') }}" method="POST">
+              <div class="input-group">
+                  <input class="form-control form-control-sidebar bg-light" name="search" type="search" placeholder="Szukaj">
+                  <div class="input-group-append">
+                      <button class="btn btn-sidebar bg-olive">
+                          <i class="fas fa-search fa-fw "></i>
+                      </button>
+                  </div>
+              </div>
+            </form>
+        </div>
+
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <li class="nav-item">
+              <a href="{{ path('redirect_route') }}" class="nav-link">
+                <i class="nav-icon fas fa-home"></i>
+                <p>
+                  Strona główna
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-list"></i>
+                <p>
+                  Zestawienia
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                {% if is_granted("ROLE_WORKER") %}
+                <li class="nav-item">
+                  <a href="{{ path('zestawienie_create') }}" class="nav-link">
+                    <p>Utwórz nowe</p>
+                  </a>
+                </li>
+                {% endif %}
+
+                <li class="nav-item">
+                  <a href="{{ path('zestawienia_todo') }}" class="nav-link">
+                    <p>Do realizacji ({{ uuid.getCountToDoForms() }})</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{ path('zestawienia_progress') }}" class="nav-link">
+                    <p>W akceptacji ({{ uuid.getCountInAcceptForms() }})</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{ path('zestawienia_done') }}" class="nav-link">
+                    <p>Zakończone ({{ uuid.getCountDoneForms() }})</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-th-list"></i>
+                <p>
+                  Raporty
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                {% if is_granted("ROLE_WORKER") %}
+                <li class="nav-item">
+                  <a href="{{ path('generate_month_excel', {'id': 1}) }}" class="nav-link">
+                    <p>Miesięczny</p>
+                  </a>
+                </li>
+                {% endif %}
+
+                <li class="nav-item">
+                  <a href="{{ path('generate_year_excel', {'id': 1}) }}" class="nav-link">
+                    <p>Roczny</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{ path('generate_group_excel', {'id': 1}) }}" class="nav-link">
+                    <p>Zbiorczy</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            {% if is_granted("ROLE_ADMIN") %}
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-cog"></i>
+                <p>
+                  Ustawienia
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="{{ path('uzytkownicy_index') }}" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>Użytkownicy</p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="{{ path('rok_dashboard') }}" class="nav-link">
+                    <i class="nav-icon fas fa-calendar-alt"></i>
+                    <p>Rok zestawieniowy</p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="{{ path('upload_csv') }}" class="nav-link">
+                    <i class="nav-icon fas fa-cloud-upload-alt"></i>
+                    <p>Upload plików</p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="{{ path('messages_dashboard') }}" class="nav-link">
+                    <i class="nav-icon fas fa-envelope-open"></i>
+                    <p>Wiadomości</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            {% endif %}
+
+            <li class="nav-item">
+              <a href="{% if is_granted("ROLE_WORKER") %}
+                  {{ path('jednostki_worker') }}
+                {% elseif is_granted("ROLE_SUPERVISOR") %}
+                {{ path('jednostki_supervisor') }}
+                {% elseif is_granted("ROLE_MANAGER") %}
+                 {{ path('jednostki_worker') }}
+                {% elseif is_granted("ROLE_ADMIN") %}
+                 {{ path('jednostki_index') }}
+                {% endif %}" class="nav-link"><i class="nav-icon fas fa-building"></i><p>Jednostki</p></a>
+            </li>
+
+            <span class="brand-link"></span>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-drafting-compass"></i><p>Wzorce projektowe</p>
+                <i class="right fas fa-angle-left"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="{{ path('dp_oop') }}" class="nav-link"><p>1. OOP</p></a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{ path('dp_solid') }}" class="nav-link"><p>2. SOLID</p></a>
+                </li>
+                <li class="nav-item">
+                  <a href="{{ path('dp_wzorce') }}" class="nav-link"><p>3. Wzorce</p></a>
+                </li>
+{#                <li class="nav-item">#}
+{#                  <a href="{{ path('dp_singleton') }}" class="nav-link"><p>3. Singleton</p></a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                  <a href="{{ path('dp_simple_factory') }}" class="nav-link"><p>3. Prosta fabryka</p></a>#}
+{#                </li>#}
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fab fa-react"></i><p>React App</p>
+                <i class="right fas fa-angle-left"></i>
+              </a>
+              <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="{{ path('react_app') }}" class="nav-link"><p>1. Podstawy Reacta</p></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="{{ path('react_app') }}" class="nav-link"><p>2. Tworzenie formularzy</p></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="{{ path('react_app') }}" class="nav-link"><p>3. Wymiana danych (axios)</p></a>
+                  </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+    </div>
+</aside>
